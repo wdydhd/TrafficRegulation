@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4832E551E4A173900C494B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4832E541E4A173900C494B3 /* AppDelegate.swift */; };
+		A4832E571E4A173900C494B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4832E561E4A173900C494B3 /* ViewController.swift */; };
+		A4832E5A1E4A173900C494B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4832E581E4A173900C494B3 /* Main.storyboard */; };
+		A4832E5C1E4A173900C494B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4832E5B1E4A173900C494B3 /* Assets.xcassets */; };
+		A4832E5F1E4A173900C494B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4832E5D1E4A173900C494B3 /* LaunchScreen.storyboard */; };
+		A4832E6A1E4A173900C494B3 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4832E691E4A173900C494B3 /* ______Tests.swift */; };
+		A4832E751E4A173900C494B3 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4832E741E4A173900C494B3 /* ______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4832E661E4A173900C494B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4832E491E4A173900C494B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4832E501E4A173900C494B3;
+			remoteInfo = "日本交通規則";
+		};
+		A4832E711E4A173900C494B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4832E491E4A173900C494B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4832E501E4A173900C494B3;
+			remoteInfo = "日本交通規則";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4832E511E4A173900C494B3 /* 日本交通規則.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "日本交通規則.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4832E541E4A173900C494B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4832E561E4A173900C494B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4832E591E4A173900C494B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4832E5B1E4A173900C494B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4832E5E1E4A173900C494B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4832E601E4A173900C494B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4832E651E4A173900C494B3 /* 日本交通規則Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "日本交通規則Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4832E691E4A173900C494B3 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		A4832E6B1E4A173900C494B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4832E701E4A173900C494B3 /* 日本交通規則UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "日本交通規則UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4832E741E4A173900C494B3 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
+		A4832E761E4A173900C494B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4832E4E1E4A173900C494B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4832E621E4A173900C494B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4832E6D1E4A173900C494B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4832E481E4A173900C494B3 = {
+			isa = PBXGroup;
+			children = (
+				A4832E531E4A173900C494B3 /* 日本交通規則 */,
+				A4832E681E4A173900C494B3 /* 日本交通規則Tests */,
+				A4832E731E4A173900C494B3 /* 日本交通規則UITests */,
+				A4832E521E4A173900C494B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4832E521E4A173900C494B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4832E511E4A173900C494B3 /* 日本交通規則.app */,
+				A4832E651E4A173900C494B3 /* 日本交通規則Tests.xctest */,
+				A4832E701E4A173900C494B3 /* 日本交通規則UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4832E531E4A173900C494B3 /* 日本交通規則 */ = {
+			isa = PBXGroup;
+			children = (
+				A4832E541E4A173900C494B3 /* AppDelegate.swift */,
+				A4832E561E4A173900C494B3 /* ViewController.swift */,
+				A4832E581E4A173900C494B3 /* Main.storyboard */,
+				A4832E5B1E4A173900C494B3 /* Assets.xcassets */,
+				A4832E5D1E4A173900C494B3 /* LaunchScreen.storyboard */,
+				A4832E601E4A173900C494B3 /* Info.plist */,
+			);
+			path = "日本交通規則";
+			sourceTree = "<group>";
+		};
+		A4832E681E4A173900C494B3 /* 日本交通規則Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A4832E691E4A173900C494B3 /* ______Tests.swift */,
+				A4832E6B1E4A173900C494B3 /* Info.plist */,
+			);
+			path = "日本交通規則Tests";
+			sourceTree = "<group>";
+		};
+		A4832E731E4A173900C494B3 /* 日本交通規則UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4832E741E4A173900C494B3 /* ______UITests.swift */,
+				A4832E761E4A173900C494B3 /* Info.plist */,
+			);
+			path = "日本交通規則UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4832E501E4A173900C494B3 /* 日本交通規則 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4832E791E4A173900C494B3 /* Build configuration list for PBXNativeTarget "日本交通規則" */;
+			buildPhases = (
+				A4832E4D1E4A173900C494B3 /* Sources */,
+				A4832E4E1E4A173900C494B3 /* Frameworks */,
+				A4832E4F1E4A173900C494B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "日本交通規則";
+			productName = "日本交通規則";
+			productReference = A4832E511E4A173900C494B3 /* 日本交通規則.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4832E641E4A173900C494B3 /* 日本交通規則Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4832E7C1E4A173900C494B3 /* Build configuration list for PBXNativeTarget "日本交通規則Tests" */;
+			buildPhases = (
+				A4832E611E4A173900C494B3 /* Sources */,
+				A4832E621E4A173900C494B3 /* Frameworks */,
+				A4832E631E4A173900C494B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4832E671E4A173900C494B3 /* PBXTargetDependency */,
+			);
+			name = "日本交通規則Tests";
+			productName = "日本交通規則Tests";
+			productReference = A4832E651E4A173900C494B3 /* 日本交通規則Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4832E6F1E4A173900C494B3 /* 日本交通規則UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4832E7F1E4A173900C494B3 /* Build configuration list for PBXNativeTarget "日本交通規則UITests" */;
+			buildPhases = (
+				A4832E6C1E4A173900C494B3 /* Sources */,
+				A4832E6D1E4A173900C494B3 /* Frameworks */,
+				A4832E6E1E4A173900C494B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4832E721E4A173900C494B3 /* PBXTargetDependency */,
+			);
+			name = "日本交通規則UITests";
+			productName = "日本交通規則UITests";
+			productReference = A4832E701E4A173900C494B3 /* 日本交通規則UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4832E491E4A173900C494B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YanQi;
+				TargetAttributes = {
+					A4832E501E4A173900C494B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G3CEBBU37L;
+						ProvisioningStyle = Automatic;
+					};
+					A4832E641E4A173900C494B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G3CEBBU37L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4832E501E4A173900C494B3;
+					};
+					A4832E6F1E4A173900C494B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G3CEBBU37L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4832E501E4A173900C494B3;
+					};
+				};
+			};
+			buildConfigurationList = A4832E4C1E4A173900C494B3 /* Build configuration list for PBXProject "日本交通規則" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4832E481E4A173900C494B3;
+			productRefGroup = A4832E521E4A173900C494B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4832E501E4A173900C494B3 /* 日本交通規則 */,
+				A4832E641E4A173900C494B3 /* 日本交通規則Tests */,
+				A4832E6F1E4A173900C494B3 /* 日本交通規則UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4832E4F1E4A173900C494B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4832E5F1E4A173900C494B3 /* LaunchScreen.storyboard in Resources */,
+				A4832E5C1E4A173900C494B3 /* Assets.xcassets in Resources */,
+				A4832E5A1E4A173900C494B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4832E631E4A173900C494B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4832E6E1E4A173900C494B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4832E4D1E4A173900C494B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4832E571E4A173900C494B3 /* ViewController.swift in Sources */,
+				A4832E551E4A173900C494B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4832E611E4A173900C494B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4832E6A1E4A173900C494B3 /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4832E6C1E4A173900C494B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4832E751E4A173900C494B3 /* ______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4832E671E4A173900C494B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4832E501E4A173900C494B3 /* 日本交通規則 */;
+			targetProxy = A4832E661E4A173900C494B3 /* PBXContainerItemProxy */;
+		};
+		A4832E721E4A173900C494B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4832E501E4A173900C494B3 /* 日本交通規則 */;
+			targetProxy = A4832E711E4A173900C494B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4832E581E4A173900C494B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4832E591E4A173900C494B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4832E5D1E4A173900C494B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4832E5E1E4A173900C494B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4832E771E4A173900C494B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4832E781E4A173900C494B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4832E7A1E4A173900C494B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3CEBBU37L;
+				INFOPLIST_FILE = "日本交通規則/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YanQi.Japan.TrafficRegulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4832E7B1E4A173900C494B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3CEBBU37L;
+				INFOPLIST_FILE = "日本交通規則/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YanQi.Japan.TrafficRegulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A4832E7D1E4A173900C494B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G3CEBBU37L;
+				INFOPLIST_FILE = "日本交通規則Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YanQi.Japan.TrafficRegulation.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/日本交通規則.app/日本交通規則";
+			};
+			name = Debug;
+		};
+		A4832E7E1E4A173900C494B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G3CEBBU37L;
+				INFOPLIST_FILE = "日本交通規則Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YanQi.Japan.TrafficRegulation.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/日本交通規則.app/日本交通規則";
+			};
+			name = Release;
+		};
+		A4832E801E4A173900C494B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G3CEBBU37L;
+				INFOPLIST_FILE = "日本交通規則UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YanQi.Japan.TrafficRegulation.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "日本交通規則";
+			};
+			name = Debug;
+		};
+		A4832E811E4A173900C494B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G3CEBBU37L;
+				INFOPLIST_FILE = "日本交通規則UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YanQi.Japan.TrafficRegulation.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "日本交通規則";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4832E4C1E4A173900C494B3 /* Build configuration list for PBXProject "日本交通規則" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4832E771E4A173900C494B3 /* Debug */,
+				A4832E781E4A173900C494B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4832E791E4A173900C494B3 /* Build configuration list for PBXNativeTarget "日本交通規則" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4832E7A1E4A173900C494B3 /* Debug */,
+				A4832E7B1E4A173900C494B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4832E7C1E4A173900C494B3 /* Build configuration list for PBXNativeTarget "日本交通規則Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4832E7D1E4A173900C494B3 /* Debug */,
+				A4832E7E1E4A173900C494B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4832E7F1E4A173900C494B3 /* Build configuration list for PBXNativeTarget "日本交通規則UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4832E801E4A173900C494B3 /* Debug */,
+				A4832E811E4A173900C494B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4832E491E4A173900C494B3 /* Project object */;
+}
