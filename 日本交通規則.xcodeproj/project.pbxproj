@@ -10,6 +10,7 @@
 		134C04D5BAAB2DB4FE007995 /* Pods_______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559E559E8C3FADBB7CBF6299 /* Pods_______.framework */; };
 		3D41FF783CFB609D7BE97A7F /* Pods_______Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD2F43EA06CD58A666E4C1D /* Pods_______Tests.framework */; };
 		4400A626FD783CA7775949C3 /* Pods_______UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222A5EC44B144A6BF6EEDEF7 /* Pods_______UITests.framework */; };
+		A426BC111E5733AA0037AC16 /* UINavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426BC101E5733AA0037AC16 /* UINavigationBarExtension.swift */; };
 		A46363E01E54925200055018 /* TRMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363DF1E54925200055018 /* TRMarkViewController.swift */; };
 		A46363E21E5492D300055018 /* TROverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363E11E5492D300055018 /* TROverViewViewController.swift */; };
 		A46363E41E551A1F00055018 /* TROverViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363E31E551A1F00055018 /* TROverViewTableViewCell.swift */; };
@@ -46,6 +47,7 @@
 		454ECE243D0F6E33323201D7 /* Pods-日本交通規則UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則UITests/Pods-日本交通規則UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		559E559E8C3FADBB7CBF6299 /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE6259F9BBE916078A43B19 /* Pods-日本交通規則Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則Tests/Pods-日本交通規則Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A426BC101E5733AA0037AC16 /* UINavigationBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBarExtension.swift; sourceTree = "<group>"; };
 		A46363DF1E54925200055018 /* TRMarkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRMarkViewController.swift; sourceTree = "<group>"; };
 		A46363E11E5492D300055018 /* TROverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TROverViewViewController.swift; sourceTree = "<group>"; };
 		A46363E31E551A1F00055018 /* TROverViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TROverViewTableViewCell.swift; sourceTree = "<group>"; };
@@ -108,6 +110,49 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A426BC0F1E5733850037AC16 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A426BC101E5733AA0037AC16 /* UINavigationBarExtension.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		A426BC121E5733BD0037AC16 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A46363DF1E54925200055018 /* TRMarkViewController.swift */,
+				A46363E11E5492D300055018 /* TROverViewViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A426BC131E5734040037AC16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A46363E31E551A1F00055018 /* TROverViewTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A426BC141E57341C0037AC16 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A46363E51E55E6F100055018 /* TRCommonExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		A426BC151E5734990037AC16 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A4832E581E4A173900C494B3 /* Main.storyboard */,
+				A4832E5B1E4A173900C494B3 /* Assets.xcassets */,
+				A4832E5D1E4A173900C494B3 /* LaunchScreen.storyboard */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		A4832E481E4A173900C494B3 = {
 			isa = PBXGroup;
 			children = (
@@ -133,15 +178,13 @@
 		A4832E531E4A173900C494B3 /* 日本交通規則 */ = {
 			isa = PBXGroup;
 			children = (
+				A426BC141E57341C0037AC16 /* Extensions */,
+				A426BC131E5734040037AC16 /* Views */,
+				A426BC121E5733BD0037AC16 /* ViewControllers */,
+				A426BC0F1E5733850037AC16 /* Library */,
+				A426BC151E5734990037AC16 /* Resource */,
 				A4832E541E4A173900C494B3 /* AppDelegate.swift */,
-				A4832E581E4A173900C494B3 /* Main.storyboard */,
-				A4832E5B1E4A173900C494B3 /* Assets.xcassets */,
-				A4832E5D1E4A173900C494B3 /* LaunchScreen.storyboard */,
 				A4832E601E4A173900C494B3 /* Info.plist */,
-				A46363DF1E54925200055018 /* TRMarkViewController.swift */,
-				A46363E11E5492D300055018 /* TROverViewViewController.swift */,
-				A46363E31E551A1F00055018 /* TROverViewTableViewCell.swift */,
-				A46363E51E55E6F100055018 /* TRCommonExtension.swift */,
 			);
 			path = "日本交通規則";
 			sourceTree = "<group>";
@@ -461,6 +504,7 @@
 				A46363E41E551A1F00055018 /* TROverViewTableViewCell.swift in Sources */,
 				A46363E61E55E6F100055018 /* TRCommonExtension.swift in Sources */,
 				A46363E21E5492D300055018 /* TROverViewViewController.swift in Sources */,
+				A426BC111E5733AA0037AC16 /* UINavigationBarExtension.swift in Sources */,
 				A4832E551E4A173900C494B3 /* AppDelegate.swift in Sources */,
 				A46363E01E54925200055018 /* TRMarkViewController.swift in Sources */,
 			);
