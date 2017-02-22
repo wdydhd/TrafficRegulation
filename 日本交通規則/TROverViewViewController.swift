@@ -15,7 +15,7 @@ class TROverViewViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.navigationBar.lt_setBackgroundColor(backgroundColor: UIColor(valueRGB: 0x509932, alpha: 1.0))
+//        navigationController?.navigationBar.lt_setBackgroundColor(backgroundColor: UIColor(valueRGB: 0x509932, alpha: 1.0))
         // Do any additional setup after loading the view.
     }
 
@@ -26,8 +26,8 @@ class TROverViewViewController: UIViewController{
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        tableView.contentOffset = CGPoint(x: 0, y: 0)
-        navigationController?.navigationBar.lt_reset()
+//        tableView.contentOffset = CGPoint(x: 0, y: 0)
+//        navigationController?.navigationBar.lt_reset()
     }
     
 }

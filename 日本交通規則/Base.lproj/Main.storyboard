@@ -169,9 +169,10 @@
             <objects>
                 <navigationController id="COy-kn-6GY" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="概览" id="cvQ-GT-8D5"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5Tw-AN-kvP">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="5Tw-AN-kvP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="0.3152006966223399" green="0.60003416610853322" blue="0.19780255232174873" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
