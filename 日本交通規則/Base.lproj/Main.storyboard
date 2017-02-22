@@ -69,7 +69,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sQw-db-s1Q" id="XLg-Ja-Q4M">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LlI-ad-NTw">
@@ -139,11 +139,30 @@
                     <navigationItem key="navigationItem" title="概览" id="e5Y-hk-OTC"/>
                     <connections>
                         <outlet property="tableView" destination="QMp-0j-Fl8" id="uGu-EZ-qaP"/>
+                        <segue destination="9AR-VX-OQZ" kind="show" identifier="ToBaseRuleIntroSegue" id="RKV-Lf-rxh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gIP-gf-EpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1426" y="-319"/>
+        </scene>
+        <!--Base Rule Intro View Controller-->
+        <scene sceneID="Sr2-Xc-DIw">
+            <objects>
+                <viewController id="9AR-VX-OQZ" customClass="TRBaseRuleIntroViewController" customModule="日本交通規則" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Gf-Sf-FeD"/>
+                        <viewControllerLayoutGuide type="bottom" id="9SU-ep-oz0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Li-2l-qXl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="os3-Vd-4o7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2556" y="-320"/>
         </scene>
         <!--概览-->
         <scene sceneID="tlw-FJ-ecQ">
@@ -166,10 +185,10 @@
             </objects>
             <point key="canvasLocation" x="289" y="-318"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Base Tab Bar Controller-->
         <scene sceneID="BR8-32-w7w">
             <objects>
-                <tabBarController id="KyU-Tj-yGO" sceneMemberID="viewController">
+                <tabBarController id="KyU-Tj-yGO" customClass="TRBaseTabBarController" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="BBd-0T-nMc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

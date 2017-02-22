@@ -58,6 +58,8 @@ extension TROverViewViewController : UITableViewDataSource,UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        self.performSegue(withIdentifier: TRSegueIdentifier.ToBaseRuleIntroSegue.rawValue, sender: self)
+        
     }
 }
 
