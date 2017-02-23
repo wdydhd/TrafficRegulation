@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KyU-Tj-yGO">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,7 +18,7 @@
                         <viewControllerLayoutGuide type="bottom" id="nfM-Ko-2x9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qeY-nx-tk6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -52,24 +53,24 @@
         <!--概览-->
         <scene sceneID="rYM-ct-U8T">
             <objects>
-                <viewController title="概览" id="aRf-rN-oPF" customClass="TROverViewViewController" customModule="日本交通規則" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="概览" automaticallyAdjustsScrollViewInsets="NO" id="aRf-rN-oPF" customClass="TROverViewViewController" customModule="日本交通規則" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hEZ-Ac-qtZ"/>
                         <viewControllerLayoutGuide type="bottom" id="pwC-jN-wF7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Dr5-lv-51R">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QMp-0j-Fl8">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="sQw-db-s1Q" customClass="TROverViewTableViewCell" customModule="日本交通規則" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="80"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sQw-db-s1Q" id="XLg-Ja-Q4M">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LlI-ad-NTw">
@@ -84,7 +85,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rez-Xb-tMB">
-                                                    <rect key="frame" x="53" y="8" width="314" height="20.5"/>
+                                                    <rect key="frame" x="53" y="8" width="259" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="6da-de-wqb"/>
                                                     </constraints>
@@ -93,7 +94,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z76-g6-qgO">
-                                                    <rect key="frame" x="53" y="55" width="314" height="14.5"/>
+                                                    <rect key="frame" x="53" y="54" width="259" height="15"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="9wR-oc-dDv"/>
                                                     </constraints>
@@ -129,10 +130,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="QMp-0j-Fl8" firstAttribute="top" secondItem="Dr5-lv-51R" secondAttribute="top" id="0nM-Jq-C3e"/>
-                            <constraint firstItem="pwC-jN-wF7" firstAttribute="top" secondItem="QMp-0j-Fl8" secondAttribute="bottom" id="LSB-s8-fm6"/>
-                            <constraint firstAttribute="trailing" secondItem="QMp-0j-Fl8" secondAttribute="trailing" id="cWQ-fq-WMP"/>
-                            <constraint firstItem="QMp-0j-Fl8" firstAttribute="leading" secondItem="Dr5-lv-51R" secondAttribute="leading" id="lyl-7a-qzT"/>
+                            <constraint firstItem="QMp-0j-Fl8" firstAttribute="top" secondItem="hEZ-Ac-qtZ" secondAttribute="bottom" id="Mhs-Gi-8X7"/>
+                            <constraint firstItem="pwC-jN-wF7" firstAttribute="top" secondItem="QMp-0j-Fl8" secondAttribute="bottom" id="O3j-1C-ISf"/>
+                            <constraint firstItem="QMp-0j-Fl8" firstAttribute="leading" secondItem="Dr5-lv-51R" secondAttribute="leading" id="fYH-1A-ylx"/>
+                            <constraint firstAttribute="trailing" secondItem="QMp-0j-Fl8" secondAttribute="trailing" id="meA-oq-bO8"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="概览" id="Hz1-YD-d1X"/>
@@ -144,32 +145,671 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gIP-gf-EpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1426" y="-319"/>
+            <point key="canvasLocation" x="1424.8" y="-319.79010494752629"/>
         </scene>
         <!--Base Rule Intro View Controller-->
         <scene sceneID="Sr2-Xc-DIw">
             <objects>
-                <viewController id="9AR-VX-OQZ" customClass="TRBaseRuleIntroViewController" customModule="日本交通規則" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="9AR-VX-OQZ" customClass="TRBaseRuleIntroViewController" customModule="日本交通規則" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Gf-Sf-FeD"/>
                         <viewControllerLayoutGuide type="bottom" id="9SU-ep-oz0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4Li-2l-qXl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="4000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="480" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="d1u-uH-fep">
+                                <rect key="frame" x="0.0" y="64" width="375" height="3887"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TRImageAndTextCell1" rowHeight="305" id="L47-OD-NoQ" customClass="TRImageAndTextCell" customModule="日本交通規則" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="305"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="L47-OD-NoQ" id="zPs-zh-IQY">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="305"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5rs-yF-tuc">
+                                                    <rect key="frame" x="0.0" y="15" width="375" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="5rs-yF-tuc" secondAttribute="height" multiplier="15:8" id="af8-8U-7AQ"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUl-nl-ish">
+                                                    <rect key="frame" x="20" y="235" width="335" height="65"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="QbX-79-8rV"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="MUl-nl-ish" firstAttribute="top" secondItem="5rs-yF-tuc" secondAttribute="bottom" constant="20" id="0Jd-PW-tgI"/>
+                                                <constraint firstItem="5rs-yF-tuc" firstAttribute="top" secondItem="zPs-zh-IQY" secondAttribute="top" constant="15" id="5cC-jv-Yde"/>
+                                                <constraint firstAttribute="bottom" secondItem="MUl-nl-ish" secondAttribute="bottom" constant="5" id="7xM-Ap-8xf"/>
+                                                <constraint firstAttribute="trailing" secondItem="MUl-nl-ish" secondAttribute="trailing" constant="20" id="TEW-ej-2Bo"/>
+                                                <constraint firstAttribute="trailing" secondItem="5rs-yF-tuc" secondAttribute="trailing" id="aP6-Ob-iUG"/>
+                                                <constraint firstItem="MUl-nl-ish" firstAttribute="leading" secondItem="zPs-zh-IQY" secondAttribute="leading" constant="20" id="h8U-P6-8ky"/>
+                                                <constraint firstItem="5rs-yF-tuc" firstAttribute="leading" secondItem="zPs-zh-IQY" secondAttribute="leading" id="jiW-ce-FHk"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageView1" destination="5rs-yF-tuc" id="1zp-eq-7o4"/>
+                                            <outlet property="subTextLabel" destination="MUl-nl-ish" id="TBZ-e0-GWI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TRImageAndTextCell2" rowHeight="550" id="ULl-eJ-rhd" customClass="TRImageAndTextCell" customModule="日本交通規則" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="333" width="375" height="550"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ULl-eJ-rhd" id="Rkt-nV-5gR">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="550"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JRs-VG-A85">
+                                                    <rect key="frame" x="0.0" y="15" width="375" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="JRs-VG-A85" secondAttribute="height" multiplier="15:8" id="Qs1-RC-Juq"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RpO-jg-z8H">
+                                                    <rect key="frame" x="0.0" y="230" width="375" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="RpO-jg-z8H" secondAttribute="height" multiplier="15:8" id="WCR-bk-BCx"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4r-Lm-0yl">
+                                                    <rect key="frame" x="20" y="450" width="335" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="79" id="4uh-Zq-hfg"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="RpO-jg-z8H" firstAttribute="leading" secondItem="Rkt-nV-5gR" secondAttribute="leading" id="CYV-rS-S6O"/>
+                                                <constraint firstAttribute="trailing" secondItem="JRs-VG-A85" secondAttribute="trailing" id="FX5-ZW-PxO"/>
+                                                <constraint firstItem="JRs-VG-A85" firstAttribute="leading" secondItem="Rkt-nV-5gR" secondAttribute="leading" id="J5C-lt-vu7"/>
+                                                <constraint firstAttribute="trailing" secondItem="W4r-Lm-0yl" secondAttribute="trailing" constant="20" id="RnO-c4-16p"/>
+                                                <constraint firstAttribute="trailing" secondItem="RpO-jg-z8H" secondAttribute="trailing" id="UNJ-GT-9Ka"/>
+                                                <constraint firstItem="JRs-VG-A85" firstAttribute="top" secondItem="Rkt-nV-5gR" secondAttribute="top" constant="15" id="Ut9-Jq-Ddc"/>
+                                                <constraint firstItem="RpO-jg-z8H" firstAttribute="top" secondItem="JRs-VG-A85" secondAttribute="bottom" constant="15" id="VKg-di-O2P"/>
+                                                <constraint firstItem="W4r-Lm-0yl" firstAttribute="leading" secondItem="Rkt-nV-5gR" secondAttribute="leading" constant="20" id="WhH-P4-0n5"/>
+                                                <constraint firstAttribute="bottom" secondItem="W4r-Lm-0yl" secondAttribute="bottom" constant="20" id="bDb-gX-Rfh"/>
+                                                <constraint firstItem="W4r-Lm-0yl" firstAttribute="top" secondItem="RpO-jg-z8H" secondAttribute="bottom" constant="20" id="ccv-W5-XEd"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageView1" destination="JRs-VG-A85" id="Epl-nm-B4T"/>
+                                            <outlet property="imageView2" destination="RpO-jg-z8H" id="33S-HI-MJQ"/>
+                                            <outlet property="subTextLabel" destination="W4r-Lm-0yl" id="aJB-uv-DCw"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TRImageAndTextCell3" rowHeight="1536" id="G2t-nd-7wD" customClass="TRImageAndTextCell" customModule="日本交通規則" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="883" width="375" height="1536"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="G2t-nd-7wD" id="8aF-vQ-xfI">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="1536"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-2-7-1" translatesAutoresizingMaskIntoConstraints="NO" id="GK8-dH-HYF">
+                                                    <rect key="frame" x="0.0" y="15" width="375" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="GK8-dH-HYF" secondAttribute="height" multiplier="15:8" id="mlT-xD-Fmj"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-2-7-7" translatesAutoresizingMaskIntoConstraints="NO" id="7lc-0v-wKs">
+                                                    <rect key="frame" x="0.0" y="230" width="375" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="7lc-0v-wKs" secondAttribute="height" multiplier="15:8" id="Bvo-aZ-OE4"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVb-vk-txF">
+                                                    <rect key="frame" x="20" y="698" width="335" height="262"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="82" id="ryS-Ub-lF4"/>
+                                                    </constraints>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="【完全停止并确">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="认左右安全】">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraginoSansGBInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment>
+                                                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="在日本需">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraKakuInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="严格遵守减速暂时的动作。若不完全停止或缓行时，仍被视为违">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraginoSansGBInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="反交通">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraKakuInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="规则。需将车子完全停止，并确认左右车道的安全。而且，这个倒">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraginoSansGBInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="三角形的">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraKakuInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="标志，为日本特有的交通标志，在出发前一定要牢牢记得。有此">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraginoSansGBInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="停">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraKakuInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="车再开的倒三角形标志的道路前方，通常是无此标志的交岔横向道路(干">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraginoSansGBInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="道)。也就是">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraKakuInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="说，干道车的车速较快，需让干道车优先通行后且认定安全">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraginoSansGBInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="时，方得续行。若忽视此「停车再开」的标志而发生车祸时，「未停车再">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraginoSansGBInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" metaFont="system" size="17"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="开」的">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraKakuInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="车子需承担大部分的责任。必须确实注意。">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="17" name=".HiraginoSansGBInterface-W3"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ni-tf-XkT">
+                                                    <rect key="frame" x="0.0" y="445" width="375" height="248"/>
+                                                    <subviews>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Yu-cA-ZUc">
+                                                            <rect key="frame" x="10" y="0.0" width="355" height="118"/>
+                                                            <subviews>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-2-7-2" translatesAutoresizingMaskIntoConstraints="NO" id="6t6-1M-aOn">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="118.5" height="118"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="6t6-1M-aOn" secondAttribute="height" multiplier="1:1" id="8cv-ZZ-xnh"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-2-7-3" translatesAutoresizingMaskIntoConstraints="NO" id="8MZ-vq-gdc">
+                                                                    <rect key="frame" x="118.5" y="0.0" width="118" height="118"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="8MZ-vq-gdc" secondAttribute="height" multiplier="1:1" id="SPp-IW-JmJ"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-2-7-4" translatesAutoresizingMaskIntoConstraints="NO" id="sfw-iI-TdI">
+                                                                    <rect key="frame" x="236.5" y="0.0" width="118.5" height="118"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="sfw-iI-TdI" secondAttribute="height" multiplier="1:1" id="cEC-Dz-d7f"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="sfw-iI-TdI" firstAttribute="height" secondItem="6t6-1M-aOn" secondAttribute="height" id="Eh0-lK-Ctb"/>
+                                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="PhZ-dr-8ff"/>
+                                                                <constraint firstItem="8MZ-vq-gdc" firstAttribute="height" secondItem="6t6-1M-aOn" secondAttribute="height" id="chl-ax-FYO"/>
+                                                                <constraint firstItem="sfw-iI-TdI" firstAttribute="width" secondItem="6t6-1M-aOn" secondAttribute="width" id="wUS-xx-GIu"/>
+                                                                <constraint firstItem="8MZ-vq-gdc" firstAttribute="width" secondItem="6t6-1M-aOn" secondAttribute="width" id="zhf-kT-e5q"/>
+                                                            </constraints>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OTl-L5-BmE">
+                                                            <rect key="frame" x="69.5" y="124" width="236" height="118"/>
+                                                            <subviews>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-2-7-5" translatesAutoresizingMaskIntoConstraints="NO" id="Dw2-25-Pro">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="118" height="118"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="Dw2-25-Pro" secondAttribute="height" multiplier="1:1" id="4dE-t6-VGc"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-2-7-6" translatesAutoresizingMaskIntoConstraints="NO" id="1Jr-hW-mAU">
+                                                                    <rect key="frame" x="118" y="0.0" width="118" height="118"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="1Jr-hW-mAU" secondAttribute="height" multiplier="1:1" id="7ws-y4-wjO"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="1Jr-hW-mAU" firstAttribute="height" secondItem="Dw2-25-Pro" secondAttribute="height" id="NK1-rz-WTc"/>
+                                                                <constraint firstItem="1Jr-hW-mAU" firstAttribute="width" secondItem="Dw2-25-Pro" secondAttribute="width" id="w22-zz-T0p"/>
+                                                            </constraints>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstItem="8Yu-cA-ZUc" firstAttribute="top" secondItem="0Ni-tf-XkT" secondAttribute="top" id="3iY-oe-NhJ"/>
+                                                        <constraint firstItem="OTl-L5-BmE" firstAttribute="top" secondItem="8Yu-cA-ZUc" secondAttribute="bottom" constant="6" id="9FY-Zj-6jg"/>
+                                                        <constraint firstItem="Dw2-25-Pro" firstAttribute="width" secondItem="6t6-1M-aOn" secondAttribute="width" id="P8u-Lc-gdW"/>
+                                                        <constraint firstItem="8Yu-cA-ZUc" firstAttribute="leading" secondItem="0Ni-tf-XkT" secondAttribute="leading" constant="10" id="bHu-QW-zbK"/>
+                                                        <constraint firstItem="OTl-L5-BmE" firstAttribute="centerX" secondItem="8Yu-cA-ZUc" secondAttribute="centerX" id="gdW-1p-Tx3"/>
+                                                        <constraint firstItem="Dw2-25-Pro" firstAttribute="height" secondItem="6t6-1M-aOn" secondAttribute="height" id="kGW-NT-cyY"/>
+                                                        <constraint firstAttribute="trailing" secondItem="8Yu-cA-ZUc" secondAttribute="trailing" constant="10" id="mKE-O3-cqZ"/>
+                                                        <constraint firstAttribute="height" constant="248" id="qRv-rY-kgE"/>
+                                                    </constraints>
+                                                </view>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-2-7-8" translatesAutoresizingMaskIntoConstraints="NO" id="m3z-a3-UqT">
+                                                    <rect key="frame" x="0.0" y="960" width="375" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="m3z-a3-UqT" secondAttribute="height" multiplier="15:8" id="yry-0W-fHb"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-2-7-9" translatesAutoresizingMaskIntoConstraints="NO" id="yPY-PW-9th">
+                                                    <rect key="frame" x="0.0" y="1175" width="375" height="200"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="yPY-PW-9th" secondAttribute="height" multiplier="15:8" id="QRO-24-ZUp"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dm9-R5-5yD">
+                                                    <rect key="frame" x="20" y="1390" width="335" height="126"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="82" id="neW-PY-zjJ"/>
+                                                    </constraints>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="【平交道前必">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="须">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="停">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="车">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment>
+                                                            <string key="content">再开】
+</string>
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="铁">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="路平交道前，一定要停">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="车">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="确">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="认">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="左右 是否有列">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="车">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="，以及如前面有">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="车辆时">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=", ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="应">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="等前">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="车驶">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="离">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="铁">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="路平交道适当距离而 后">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="车">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="能安全通">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="过">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="后，始得通">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="过">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="。以免 ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="发">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="生前方塞">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="车">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="，冒然前">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="进">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="后">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="进">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name="HiraginoSansGB-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="退不 得，意外卡在平交道上的情形。">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="18" name=".HiraKakuInterface-W3"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="yPY-PW-9th" firstAttribute="leading" secondItem="8aF-vQ-xfI" secondAttribute="leading" id="3JZ-qb-wL7"/>
+                                                <constraint firstItem="m3z-a3-UqT" firstAttribute="top" secondItem="PVb-vk-txF" secondAttribute="bottom" id="8W4-Kj-19K"/>
+                                                <constraint firstItem="yPY-PW-9th" firstAttribute="width" secondItem="yPY-PW-9th" secondAttribute="height" multiplier="15:8" id="Fnv-H6-PM2"/>
+                                                <constraint firstItem="m3z-a3-UqT" firstAttribute="leading" secondItem="8aF-vQ-xfI" secondAttribute="leading" id="H3A-Ac-5wW"/>
+                                                <constraint firstAttribute="trailing" secondItem="GK8-dH-HYF" secondAttribute="trailing" id="Hao-A4-U4p"/>
+                                                <constraint firstAttribute="trailing" secondItem="7lc-0v-wKs" secondAttribute="trailing" id="Hhi-H9-bpj"/>
+                                                <constraint firstAttribute="trailing" secondItem="Dm9-R5-5yD" secondAttribute="trailing" constant="20" id="HnV-v2-vg9"/>
+                                                <constraint firstItem="PVb-vk-txF" firstAttribute="top" secondItem="0Ni-tf-XkT" secondAttribute="bottom" constant="5" id="KVA-jo-62p"/>
+                                                <constraint firstItem="yPY-PW-9th" firstAttribute="width" secondItem="yPY-PW-9th" secondAttribute="height" multiplier="15:8" id="Otx-M1-2zl"/>
+                                                <constraint firstItem="0Ni-tf-XkT" firstAttribute="top" secondItem="7lc-0v-wKs" secondAttribute="bottom" constant="15" id="Pcn-GA-UQx"/>
+                                                <constraint firstAttribute="trailing" secondItem="0Ni-tf-XkT" secondAttribute="trailing" id="RZV-tz-duu"/>
+                                                <constraint firstItem="yPY-PW-9th" firstAttribute="top" secondItem="m3z-a3-UqT" secondAttribute="bottom" constant="15" id="T3q-DA-ING"/>
+                                                <constraint firstItem="Dm9-R5-5yD" firstAttribute="leading" secondItem="8aF-vQ-xfI" secondAttribute="leading" constant="20" id="TWE-au-HPY"/>
+                                                <constraint firstAttribute="trailing" secondItem="m3z-a3-UqT" secondAttribute="trailing" id="W9k-nV-L7T"/>
+                                                <constraint firstAttribute="trailing" secondItem="PVb-vk-txF" secondAttribute="trailing" constant="20" id="XIY-YU-edB"/>
+                                                <constraint firstAttribute="trailing" secondItem="yPY-PW-9th" secondAttribute="trailing" id="bJR-mt-jkp"/>
+                                                <constraint firstItem="GK8-dH-HYF" firstAttribute="top" secondItem="8aF-vQ-xfI" secondAttribute="top" constant="15" id="cUg-uH-wCD"/>
+                                                <constraint firstItem="Dm9-R5-5yD" firstAttribute="top" secondItem="yPY-PW-9th" secondAttribute="bottom" constant="15" id="dtN-1t-0Fn"/>
+                                                <constraint firstItem="7lc-0v-wKs" firstAttribute="leading" secondItem="8aF-vQ-xfI" secondAttribute="leading" id="eXw-K5-Hce"/>
+                                                <constraint firstItem="0Ni-tf-XkT" firstAttribute="leading" secondItem="8aF-vQ-xfI" secondAttribute="leading" id="gPd-SV-DuL"/>
+                                                <constraint firstItem="PVb-vk-txF" firstAttribute="leading" secondItem="8aF-vQ-xfI" secondAttribute="leading" constant="20" id="gf0-BR-WyE"/>
+                                                <constraint firstItem="7lc-0v-wKs" firstAttribute="top" secondItem="GK8-dH-HYF" secondAttribute="bottom" constant="15" id="izY-ee-2Bg"/>
+                                                <constraint firstAttribute="bottom" secondItem="Dm9-R5-5yD" secondAttribute="bottom" constant="20" id="rAD-Ud-V22"/>
+                                                <constraint firstItem="GK8-dH-HYF" firstAttribute="leading" secondItem="8aF-vQ-xfI" secondAttribute="leading" id="uYA-lD-qNv"/>
+                                                <constraint firstItem="m3z-a3-UqT" firstAttribute="width" secondItem="m3z-a3-UqT" secondAttribute="height" multiplier="15:8" id="w8d-4j-GgX"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageView1" destination="GK8-dH-HYF" id="Uah-cn-BRN"/>
+                                            <outlet property="imageView2" destination="7lc-0v-wKs" id="vXf-ZP-fuQ"/>
+                                            <outlet property="subTextLabel" destination="PVb-vk-txF" id="v68-QP-HZM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="9AR-VX-OQZ" id="L7x-jf-Xxo"/>
+                                    <outlet property="delegate" destination="9AR-VX-OQZ" id="BSz-9m-520"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d1u-uH-fep" firstAttribute="leading" secondItem="4Li-2l-qXl" secondAttribute="leading" id="9WO-VO-TZO"/>
+                            <constraint firstItem="9SU-ep-oz0" firstAttribute="top" secondItem="d1u-uH-fep" secondAttribute="bottom" id="gQh-Pk-udG"/>
+                            <constraint firstItem="d1u-uH-fep" firstAttribute="top" secondItem="6Gf-Sf-FeD" secondAttribute="bottom" id="ggq-fD-k3k"/>
+                            <constraint firstAttribute="trailing" secondItem="d1u-uH-fep" secondAttribute="trailing" id="xAm-as-tnO"/>
+                        </constraints>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="4000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="os3-Vd-4o7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2556" y="-320"/>
+            <point key="canvasLocation" x="2554.6875" y="-322.18309859154931"/>
         </scene>
         <!--概览-->
         <scene sceneID="tlw-FJ-ecQ">
             <objects>
                 <navigationController id="COy-kn-6GY" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="概览" id="cvQ-GT-8D5"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="5Tw-AN-kvP">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5Tw-AN-kvP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -207,4 +847,15 @@
             <point key="canvasLocation" x="-664" y="119"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="3-2-7-1" width="2710" height="1312"/>
+        <image name="3-2-7-2" width="404" height="372"/>
+        <image name="3-2-7-3" width="304" height="300"/>
+        <image name="3-2-7-4" width="304" height="300"/>
+        <image name="3-2-7-5" width="310" height="302"/>
+        <image name="3-2-7-6" width="322" height="308"/>
+        <image name="3-2-7-7" width="1824" height="1088"/>
+        <image name="3-2-7-8" width="1106" height="770"/>
+        <image name="3-2-7-9" width="1078" height="550"/>
+    </resources>
 </document>

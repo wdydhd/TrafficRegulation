@@ -11,14 +11,13 @@
 		3D41FF783CFB609D7BE97A7F /* Pods_______Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD2F43EA06CD58A666E4C1D /* Pods_______Tests.framework */; };
 		4400A626FD783CA7775949C3 /* Pods_______UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222A5EC44B144A6BF6EEDEF7 /* Pods_______UITests.framework */; };
 		A426BC111E5733AA0037AC16 /* UINavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426BC101E5733AA0037AC16 /* UINavigationBarExtension.swift */; };
-		A44F320C1E5BAD7100D6E90C /* TRImageAndTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F320B1E5BAD7100D6E90C /* TRImageAndTextView.swift */; };
-		A44F320E1E5BAD7D00D6E90C /* TRImageAndTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44F320D1E5BAD7D00D6E90C /* TRImageAndTextView.xib */; };
 		A44F32101E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F320F1E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift */; };
 		A44F32121E5BB08700D6E90C /* TRConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F32111E5BB08700D6E90C /* TRConst.swift */; };
 		A44F32141E5DBDFD00D6E90C /* TRBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F32131E5DBDFD00D6E90C /* TRBaseTabBarController.swift */; };
+		A44F32161E5F0A1300D6E90C /* TROverViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F32151E5F0A1300D6E90C /* TROverViewTableViewCell.swift */; };
+		A44F32181E5F0A2900D6E90C /* TRImageAndTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F32171E5F0A2900D6E90C /* TRImageAndTextCell.swift */; };
 		A46363E01E54925200055018 /* TRMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363DF1E54925200055018 /* TRMarkViewController.swift */; };
 		A46363E21E5492D300055018 /* TROverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363E11E5492D300055018 /* TROverViewViewController.swift */; };
-		A46363E41E551A1F00055018 /* TROverViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363E31E551A1F00055018 /* TROverViewTableViewCell.swift */; };
 		A46363E61E55E6F100055018 /* TRCommonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363E51E55E6F100055018 /* TRCommonExtension.swift */; };
 		A4832E551E4A173900C494B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4832E541E4A173900C494B3 /* AppDelegate.swift */; };
 		A4832E5A1E4A173900C494B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4832E581E4A173900C494B3 /* Main.storyboard */; };
@@ -53,14 +52,13 @@
 		559E559E8C3FADBB7CBF6299 /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE6259F9BBE916078A43B19 /* Pods-日本交通規則Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則Tests/Pods-日本交通規則Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A426BC101E5733AA0037AC16 /* UINavigationBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBarExtension.swift; sourceTree = "<group>"; };
-		A44F320B1E5BAD7100D6E90C /* TRImageAndTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRImageAndTextView.swift; sourceTree = "<group>"; };
-		A44F320D1E5BAD7D00D6E90C /* TRImageAndTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRImageAndTextView.xib; sourceTree = "<group>"; };
 		A44F320F1E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRBaseRuleIntroViewController.swift; sourceTree = "<group>"; };
 		A44F32111E5BB08700D6E90C /* TRConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRConst.swift; sourceTree = "<group>"; };
 		A44F32131E5DBDFD00D6E90C /* TRBaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRBaseTabBarController.swift; sourceTree = "<group>"; };
+		A44F32151E5F0A1300D6E90C /* TROverViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TROverViewTableViewCell.swift; sourceTree = "<group>"; };
+		A44F32171E5F0A2900D6E90C /* TRImageAndTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRImageAndTextCell.swift; sourceTree = "<group>"; };
 		A46363DF1E54925200055018 /* TRMarkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRMarkViewController.swift; sourceTree = "<group>"; };
 		A46363E11E5492D300055018 /* TROverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TROverViewViewController.swift; sourceTree = "<group>"; };
-		A46363E31E551A1F00055018 /* TROverViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TROverViewTableViewCell.swift; sourceTree = "<group>"; };
 		A46363E51E55E6F100055018 /* TRCommonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRCommonExtension.swift; sourceTree = "<group>"; };
 		A4832E511E4A173900C494B3 /* 日本交通規則.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "日本交通規則.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4832E541E4A173900C494B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -142,9 +140,8 @@
 		A426BC131E5734040037AC16 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A46363E31E551A1F00055018 /* TROverViewTableViewCell.swift */,
-				A44F320B1E5BAD7100D6E90C /* TRImageAndTextView.swift */,
-				A44F320D1E5BAD7D00D6E90C /* TRImageAndTextView.xib */,
+				A44F32151E5F0A1300D6E90C /* TROverViewTableViewCell.swift */,
+				A44F32171E5F0A2900D6E90C /* TRImageAndTextCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -354,7 +351,6 @@
 				A4832E5F1E4A173900C494B3 /* LaunchScreen.storyboard in Resources */,
 				A4832E5C1E4A173900C494B3 /* Assets.xcassets in Resources */,
 				A4832E5A1E4A173900C494B3 /* Main.storyboard in Resources */,
-				A44F320E1E5BAD7D00D6E90C /* TRImageAndTextView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,16 +513,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A46363E41E551A1F00055018 /* TROverViewTableViewCell.swift in Sources */,
 				A46363E61E55E6F100055018 /* TRCommonExtension.swift in Sources */,
 				A44F32141E5DBDFD00D6E90C /* TRBaseTabBarController.swift in Sources */,
+				A44F32181E5F0A2900D6E90C /* TRImageAndTextCell.swift in Sources */,
 				A44F32101E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift in Sources */,
 				A46363E21E5492D300055018 /* TROverViewViewController.swift in Sources */,
 				A426BC111E5733AA0037AC16 /* UINavigationBarExtension.swift in Sources */,
 				A44F32121E5BB08700D6E90C /* TRConst.swift in Sources */,
-				A44F320C1E5BAD7100D6E90C /* TRImageAndTextView.swift in Sources */,
 				A4832E551E4A173900C494B3 /* AppDelegate.swift in Sources */,
 				A46363E01E54925200055018 /* TRMarkViewController.swift in Sources */,
+				A44F32161E5F0A1300D6E90C /* TROverViewTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
