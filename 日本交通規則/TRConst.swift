@@ -10,7 +10,8 @@ import Foundation
 
 
 enum TRSegueIdentifier: String {
-    case ToBaseRuleIntroSegue = "ToBaseRuleIntroSegue"
+    case ShowBaseRuleIntroSegue = "ShowBaseRuleIntroSegue"
+    case ShowDriveInfoCrossSegue = "ShowDriveInfoCrossSegue"
 }
 
 
