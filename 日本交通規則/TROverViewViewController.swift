@@ -53,7 +53,7 @@ extension TROverViewViewController : UITableViewDataSource,UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let initIdentifier = "Cell"
         let cell: TROverViewTableViewCell = tableView.dequeueReusableCell(withIdentifier: initIdentifier) as! TROverViewTableViewCell
-        cell.indexLabel.text = String(indexPath.row + 1)
+        cell.indexLabel?.text = String(indexPath.row + 1)
         cell.titleLabel.text = dataDic[indexPath.row].title
         cell.subTitleLabel.text = dataDic[indexPath.row].subTitle
         return cell

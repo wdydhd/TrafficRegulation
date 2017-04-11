@@ -64,7 +64,16 @@ extension TRDriveInfoViewController : UITableViewDataSource,UITableViewDelegate 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         selectedIndex = indexPath.row
-        self.performSegue(withIdentifier: TRSegueIdentifier.ShowDriveInfoCrossSegue.rawValue, sender: self)
+        switch selectedIndex {
+        case 0:
+            self.performSegue(withIdentifier: TRSegueIdentifier.ShowDriveInfoCrossSegue.rawValue, sender: self)
+            break
+        case 1:
+            self.performSegue(withIdentifier: TRSegueIdentifier.ShowDriveInfoParkSegue.rawValue, sender: self)
+            break
+        default:
+            break
+        }
         
     }
 }

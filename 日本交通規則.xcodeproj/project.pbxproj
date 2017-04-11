@@ -18,6 +18,7 @@
 		A44F32181E5F0A2900D6E90C /* TRImageAndTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F32171E5F0A2900D6E90C /* TRImageAndTextCell.swift */; };
 		A44F321A1E64ED4700D6E90C /* TRDriveInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F32191E64ED4700D6E90C /* TRDriveInfoViewController.swift */; };
 		A44F321C1E65C02500D6E90C /* DriveInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44F321B1E65C02500D6E90C /* DriveInfoStoryboard.storyboard */; };
+		A44F321E1E6703CE00D6E90C /* TRParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F321D1E6703CE00D6E90C /* TRParkViewController.swift */; };
 		A46363E01E54925200055018 /* TRMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363DF1E54925200055018 /* TRMarkViewController.swift */; };
 		A46363E21E5492D300055018 /* TROverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363E11E5492D300055018 /* TROverViewViewController.swift */; };
 		A46363E61E55E6F100055018 /* TRCommonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363E51E55E6F100055018 /* TRCommonExtension.swift */; };
@@ -61,6 +62,7 @@
 		A44F32171E5F0A2900D6E90C /* TRImageAndTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRImageAndTextCell.swift; sourceTree = "<group>"; };
 		A44F32191E64ED4700D6E90C /* TRDriveInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRDriveInfoViewController.swift; sourceTree = "<group>"; };
 		A44F321B1E65C02500D6E90C /* DriveInfoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DriveInfoStoryboard.storyboard; sourceTree = "<group>"; };
+		A44F321D1E6703CE00D6E90C /* TRParkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRParkViewController.swift; sourceTree = "<group>"; };
 		A46363DF1E54925200055018 /* TRMarkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRMarkViewController.swift; sourceTree = "<group>"; };
 		A46363E11E5492D300055018 /* TROverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TROverViewViewController.swift; sourceTree = "<group>"; };
 		A46363E51E55E6F100055018 /* TRCommonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRCommonExtension.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				A44F320F1E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift */,
 				A44F32131E5DBDFD00D6E90C /* TRBaseTabBarController.swift */,
 				A44F32191E64ED4700D6E90C /* TRDriveInfoViewController.swift */,
+				A44F321D1E6703CE00D6E90C /* TRParkViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -524,6 +527,7 @@
 				A44F32141E5DBDFD00D6E90C /* TRBaseTabBarController.swift in Sources */,
 				A44F32181E5F0A2900D6E90C /* TRImageAndTextCell.swift in Sources */,
 				A44F32101E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift in Sources */,
+				A44F321E1E6703CE00D6E90C /* TRParkViewController.swift in Sources */,
 				A46363E21E5492D300055018 /* TROverViewViewController.swift in Sources */,
 				A426BC111E5733AA0037AC16 /* UINavigationBarExtension.swift in Sources */,
 				A44F32121E5BB08700D6E90C /* TRConst.swift in Sources */,
