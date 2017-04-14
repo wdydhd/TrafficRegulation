@@ -25,18 +25,6 @@ class TRParkingFeesViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 extension TRParkingFeesViewController : UITableViewDataSource,UITableViewDelegate {
     
@@ -50,7 +38,6 @@ extension TRParkingFeesViewController : UITableViewDataSource,UITableViewDelegat
         default:
             return parkInfo[section - 2].count
         }
-        return 0
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -102,35 +89,6 @@ extension TRParkingFeesViewController : UITableViewDataSource,UITableViewDelegat
                 }
             }
             return cell
-//
-//        case 2:
-//            let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "subTitleCell")!
-//            cell.textLabel?.text = "违规停车的取缔单贴付在车子上后，警察会从车子的牌照号码查出汽车所有者，也就是说，警察会将交通违规的事实告知租车公司。在还车前，一定要依循警察的指示办完手续再还车。"
-//            return cell
-//            
-//        case 3:
-//            let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "subTitleCell")!
-//            cell.textLabel?.text = "外国人违规停车的人非常多。根据租车公司的调查，被取缔的外国人违规停车比率，高达日本人的8倍。因此该地是否是禁止停车地方，一定要亲眼确认交通标识及标示。"
-//            return cell
-//            
-//        case 4:
-//            let cell: TROverViewTableViewCell = tableView.dequeueReusableCell(withIdentifier: "parkInfoNoIndexCell") as! TROverViewTableViewCell
-//            cell.titleLabel.text = parkMark[indexPath.row].titleText
-//            cell.subTitleLabel.text = parkMark[indexPath.row].detailText
-//            switch indexPath.row {
-//            case 0:
-//                cell.imageButtonHeigth.constant = cell.bounds.size.height - 16
-//                cell.imageButton.setImage(UIImage(named: "1 (20)"), for: UIControlState.normal)
-//            case 1:
-//                cell.imageButtonHeigth.constant = cell.bounds.size.height - 16
-//                cell.imageButton.setImage(UIImage(named: "1 (21)"), for: UIControlState.normal)
-//            default:
-//                cell.imageButtonHeigth.constant = 0
-//                cell.imageButton.setImage(UIImage(), for: UIControlState.normal)
-//            }
-//            if indexPath.row == 1 {
-//            }
-//            return cell
             
         default:
             let cell = tableView.dequeueReusableCell(withIdentifier: "parkInfoNoIndexCell") as! TROverViewTableViewCell

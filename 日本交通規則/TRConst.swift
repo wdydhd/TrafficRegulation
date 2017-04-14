@@ -14,7 +14,7 @@ enum TRSegueIdentifier: String {
     case ShowDriveInfoCrossSegue = "ShowDriveInfoCrossSegue"
     case ShowDriveInfoParkSegue = "ShowDriveInfoParkSegue"
     case ShowDriveInfoParkingFeesSegue = "ShowDriveInfoParkingFeesSegue"
-    
+    case ShowFreewayInfoSegue = "ShowFreewayInfoSegue"
 }
 
 

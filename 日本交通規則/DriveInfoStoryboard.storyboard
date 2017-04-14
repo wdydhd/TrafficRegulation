@@ -90,11 +90,172 @@
                         </segue>
                         <segue destination="wtg-Iy-Sg0" kind="show" identifier="ShowDriveInfoParkSegue" id="bko-Dv-ZU0"/>
                         <segue destination="3zz-ti-cYM" kind="show" identifier="ShowDriveInfoParkingFeesSegue" id="7Ju-Fe-pRz"/>
+                        <segue destination="Noh-7h-NPP" kind="show" identifier="ShowFreewayInfoSegue" id="B8Z-vM-dLH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U3j-RW-5XU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1421.25" y="-1089.0845070422536"/>
+        </scene>
+        <!--Freeway Info View Controller-->
+        <scene sceneID="YD0-oq-gsX">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Noh-7h-NPP" customClass="TRFreewayInfoViewController" customModule="日本交通規則" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6MN-yG-QXX"/>
+                        <viewControllerLayoutGuide type="bottom" id="mlK-71-hjN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uGK-pr-YAC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="218" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xEb-Uf-3Jv">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="freewayInfoTitleImageCell" id="wlE-2e-jkh" userLabel="freewayInfoTitleImageCell" customClass="TROverViewTableViewCell" customModule="日本交通規則" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="218"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wlE-2e-jkh" id="IPF-Ws-G3u">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="217.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9iZ-Ux-Fv6">
+                                                    <rect key="frame" x="15" y="10" width="281" height="197.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="JPr-7c-AMR"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOM-WV-U8W">
+                                                    <rect key="frame" x="304" y="77.5" width="63" height="63"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="iOM-WV-U8W" secondAttribute="height" multiplier="1:1" id="mdt-Z4-75s"/>
+                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="63" id="orL-6v-MPb"/>
+                                                    </constraints>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="9iZ-Ux-Fv6" firstAttribute="top" secondItem="IPF-Ws-G3u" secondAttribute="top" constant="10" id="28r-gg-KGN"/>
+                                                <constraint firstAttribute="bottom" secondItem="9iZ-Ux-Fv6" secondAttribute="bottom" constant="10" id="9JA-hx-Ksm"/>
+                                                <constraint firstItem="iOM-WV-U8W" firstAttribute="leading" secondItem="9iZ-Ux-Fv6" secondAttribute="trailing" constant="8" id="E6U-Pc-6Yd"/>
+                                                <constraint firstAttribute="trailing" secondItem="iOM-WV-U8W" secondAttribute="trailing" constant="8" id="FAd-dk-eXb"/>
+                                                <constraint firstItem="iOM-WV-U8W" firstAttribute="top" relation="greaterThanOrEqual" secondItem="IPF-Ws-G3u" secondAttribute="top" constant="8" id="TqK-Mo-8pq"/>
+                                                <constraint firstItem="iOM-WV-U8W" firstAttribute="centerY" secondItem="IPF-Ws-G3u" secondAttribute="centerY" id="Yax-6R-K4I"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="iOM-WV-U8W" secondAttribute="bottom" constant="8" id="jJ7-ZL-umY"/>
+                                                <constraint firstItem="9iZ-Ux-Fv6" firstAttribute="leading" secondItem="IPF-Ws-G3u" secondAttribute="leading" constant="15" id="uAV-ww-Zu8"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageButton" destination="iOM-WV-U8W" id="BxZ-cA-rqP"/>
+                                            <outlet property="imageButtonHeigth" destination="orL-6v-MPb" id="UMU-GG-HpY"/>
+                                            <outlet property="subTitleLabel" destination="9iZ-Ux-Fv6" id="iFS-pc-biK"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="freewayInfoImageCell" id="Rng-Tk-6yo" customClass="TRImageAndTextCell" customModule="日本交通規則" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="246" width="375" height="218"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rng-Tk-6yo" id="mLK-Ym-R7D">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="217.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gL6-DN-WYE">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="217"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="gL6-DN-WYE" secondAttribute="height" multiplier="19:11" id="BIJ-YH-RPR"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="gL6-DN-WYE" firstAttribute="centerY" secondItem="mLK-Ym-R7D" secondAttribute="centerY" id="2mQ-vH-XuT"/>
+                                                <constraint firstAttribute="trailing" secondItem="gL6-DN-WYE" secondAttribute="trailing" id="QoO-Ox-A8F"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="gL6-DN-WYE" secondAttribute="bottom" id="bkb-CY-bPB"/>
+                                                <constraint firstItem="gL6-DN-WYE" firstAttribute="leading" secondItem="mLK-Ym-R7D" secondAttribute="leading" id="dMt-zp-UNQ"/>
+                                                <constraint firstItem="gL6-DN-WYE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="mLK-Ym-R7D" secondAttribute="top" id="eF8-us-AV7"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageView1" destination="gL6-DN-WYE" id="sDi-pX-AF6"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="freewayInfoTitleCell" id="Udy-gf-qO2" customClass="TROverViewTableViewCell" customModule="日本交通規則" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="464" width="375" height="218"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Udy-gf-qO2" id="M3p-kX-gMB">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="217.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Irl-1W-z2i">
+                                                    <rect key="frame" x="15" y="97" width="24" height="24"/>
+                                                    <color key="backgroundColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="24" id="Hpb-bF-t3S"/>
+                                                        <constraint firstAttribute="height" constant="24" id="leT-1p-hI3"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adk-LH-SxV">
+                                                    <rect key="frame" x="53" y="8" width="243" height="201.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="PDM-Mz-Jbj"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.3152006966" green="0.60003416610000004" blue="0.19780255229999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeF-Vn-wiB">
+                                                    <rect key="frame" x="304" y="77.5" width="63" height="63"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="63" id="XN1-kl-BJD"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="ZRG-2v-aCa"/>
+                                                        <constraint firstAttribute="width" secondItem="yeF-Vn-wiB" secondAttribute="height" multiplier="1:1" id="zav-UQ-hn4"/>
+                                                    </constraints>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="adk-LH-SxV" firstAttribute="leading" secondItem="Irl-1W-z2i" secondAttribute="trailing" constant="14" id="9ef-Gr-iOf"/>
+                                                <constraint firstItem="adk-LH-SxV" firstAttribute="centerY" secondItem="M3p-kX-gMB" secondAttribute="centerY" id="GZP-iJ-7xP"/>
+                                                <constraint firstItem="yeF-Vn-wiB" firstAttribute="top" relation="greaterThanOrEqual" secondItem="M3p-kX-gMB" secondAttribute="top" constant="8" id="O7Y-v6-Dn5"/>
+                                                <constraint firstItem="Irl-1W-z2i" firstAttribute="centerY" secondItem="M3p-kX-gMB" secondAttribute="centerY" id="Rap-xE-i7Y"/>
+                                                <constraint firstItem="Irl-1W-z2i" firstAttribute="leading" secondItem="M3p-kX-gMB" secondAttribute="leading" constant="15" id="Rdr-ZE-BA9"/>
+                                                <constraint firstAttribute="bottom" secondItem="adk-LH-SxV" secondAttribute="bottom" constant="8" id="aXx-Pw-9B7"/>
+                                                <constraint firstItem="yeF-Vn-wiB" firstAttribute="leading" secondItem="adk-LH-SxV" secondAttribute="trailing" constant="8" id="k4b-Ve-dD7"/>
+                                                <constraint firstItem="adk-LH-SxV" firstAttribute="top" secondItem="M3p-kX-gMB" secondAttribute="top" constant="8" id="mI7-MA-p1m"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="yeF-Vn-wiB" secondAttribute="bottom" constant="8" id="mwd-5z-jb2"/>
+                                                <constraint firstAttribute="trailing" secondItem="yeF-Vn-wiB" secondAttribute="trailing" constant="8" id="o2l-ii-sZv"/>
+                                                <constraint firstItem="yeF-Vn-wiB" firstAttribute="centerY" secondItem="M3p-kX-gMB" secondAttribute="centerY" id="uVW-cM-ZWE"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageButton" destination="yeF-Vn-wiB" id="tb6-Ld-tiG"/>
+                                            <outlet property="imageButtonHeigth" destination="XN1-kl-BJD" id="m2L-AQ-MVK"/>
+                                            <outlet property="indexLabel" destination="Irl-1W-z2i" id="9kF-tZ-AIp"/>
+                                            <outlet property="titleLabel" destination="adk-LH-SxV" id="PSl-al-idD"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Noh-7h-NPP" id="gWi-rP-Vnv"/>
+                                    <outlet property="delegate" destination="Noh-7h-NPP" id="obM-2U-vTL"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mlK-71-hjN" firstAttribute="top" secondItem="xEb-Uf-3Jv" secondAttribute="bottom" id="4J6-eY-akm"/>
+                            <constraint firstAttribute="trailing" secondItem="xEb-Uf-3Jv" secondAttribute="trailing" id="AzX-Lk-Dhz"/>
+                            <constraint firstItem="xEb-Uf-3Jv" firstAttribute="top" secondItem="6MN-yG-QXX" secondAttribute="bottom" id="lYd-6D-SBL"/>
+                            <constraint firstItem="xEb-Uf-3Jv" firstAttribute="leading" secondItem="uGK-pr-YAC" secondAttribute="leading" id="oTh-vj-dDn"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rls-Vv-dm8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1420" y="-1773.4632683658172"/>
         </scene>
         <!--Park View Controller-->
         <scene sceneID="0r5-hz-O2t">

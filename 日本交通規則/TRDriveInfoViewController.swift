@@ -74,6 +74,9 @@ extension TRDriveInfoViewController : UITableViewDataSource,UITableViewDelegate 
         case 2:
             self.performSegue(withIdentifier: TRSegueIdentifier.ShowDriveInfoParkingFeesSegue.rawValue, sender: self)
             break
+        case 3:
+            self.performSegue(withIdentifier: TRSegueIdentifier.ShowFreewayInfoSegue.rawValue, sender: self)
+            break
         default:
             break
         }
