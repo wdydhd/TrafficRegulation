@@ -13,6 +13,7 @@ enum TRSegueIdentifier: String {
     case ShowBaseRuleIntroSegue = "ShowBaseRuleIntroSegue"
     case ShowDriveInfoCrossSegue = "ShowDriveInfoCrossSegue"
     case ShowDriveInfoParkSegue = "ShowDriveInfoParkSegue"
+    case ShowDriveInfoParkingFeesSegue = "ShowDriveInfoParkingFeesSegue"
     
 }
 

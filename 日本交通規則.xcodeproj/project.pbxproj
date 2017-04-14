@@ -11,6 +11,7 @@
 		3D41FF783CFB609D7BE97A7F /* Pods_______Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD2F43EA06CD58A666E4C1D /* Pods_______Tests.framework */; };
 		4400A626FD783CA7775949C3 /* Pods_______UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222A5EC44B144A6BF6EEDEF7 /* Pods_______UITests.framework */; };
 		A426BC111E5733AA0037AC16 /* UINavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426BC101E5733AA0037AC16 /* UINavigationBarExtension.swift */; };
+		A43048C11E9E351C00E1439D /* TRParkingFeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43048C01E9E351C00E1439D /* TRParkingFeesViewController.swift */; };
 		A44F32101E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F320F1E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift */; };
 		A44F32121E5BB08700D6E90C /* TRConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F32111E5BB08700D6E90C /* TRConst.swift */; };
 		A44F32141E5DBDFD00D6E90C /* TRBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F32131E5DBDFD00D6E90C /* TRBaseTabBarController.swift */; };
@@ -55,6 +56,7 @@
 		559E559E8C3FADBB7CBF6299 /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE6259F9BBE916078A43B19 /* Pods-日本交通規則Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則Tests/Pods-日本交通規則Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A426BC101E5733AA0037AC16 /* UINavigationBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBarExtension.swift; sourceTree = "<group>"; };
+		A43048C01E9E351C00E1439D /* TRParkingFeesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRParkingFeesViewController.swift; sourceTree = "<group>"; };
 		A44F320F1E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRBaseRuleIntroViewController.swift; sourceTree = "<group>"; };
 		A44F32111E5BB08700D6E90C /* TRConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRConst.swift; sourceTree = "<group>"; };
 		A44F32131E5DBDFD00D6E90C /* TRBaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRBaseTabBarController.swift; sourceTree = "<group>"; };
@@ -135,12 +137,10 @@
 		A426BC121E5733BD0037AC16 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A43048C31E9E360800E1439D /* DriveInfo */,
+				A43048C21E9E35EA00E1439D /* BaseRule */,
 				A46363DF1E54925200055018 /* TRMarkViewController.swift */,
 				A46363E11E5492D300055018 /* TROverViewViewController.swift */,
-				A44F320F1E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift */,
-				A44F32131E5DBDFD00D6E90C /* TRBaseTabBarController.swift */,
-				A44F32191E64ED4700D6E90C /* TRDriveInfoViewController.swift */,
-				A44F321D1E6703CE00D6E90C /* TRParkViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -172,6 +172,25 @@
 				A44F321B1E65C02500D6E90C /* DriveInfoStoryboard.storyboard */,
 			);
 			name = Resource;
+			sourceTree = "<group>";
+		};
+		A43048C21E9E35EA00E1439D /* BaseRule */ = {
+			isa = PBXGroup;
+			children = (
+				A44F320F1E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift */,
+				A44F32131E5DBDFD00D6E90C /* TRBaseTabBarController.swift */,
+			);
+			name = BaseRule;
+			sourceTree = "<group>";
+		};
+		A43048C31E9E360800E1439D /* DriveInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A44F32191E64ED4700D6E90C /* TRDriveInfoViewController.swift */,
+				A44F321D1E6703CE00D6E90C /* TRParkViewController.swift */,
+				A43048C01E9E351C00E1439D /* TRParkingFeesViewController.swift */,
+			);
+			name = DriveInfo;
 			sourceTree = "<group>";
 		};
 		A4832E481E4A173900C494B3 = {
@@ -524,6 +543,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A46363E61E55E6F100055018 /* TRCommonExtension.swift in Sources */,
+				A43048C11E9E351C00E1439D /* TRParkingFeesViewController.swift in Sources */,
 				A44F32141E5DBDFD00D6E90C /* TRBaseTabBarController.swift in Sources */,
 				A44F32181E5F0A2900D6E90C /* TRImageAndTextCell.swift in Sources */,
 				A44F32101E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift in Sources */,
