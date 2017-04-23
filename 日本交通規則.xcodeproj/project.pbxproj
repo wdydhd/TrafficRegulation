@@ -11,6 +11,7 @@
 		3D41FF783CFB609D7BE97A7F /* Pods_______Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD2F43EA06CD58A666E4C1D /* Pods_______Tests.framework */; };
 		4400A626FD783CA7775949C3 /* Pods_______UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222A5EC44B144A6BF6EEDEF7 /* Pods_______UITests.framework */; };
 		A420C3091EA0FF59007D72D5 /* TRFreewayInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420C3081EA0FF59007D72D5 /* TRFreewayInfoViewController.swift */; };
+		A420C30B1EA4F537007D72D5 /* TRGasStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420C30A1EA4F537007D72D5 /* TRGasStationViewController.swift */; };
 		A426BC111E5733AA0037AC16 /* UINavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426BC101E5733AA0037AC16 /* UINavigationBarExtension.swift */; };
 		A43048C11E9E351C00E1439D /* TRParkingFeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43048C01E9E351C00E1439D /* TRParkingFeesViewController.swift */; };
 		A44F32101E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F320F1E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift */; };
@@ -57,6 +58,7 @@
 		559E559E8C3FADBB7CBF6299 /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE6259F9BBE916078A43B19 /* Pods-日本交通規則Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則Tests/Pods-日本交通規則Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A420C3081EA0FF59007D72D5 /* TRFreewayInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRFreewayInfoViewController.swift; sourceTree = "<group>"; };
+		A420C30A1EA4F537007D72D5 /* TRGasStationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRGasStationViewController.swift; sourceTree = "<group>"; };
 		A426BC101E5733AA0037AC16 /* UINavigationBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBarExtension.swift; sourceTree = "<group>"; };
 		A43048C01E9E351C00E1439D /* TRParkingFeesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRParkingFeesViewController.swift; sourceTree = "<group>"; };
 		A44F320F1E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRBaseRuleIntroViewController.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 				A44F321D1E6703CE00D6E90C /* TRParkViewController.swift */,
 				A43048C01E9E351C00E1439D /* TRParkingFeesViewController.swift */,
 				A420C3081EA0FF59007D72D5 /* TRFreewayInfoViewController.swift */,
+				A420C30A1EA4F537007D72D5 /* TRGasStationViewController.swift */,
 			);
 			name = DriveInfo;
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 				A44F321A1E64ED4700D6E90C /* TRDriveInfoViewController.swift in Sources */,
 				A4832E551E4A173900C494B3 /* AppDelegate.swift in Sources */,
 				A46363E01E54925200055018 /* TRMarkViewController.swift in Sources */,
+				A420C30B1EA4F537007D72D5 /* TRGasStationViewController.swift in Sources */,
 				A44F32161E5F0A1300D6E90C /* TROverViewTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
