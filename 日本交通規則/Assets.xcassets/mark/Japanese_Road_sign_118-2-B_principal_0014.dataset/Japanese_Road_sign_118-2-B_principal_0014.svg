@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.2"
+   width="600"
+   height="202.5"
+   id="svg1890">
+  <defs
+     id="defs1893" />
+  <g
+     id="g4158"
+     style="fill:#ffffff;stroke:#ffffff">
+    <rect
+       width="548.03845"
+       height="180"
+       rx="10"
+       ry="10"
+       x="0"
+       y="11.25"
+       id="rect3644"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       d="m 98.25,101.25 -49.125,85.087 -98.25,0 -49.125,-85.087 49.125,-85.086996 98.25,0 L 98.25,101.25 z"
+       transform="translate(496.51031,0)"
+       id="path4156"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:9.89999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:261;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+  <rect
+     width="467.33792"
+     height="172.5"
+     rx="6.3955951"
+     ry="7.5"
+     x="5"
+     y="15"
+     id="rect3644-5"
+     style="color:#000000;fill:#0066b3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     d="m 94,101.25 -47,81.40639 -94,0 -47,-81.40639 47,-81.406388 94,0 L 94,101.25 z"
+     transform="translate(496.51031,-4.2689138e-6)"
+     id="path4156-9"
+     style="color:#000000;fill:#0066b3;fill-opacity:1;fill-rule:nonzero;stroke:#0066b3;stroke-width:9.69999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:261;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     d="m 44.412075,24.438078 469.210185,0 c 3.65746,0 5.36899,2.473356 6.60191,6.679297 l 20.86121,63.802935 c 0.87496,2.839696 1.72897,5.70484 -0.10572,11.83701 l -20.75549,64.6253 c -0.61646,3.70033 -2.94445,6.6793 -6.60191,6.6793 l -469.210185,0 c -3.65746,0 -6.601914,-2.97897 -6.601914,-6.6793 l 0,-140.265245 c 0,-3.70033 2.944454,-6.679297 6.601914,-6.679297 z"
+     id="rect3644-5-3"
+     style="color:#000000;fill:#2bb673;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <path
+     d="m 176.80029,0 -88.400144,153.11355 -176.800292,0 L -176.80029,0 l 88.400144,-153.11355 176.800292,0 L 176.80029,0 z"
+     transform="matrix(0.63050298,0,0,0.63050298,301.05107,101.40019)"
+     id="path3610-7"
+     style="color:#000000;fill:#0066b3;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:16.16934204;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:261;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  <g id="text2">
+    <path
+        d="m 278.71252,135.50179 -8.78906,0 0,-63.13477 c -5.50132,1.888083 -11.29559,3.483133 -17.38281,4.785156 l -1.61133,-6.787109 c 8.72394,-2.180922 16.12953,-4.76881 22.2168,-7.763672 l 5.5664,0 z"
+       style="stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;fill:#ffffff;stroke:#ffffff"
+       id="path10" />
+    <path
+        d="m 299.80627,118.36311 -11.8164,0 0,17.13868 -8.00781,0 0,-17.13868 -36.66993,0 0,-8.00781 35.25391,-46.972655 9.42383,0 0,47.558595 11.8164,0 z m -19.33593,-46.093747 -0.29297,0 c -2.89717,4.68756 -5.79431,8.984431 -8.69141,12.890625 l -19.38476,25.781252 27.88086,0 0,-23.583986 c -4e-5,-3.417916 0.16272,-8.447208 0.48828,-15.087891 z"
+       style="stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;fill:#ffffff;stroke:#ffffff"
+       transform="translate(63.08594,0)"
+       id="path1" />
+</g></svg>
