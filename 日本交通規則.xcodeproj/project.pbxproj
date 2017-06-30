@@ -24,6 +24,7 @@
 		A44F321A1E64ED4700D6E90C /* TRDriveInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F32191E64ED4700D6E90C /* TRDriveInfoViewController.swift */; };
 		A44F321C1E65C02500D6E90C /* DriveInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44F321B1E65C02500D6E90C /* DriveInfoStoryboard.storyboard */; };
 		A44F321E1E6703CE00D6E90C /* TRParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F321D1E6703CE00D6E90C /* TRParkViewController.swift */; };
+		A457EB1F1F049AB100D6D700 /* MarkDic.strings in Resources */ = {isa = PBXBuildFile; fileRef = A457EB1E1F049AB100D6D700 /* MarkDic.strings */; };
 		A46363E01E54925200055018 /* TRMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363DF1E54925200055018 /* TRMarkViewController.swift */; };
 		A46363E21E5492D300055018 /* TROverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363E11E5492D300055018 /* TROverViewViewController.swift */; };
 		A46363E61E55E6F100055018 /* TRCommonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363E51E55E6F100055018 /* TRCommonExtension.swift */; };
@@ -53,11 +54,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		222A5EC44B144A6BF6EEDEF7 /* Pods_______UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		222A5EC44B144A6BF6EEDEF7 /* Pods_______UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_______UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B0C1A81803D885A018D38D9 /* Pods-日本交通規則Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則Tests/Pods-日本交通規則Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3AF11D3766452FCCD25264CF /* Pods-日本交通規則.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則/Pods-日本交通規則.debug.xcconfig"; sourceTree = "<group>"; };
 		454ECE243D0F6E33323201D7 /* Pods-日本交通規則UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則UITests/Pods-日本交通規則UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		559E559E8C3FADBB7CBF6299 /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559E559E8C3FADBB7CBF6299 /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_______.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE6259F9BBE916078A43B19 /* Pods-日本交通規則Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則Tests/Pods-日本交通規則Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A420C3081EA0FF59007D72D5 /* TRFreewayInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRFreewayInfoViewController.swift; sourceTree = "<group>"; };
 		A420C30A1EA4F537007D72D5 /* TRGasStationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRGasStationViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 		A44F32191E64ED4700D6E90C /* TRDriveInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRDriveInfoViewController.swift; sourceTree = "<group>"; };
 		A44F321B1E65C02500D6E90C /* DriveInfoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DriveInfoStoryboard.storyboard; sourceTree = "<group>"; };
 		A44F321D1E6703CE00D6E90C /* TRParkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRParkViewController.swift; sourceTree = "<group>"; };
+		A457EB1E1F049AB100D6D700 /* MarkDic.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = MarkDic.strings; sourceTree = "<group>"; };
 		A46363DF1E54925200055018 /* TRMarkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRMarkViewController.swift; sourceTree = "<group>"; };
 		A46363E11E5492D300055018 /* TROverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TROverViewViewController.swift; sourceTree = "<group>"; };
 		A46363E51E55E6F100055018 /* TRCommonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRCommonExtension.swift; sourceTree = "<group>"; };
@@ -83,14 +85,14 @@
 		A4832E5E1E4A173900C494B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4832E601E4A173900C494B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4832E651E4A173900C494B3 /* 日本交通規則Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "日本交通規則Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4832E691E4A173900C494B3 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		A4832E691E4A173900C494B3 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ______Tests.swift; sourceTree = "<group>"; };
 		A4832E6B1E4A173900C494B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4832E701E4A173900C494B3 /* 日本交通規則UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "日本交通規則UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4832E741E4A173900C494B3 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
+		A4832E741E4A173900C494B3 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ______UITests.swift; sourceTree = "<group>"; };
 		A4832E761E4A173900C494B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFCD847951B516A021236186 /* Pods-日本交通規則.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則.release.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則/Pods-日本交通規則.release.xcconfig"; sourceTree = "<group>"; };
 		D8E3CCBB7B0DF1D41D7AA5BE /* Pods-日本交通規則UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則UITests/Pods-日本交通規則UITests.release.xcconfig"; sourceTree = "<group>"; };
-		DDD2F43EA06CD58A666E4C1D /* Pods_______Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD2F43EA06CD58A666E4C1D /* Pods_______Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_______Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 				A4832E5D1E4A173900C494B3 /* LaunchScreen.storyboard */,
 				A44F32111E5BB08700D6E90C /* TRConst.swift */,
 				A44F321B1E65C02500D6E90C /* DriveInfoStoryboard.storyboard */,
+				A457EB1E1F049AB100D6D700 /* MarkDic.strings */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				A44F321C1E65C02500D6E90C /* DriveInfoStoryboard.storyboard in Resources */,
 				A4832E5F1E4A173900C494B3 /* LaunchScreen.storyboard in Resources */,
 				A4832E5C1E4A173900C494B3 /* Assets.xcassets in Resources */,
+				A457EB1F1F049AB100D6D700 /* MarkDic.strings in Resources */,
 				A4832E5A1E4A173900C494B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,7 +466,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8A4987A04C644AE2CFF5E05C /* [CP] Embed Pods Frameworks */ = {
@@ -522,7 +526,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E120ADC3C8CB479077318166 /* [CP] Check Pods Manifest.lock */ = {
@@ -537,7 +541,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E2653A90DABA9127A2B9E58C /* [CP] Embed Pods Frameworks */ = {

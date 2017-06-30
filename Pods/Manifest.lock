@@ -1,17 +1,28 @@
 PODS:
   - Alamofire (4.2.0)
+  - CocoaLumberjack (3.2.0):
+    - CocoaLumberjack/Default (= 3.2.0)
+    - CocoaLumberjack/Extensions (= 3.2.0)
+  - CocoaLumberjack/Default (3.2.0)
+  - CocoaLumberjack/Extensions (3.2.0):
+    - CocoaLumberjack/Default
   - LeanCloud (10.0.0):
     - LeanCloud/Storage (= 10.0.0)
   - LeanCloud/Storage (10.0.0):
     - Alamofire (~> 4.2.0)
+  - SVGKit (1.2.0):
+    - CocoaLumberjack
 
 DEPENDENCIES:
   - LeanCloud
+  - SVGKit
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
   LeanCloud: 0a6a0d52e33dd43d998ab256cc83f6c4954607b8
+  SVGKit: 267d38d3db13ca62dc52f09b4738cb440f83c4c6
 
-PODFILE CHECKSUM: 33e42d0df700152bc8252c7477bf088845f6ca11
+PODFILE CHECKSUM: 36d38e76275957184a4be6700ebeac50b2d52e52
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.0.1

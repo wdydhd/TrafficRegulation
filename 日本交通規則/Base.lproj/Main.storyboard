@@ -92,7 +92,7 @@
                             </collectionViewCell>
                         </cells>
                         <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TrafficSignsHeaderView" id="Pab-nw-ZY2" customClass="TRTrafficSignsHeaderView" customModule="日本交通規則" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ELS-7M-LFH">
@@ -342,7 +342,7 @@
                                                         <constraint firstAttribute="width" secondItem="7lc-0v-wKs" secondAttribute="height" multiplier="15:8" id="Bvo-aZ-OE4"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVb-vk-txF">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVb-vk-txF">
                                                     <rect key="frame" x="20" y="810" width="280" height="82"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="82" id="ryS-Ub-lF4"/>
@@ -553,20 +553,20 @@ Cg
                                                         <constraint firstAttribute="height" constant="248" id="qRv-rY-kgE"/>
                                                     </constraints>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-2-7-8" translatesAutoresizingMaskIntoConstraints="NO" id="m3z-a3-UqT">
-                                                    <rect key="frame" x="0.0" y="892" width="480" height="256"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="3-2-7-8" translatesAutoresizingMaskIntoConstraints="NO" id="m3z-a3-UqT">
+                                                    <rect key="frame" x="0.0" y="892" width="320" height="256"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="m3z-a3-UqT" secondAttribute="height" multiplier="15:8" id="yry-0W-fHb"/>
                                                     </constraints>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3-2-7-9" translatesAutoresizingMaskIntoConstraints="NO" id="yPY-PW-9th">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="3-2-7-9" translatesAutoresizingMaskIntoConstraints="NO" id="yPY-PW-9th">
                                                     <rect key="frame" x="0.0" y="1163" width="320" height="256"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="yPY-PW-9th" secondAttribute="height" multiplier="15:8" id="QRO-24-ZUp"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dm9-R5-5yD">
-                                                    <rect key="frame" x="20" y="1434" width="440" height="82"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dm9-R5-5yD">
+                                                    <rect key="frame" x="20" y="1434" width="280" height="82"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="82" id="neW-PY-zjJ"/>
                                                     </constraints>
@@ -910,8 +910,8 @@ Cg
                         <color key="selectedImageTintColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
-                        <segue destination="COy-kn-6GY" kind="relationship" relationship="viewControllers" id="PI2-7W-mFe"/>
                         <segue destination="mcf-zU-PO1" kind="relationship" relationship="viewControllers" id="HW3-Zg-9su"/>
+                        <segue destination="COy-kn-6GY" kind="relationship" relationship="viewControllers" id="PI2-7W-mFe"/>
                         <segue destination="xjW-Vo-O8t" kind="relationship" relationship="viewControllers" id="B2r-Zj-Uyh"/>
                     </connections>
                 </tabBarController>
@@ -961,11 +961,11 @@ Cg
                                         <rect key="frame" x="0.0" y="28" width="320" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z6U-9y-IzK" id="bXu-2b-CP6">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OfJ-N0-AiT">
-                                                    <rect key="frame" x="15" y="0.0" width="290" height="69"/>
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="69.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.31372549020000001" green="0.59999999999999998" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
