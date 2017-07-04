@@ -21,7 +21,7 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    “Swift Language Version” (SWIFT_VERSION) is required to be configured correctly for targets which use Swift. Use the [Edit > Convert > To Current Swift Syntax…] menu to choose a Swift version or use the Build Settings editor to configure the build setting directly.
+    
     let courses = [[
         ["name":"Swift","pic":"1.png"],
         ["name":"OC","pic":"2.png"],
