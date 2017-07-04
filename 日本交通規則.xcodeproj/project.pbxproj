@@ -31,6 +31,253 @@
 		A4832E5F1E4A173900C494B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4832E5D1E4A173900C494B3 /* LaunchScreen.storyboard */; };
 		A4832E6A1E4A173900C494B3 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4832E691E4A173900C494B3 /* ______Tests.swift */; };
 		A4832E751E4A173900C494B3 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4832E741E4A173900C494B3 /* ______UITests.swift */; };
+		A49331641F0BDCB20027E691 /* SVGKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A493315C1F0BD3DB0027E691 /* SVGKit.framework */; };
+		A49331661F0BDD260027E691 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49331651F0BDD260027E691 /* CoreText.framework */; };
+		A49331681F0BDD2D0027E691 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49331671F0BDD2D0027E691 /* CoreImage.framework */; };
+		A493316A1F0BDD3F0027E691 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49331691F0BDD3F0027E691 /* QuartzCore.framework */; };
+		A493316C1F0BDD450027E691 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A493316B1F0BDD450027E691 /* CoreGraphics.framework */; };
+		A493316E1F0BDD540027E691 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A493316D1F0BDD540027E691 /* UIKit.framework */; };
+		A49331701F0BDDAE0027E691 /* SVGKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A493315C1F0BD3DB0027E691 /* SVGKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A49331731F0BDEC50027E691 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A49331721F0BDEC50027E691 /* libxml2.2.dylib */; };
+		A493317C1F0BE09D0027E691 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A493317B1F0BE09D0027E691 /* CocoaLumberjack.framework */; };
+		A493317D1F0BE09D0027E691 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A493317B1F0BE09D0027E691 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A493326C1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_B).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493317F1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_B).svg */; };
+		A493326D1F0BE2F00027E691 /* Japanese_Road_sign_(Vehicle_Passing_Division).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331801F0BE2F00027E691 /* Japanese_Road_sign_(Vehicle_Passing_Division).svg */; };
+		A493326E1F0BE2F00027E691 /* Japanese_Road_sign_103-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331811F0BE2F00027E691 /* Japanese_Road_sign_103-B.svg */; };
+		A493326F1F0BE2F00027E691 /* Japanese_Road_sign_105-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331821F0BE2F00027E691 /* Japanese_Road_sign_105-A.svg */; };
+		A49332701F0BE2F00027E691 /* Japanese_Road_sign_105-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331831F0BE2F00027E691 /* Japanese_Road_sign_105-B.svg */; };
+		A49332711F0BE2F00027E691 /* Japanese_Road_sign_105-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331841F0BE2F00027E691 /* Japanese_Road_sign_105-C.svg */; };
+		A49332721F0BE2F00027E691 /* Japanese_Road_sign_106-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331851F0BE2F00027E691 /* Japanese_Road_sign_106-A.svg */; };
+		A49332731F0BE2F00027E691 /* Japanese_Road_sign_106-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331861F0BE2F00027E691 /* Japanese_Road_sign_106-C.svg */; };
+		A49332741F0BE2F00027E691 /* Japanese_Road_sign_108-2-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331871F0BE2F00027E691 /* Japanese_Road_sign_108-2-A.svg */; };
+		A49332751F0BE2F00027E691 /* Japanese_Road_sign_108-2-B_lane.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331881F0BE2F00027E691 /* Japanese_Road_sign_108-2-B_lane.svg */; };
+		A49332761F0BE2F00027E691 /* Japanese_Road_sign_108-2-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331891F0BE2F00027E691 /* Japanese_Road_sign_108-2-B.svg */; };
+		A49332771F0BE2F00027E691 /* Japanese_Road_sign_108-2-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493318A1F0BE2F00027E691 /* Japanese_Road_sign_108-2-C.svg */; };
+		A49332781F0BE2F00027E691 /* Japanese_Road_sign_108-2-D.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493318B1F0BE2F00027E691 /* Japanese_Road_sign_108-2-D.svg */; };
+		A49332791F0BE2F00027E691 /* Japanese_Road_sign_108-2-E.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493318C1F0BE2F00027E691 /* Japanese_Road_sign_108-2-E.svg */; };
+		A493327A1F0BE2F00027E691 /* Japanese_Road_sign_108-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493318D1F0BE2F00027E691 /* Japanese_Road_sign_108-3.svg */; };
+		A493327B1F0BE2F00027E691 /* Japanese_Road_sign_108-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493318E1F0BE2F00027E691 /* Japanese_Road_sign_108-4.svg */; };
+		A493327C1F0BE2F00027E691 /* Japanese_Road_sign_108-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493318F1F0BE2F00027E691 /* Japanese_Road_sign_108-A.svg */; };
+		A493327D1F0BE2F00027E691 /* Japanese_Road_sign_108-B_lane.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331901F0BE2F00027E691 /* Japanese_Road_sign_108-B_lane.svg */; };
+		A493327E1F0BE2F00027E691 /* Japanese_Road_sign_108-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331911F0BE2F00027E691 /* Japanese_Road_sign_108-B.svg */; };
+		A493327F1F0BE2F00027E691 /* Japanese_Road_sign_109.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331921F0BE2F00027E691 /* Japanese_Road_sign_109.svg */; };
+		A49332801F0BE2F00027E691 /* Japanese_Road_sign_111-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331931F0BE2F00027E691 /* Japanese_Road_sign_111-B.svg */; };
+		A49332811F0BE2F00027E691 /* Japanese_Road_sign_114-2-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331941F0BE2F00027E691 /* Japanese_Road_sign_114-2-A.svg */; };
+		A49332821F0BE2F00027E691 /* Japanese_Road_sign_114-2-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331951F0BE2F00027E691 /* Japanese_Road_sign_114-2-B.svg */; };
+		A49332831F0BE2F00027E691 /* Japanese_Road_sign_114-A1.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331961F0BE2F00027E691 /* Japanese_Road_sign_114-A1.svg */; };
+		A49332841F0BE2F00027E691 /* Japanese_Road_sign_114-A2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331971F0BE2F00027E691 /* Japanese_Road_sign_114-A2.svg */; };
+		A49332851F0BE2F00027E691 /* Japanese_Road_sign_114-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331981F0BE2F00027E691 /* Japanese_Road_sign_114-B.svg */; };
+		A49332861F0BE2F00027E691 /* Japanese_Road_sign_116-2-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331991F0BE2F00027E691 /* Japanese_Road_sign_116-2-B.svg */; };
+		A49332871F0BE2F00027E691 /* Japanese_Road_sign_116-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493319A1F0BE2F00027E691 /* Japanese_Road_sign_116-3.svg */; };
+		A49332881F0BE2F00027E691 /* Japanese_Road_sign_116-A_PA.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493319B1F0BE2F00027E691 /* Japanese_Road_sign_116-A_PA.svg */; };
+		A49332891F0BE2F00027E691 /* Japanese_Road_sign_116-A_SA.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493319C1F0BE2F00027E691 /* Japanese_Road_sign_116-A_SA.svg */; };
+		A493328A1F0BE2F00027E691 /* Japanese_Road_sign_116-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493319D1F0BE2F00027E691 /* Japanese_Road_sign_116-B.svg */; };
+		A493328B1F0BE2F00027E691 /* Japanese_Road_sign_117-2-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493319E1F0BE2F00027E691 /* Japanese_Road_sign_117-2-A.svg */; };
+		A493328C1F0BE2F00027E691 /* Japanese_Road_sign_118-2-B_0142.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493319F1F0BE2F00027E691 /* Japanese_Road_sign_118-2-B_0142.svg */; };
+		A493328D1F0BE2F00027E691 /* Japanese_Road_sign_118-2-B_principal_0014.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331A01F0BE2F00027E691 /* Japanese_Road_sign_118-2-B_principal_0014.svg */; };
+		A493328E1F0BE2F00027E691 /* Japanese_Road_sign_118-2-C_0142.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331A11F0BE2F00027E691 /* Japanese_Road_sign_118-2-C_0142.svg */; };
+		A493328F1F0BE2F00027E691 /* Japanese_Road_sign_118-2-C_principal_0014.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331A21F0BE2F00027E691 /* Japanese_Road_sign_118-2-C_principal_0014.svg */; };
+		A49332901F0BE2F00027E691 /* Japanese_Road_sign_118-3_and_4-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331A31F0BE2F00027E691 /* Japanese_Road_sign_118-3_and_4-A.svg */; };
+		A49332911F0BE2F00027E691 /* Japanese_Road_sign_118-3_and_4-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331A41F0BE2F00027E691 /* Japanese_Road_sign_118-3_and_4-B.svg */; };
+		A49332921F0BE2F00027E691 /* Japanese_Road_sign_118-3-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331A51F0BE2F00027E691 /* Japanese_Road_sign_118-3-A.svg */; };
+		A49332931F0BE2F00027E691 /* Japanese_Road_sign_118-3-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331A61F0BE2F00027E691 /* Japanese_Road_sign_118-3-B.svg */; };
+		A49332941F0BE2F00027E691 /* Japanese_Road_sign_118-4-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331A71F0BE2F00027E691 /* Japanese_Road_sign_118-4-A.svg */; };
+		A49332951F0BE2F00027E691 /* Japanese_Road_sign_118-4-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331A81F0BE2F00027E691 /* Japanese_Road_sign_118-4-B.svg */; };
+		A49332961F0BE2F00027E691 /* Japanese_Road_sign_118-4-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331A91F0BE2F00027E691 /* Japanese_Road_sign_118-4-C.svg */; };
+		A49332971F0BE2F00027E691 /* Japanese_Road_sign_118-4-D.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331AA1F0BE2F00027E691 /* Japanese_Road_sign_118-4-D.svg */; };
+		A49332981F0BE2F00027E691 /* Japanese_Road_sign_118-B_0142.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331AB1F0BE2F00027E691 /* Japanese_Road_sign_118-B_0142.svg */; };
+		A49332991F0BE2F00027E691 /* Japanese_Road_sign_118-C_0142.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331AC1F0BE2F00027E691 /* Japanese_Road_sign_118-C_0142.svg */; };
+		A493329A1F0BE2F00027E691 /* Japanese_Road_sign_119-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331AD1F0BE2F00027E691 /* Japanese_Road_sign_119-A.svg */; };
+		A493329B1F0BE2F00027E691 /* Japanese_Road_sign_119-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331AE1F0BE2F00027E691 /* Japanese_Road_sign_119-B.svg */; };
+		A493329C1F0BE2F00027E691 /* Japanese_Road_sign_119-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331AF1F0BE2F00027E691 /* Japanese_Road_sign_119-C.svg */; };
+		A493329D1F0BE2F00027E691 /* Japanese_Road_sign_120-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331B01F0BE2F00027E691 /* Japanese_Road_sign_120-A.svg */; };
+		A493329E1F0BE2F00027E691 /* Japanese_Road_sign_120-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331B11F0BE2F00027E691 /* Japanese_Road_sign_120-B.svg */; };
+		A493329F1F0BE2F00027E691 /* Japanese_Road_sign_121-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331B21F0BE2F00027E691 /* Japanese_Road_sign_121-A.svg */; };
+		A49332A01F0BE2F00027E691 /* Japanese_Road_sign_121-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331B31F0BE2F00027E691 /* Japanese_Road_sign_121-B.svg */; };
+		A49332A11F0BE2F00027E691 /* Japanese_Road_sign_121-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331B41F0BE2F00027E691 /* Japanese_Road_sign_121-C.svg */; };
+		A49332A21F0BE2F00027E691 /* Japanese_Road_sign_122-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331B51F0BE2F00027E691 /* Japanese_Road_sign_122-A.svg */; };
+		A49332A31F0BE2F00027E691 /* Japanese_Road_sign_122-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331B61F0BE2F00027E691 /* Japanese_Road_sign_122-B.svg */; };
+		A49332A41F0BE2F00027E691 /* Japanese_Road_sign_122-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331B71F0BE2F00027E691 /* Japanese_Road_sign_122-C.svg */; };
+		A49332A51F0BE2F00027E691 /* Japanese_Road_sign_123-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331B81F0BE2F00027E691 /* Japanese_Road_sign_123-A.svg */; };
+		A49332A61F0BE2F00027E691 /* Japanese_Road_sign_123-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331B91F0BE2F00027E691 /* Japanese_Road_sign_123-B.svg */; };
+		A49332A71F0BE2F00027E691 /* Japanese_Road_sign_123-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331BA1F0BE2F00027E691 /* Japanese_Road_sign_123-C.svg */; };
+		A49332A81F0BE2F00027E691 /* Japanese_Road_sign_124-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331BB1F0BE2F00027E691 /* Japanese_Road_sign_124-A.svg */; };
+		A49332A91F0BE2F00027E691 /* Japanese_Road_sign_124-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331BC1F0BE2F00027E691 /* Japanese_Road_sign_124-B.svg */; };
+		A49332AA1F0BE2F00027E691 /* Japanese_Road_sign_124-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331BD1F0BE2F00027E691 /* Japanese_Road_sign_124-C.svg */; };
+		A49332AB1F0BE2F00027E691 /* Japanese_Road_sign_125-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331BE1F0BE2F00027E691 /* Japanese_Road_sign_125-A.svg */; };
+		A49332AC1F0BE2F00027E691 /* Japanese_Road_sign_125-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331BF1F0BE2F00027E691 /* Japanese_Road_sign_125-B.svg */; };
+		A49332AD1F0BE2F00027E691 /* Japanese_Road_sign_125-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331C01F0BE2F00027E691 /* Japanese_Road_sign_125-C.svg */; };
+		A49332AE1F0BE2F00027E691 /* Japanese_Road_sign_126-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331C11F0BE2F00027E691 /* Japanese_Road_sign_126-A.svg */; };
+		A49332AF1F0BE2F00027E691 /* Japanese_Road_sign_126-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331C21F0BE2F00027E691 /* Japanese_Road_sign_126-B.svg */; };
+		A49332B01F0BE2F00027E691 /* Japanese_Road_sign_126-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331C31F0BE2F00027E691 /* Japanese_Road_sign_126-C.svg */; };
+		A49332B11F0BE2F00027E691 /* Japanese_Road_sign_327-10.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331C41F0BE2F00027E691 /* Japanese_Road_sign_327-10.svg */; };
+		A49332B21F0BE2F00027E691 /* Japanese_Road_sign_327-11.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331C51F0BE2F00027E691 /* Japanese_Road_sign_327-11.svg */; };
+		A49332B31F0BE2F00027E691 /* Japanese_Road_sign_327-12.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331C61F0BE2F00027E691 /* Japanese_Road_sign_327-12.svg */; };
+		A49332B41F0BE2F00027E691 /* Japanese_Road_sign_401.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331C71F0BE2F00027E691 /* Japanese_Road_sign_401.svg */; };
+		A49332B51F0BE2F00027E691 /* Japanese_Road_sign_406-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331C81F0BE2F00027E691 /* Japanese_Road_sign_406-2.svg */; };
+		A49332B61F0BE2F00027E691 /* Japanese_Road_sign_409-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331C91F0BE2F00027E691 /* Japanese_Road_sign_409-A.svg */; };
+		A49332B71F0BE2F00027E691 /* Japanese_Road_sign_409-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331CA1F0BE2F00027E691 /* Japanese_Road_sign_409-B.svg */; };
+		A49332B81F0BE2F00027E691 /* Shuto_Urban_Expwy_Sign_0003.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331CB1F0BE2F00027E691 /* Shuto_Urban_Expwy_Sign_0003.svg */; };
+		A49332B91F0BE2F00027E691 /* Fukuoka_Pref_Route_Sign_0076.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331CC1F0BE2F00027E691 /* Fukuoka_Pref_Route_Sign_0076.svg */; };
+		A49332BA1F0BE2F00027E691 /* Japan_expway_sign_118-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331CD1F0BE2F00027E691 /* Japan_expway_sign_118-3.svg */; };
+		A49332BB1F0BE2F00027E691 /* Japan_road_sign_101.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331CE1F0BE2F00027E691 /* Japan_road_sign_101.svg */; };
+		A49332BC1F0BE2F00027E691 /* Japan_road_sign_102-A_13_Tokyo_W.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331CF1F0BE2F00027E691 /* Japan_road_sign_102-A_13_Tokyo_W.svg */; };
+		A49332BD1F0BE2F00027E691 /* Japan_road_sign_110-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331D01F0BE2F00027E691 /* Japan_road_sign_110-A.svg */; };
+		A49332BE1F0BE2F00027E691 /* Japan_road_sign_115.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331D11F0BE2F00027E691 /* Japan_road_sign_115.svg */; };
+		A49332BF1F0BE2F00027E691 /* Japan_road_sign_201-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331D21F0BE2F00027E691 /* Japan_road_sign_201-2.svg */; };
+		A49332C01F0BE2F00027E691 /* Japan_road_sign_201-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331D31F0BE2F00027E691 /* Japan_road_sign_201-A.svg */; };
+		A49332C11F0BE2F00027E691 /* Japan_road_sign_201-B-L.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331D41F0BE2F00027E691 /* Japan_road_sign_201-B-L.svg */; };
+		A49332C21F0BE2F00027E691 /* Japan_road_sign_201-B-R.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331D51F0BE2F00027E691 /* Japan_road_sign_201-B-R.svg */; };
+		A49332C31F0BE2F00027E691 /* Japan_road_sign_201-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331D61F0BE2F00027E691 /* Japan_road_sign_201-C.svg */; };
+		A49332C41F0BE2F00027E691 /* Japan_road_sign_201-D.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331D71F0BE2F00027E691 /* Japan_road_sign_201-D.svg */; };
+		A49332C51F0BE2F00027E691 /* Japan_road_sign_202-L.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331D81F0BE2F00027E691 /* Japan_road_sign_202-L.svg */; };
+		A49332C61F0BE2F00027E691 /* Japan_road_sign_202-R.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331D91F0BE2F00027E691 /* Japan_road_sign_202-R.svg */; };
+		A49332C71F0BE2F00027E691 /* Japan_road_sign_203-L.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331DA1F0BE2F00027E691 /* Japan_road_sign_203-L.svg */; };
+		A49332C81F0BE2F00027E691 /* Japan_road_sign_203-R.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331DB1F0BE2F00027E691 /* Japan_road_sign_203-R.svg */; };
+		A49332C91F0BE2F00027E691 /* Japan_road_sign_204-L.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331DC1F0BE2F00027E691 /* Japan_road_sign_204-L.svg */; };
+		A49332CA1F0BE2F00027E691 /* Japan_road_sign_204-R.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331DD1F0BE2F00027E691 /* Japan_road_sign_204-R.svg */; };
+		A49332CB1F0BE2F00027E691 /* Japan_road_sign_205-L.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331DE1F0BE2F00027E691 /* Japan_road_sign_205-L.svg */; };
+		A49332CC1F0BE2F00027E691 /* Japan_road_sign_205-R.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331DF1F0BE2F00027E691 /* Japan_road_sign_205-R.svg */; };
+		A49332CD1F0BE2F00027E691 /* Japan_road_sign_206-L.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331E01F0BE2F00027E691 /* Japan_road_sign_206-L.svg */; };
+		A49332CE1F0BE2F00027E691 /* Japan_road_sign_206-R.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331E11F0BE2F00027E691 /* Japan_road_sign_206-R.svg */; };
+		A49332CF1F0BE2F00027E691 /* Japan_road_sign_207-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331E21F0BE2F00027E691 /* Japan_road_sign_207-A.svg */; };
+		A49332D01F0BE2F00027E691 /* Japan_road_sign_207-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331E31F0BE2F00027E691 /* Japan_road_sign_207-B.svg */; };
+		A49332D11F0BE2F00027E691 /* Japan_road_sign_208-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331E41F0BE2F00027E691 /* Japan_road_sign_208-2.svg */; };
+		A49332D21F0BE2F00027E691 /* Japan_road_sign_208.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331E51F0BE2F00027E691 /* Japan_road_sign_208.svg */; };
+		A49332D31F0BE2F00027E691 /* Japan_road_sign_209-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331E61F0BE2F00027E691 /* Japan_road_sign_209-2.svg */; };
+		A49332D41F0BE2F00027E691 /* Japan_road_sign_209-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331E71F0BE2F00027E691 /* Japan_road_sign_209-3.svg */; };
+		A49332D51F0BE2F00027E691 /* Japan_road_sign_209.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331E81F0BE2F00027E691 /* Japan_road_sign_209.svg */; };
+		A49332D61F0BE2F00027E691 /* Japan_road_sign_210.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331E91F0BE2F00027E691 /* Japan_road_sign_210.svg */; };
+		A49332D71F0BE2F00027E691 /* Japan_road_sign_211.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331EA1F0BE2F00027E691 /* Japan_road_sign_211.svg */; };
+		A49332D81F0BE2F00027E691 /* Japan_road_sign_212-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331EB1F0BE2F00027E691 /* Japan_road_sign_212-2.svg */; };
+		A49332D91F0BE2F00027E691 /* Japan_road_sign_212-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331EC1F0BE2F00027E691 /* Japan_road_sign_212-3.svg */; };
+		A49332DA1F0BE2F00027E691 /* Japan_road_sign_212-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331ED1F0BE2F00027E691 /* Japan_road_sign_212-4.svg */; };
+		A49332DB1F0BE2F00027E691 /* Japan_road_sign_212.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331EE1F0BE2F00027E691 /* Japan_road_sign_212.svg */; };
+		A49332DC1F0BE2F00027E691 /* Japan_road_sign_213.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331EF1F0BE2F00027E691 /* Japan_road_sign_213.svg */; };
+		A49332DD1F0BE2F00027E691 /* Japan_road_sign_214-2_Hare.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331F01F0BE2F00027E691 /* Japan_road_sign_214-2_Hare.svg */; };
+		A49332DE1F0BE2F00027E691 /* Japan_road_sign_214-2_Monkey.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331F11F0BE2F00027E691 /* Japan_road_sign_214-2_Monkey.svg */; };
+		A49332DF1F0BE2F00027E691 /* Japan_road_sign_214-2_Raccoon-dog.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331F21F0BE2F00027E691 /* Japan_road_sign_214-2_Raccoon-dog.svg */; };
+		A49332E01F0BE2F00027E691 /* Japan_road_sign_214-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331F31F0BE2F00027E691 /* Japan_road_sign_214-2.svg */; };
+		A49332E11F0BE2F00027E691 /* Japan_road_sign_214.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331F41F0BE2F00027E691 /* Japan_road_sign_214.svg */; };
+		A49332E21F0BE2F00027E691 /* Japan_road_sign_215.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331F51F0BE2F00027E691 /* Japan_road_sign_215.svg */; };
+		A49332E31F0BE2F00027E691 /* Japan_road_sign_301.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331F61F0BE2F00027E691 /* Japan_road_sign_301.svg */; };
+		A49332E41F0BE2F00027E691 /* Japan_road_sign_302.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331F71F0BE2F00027E691 /* Japan_road_sign_302.svg */; };
+		A49332E51F0BE2F00027E691 /* Japan_road_sign_303.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331F81F0BE2F00027E691 /* Japan_road_sign_303.svg */; };
+		A49332E61F0BE2F00027E691 /* Japan_road_sign_304.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331F91F0BE2F00027E691 /* Japan_road_sign_304.svg */; };
+		A49332E71F0BE2F00027E691 /* Japan_road_sign_305_and_503-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331FA1F0BE2F00027E691 /* Japan_road_sign_305_and_503-C.svg */; };
+		A49332E81F0BE2F00027E691 /* Japan_road_sign_305.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331FB1F0BE2F00027E691 /* Japan_road_sign_305.svg */; };
+		A49332E91F0BE2F00027E691 /* Japan_road_sign_306.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331FC1F0BE2F00027E691 /* Japan_road_sign_306.svg */; };
+		A49332EA1F0BE2F00027E691 /* Japan_road_sign_307.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331FD1F0BE2F00027E691 /* Japan_road_sign_307.svg */; };
+		A49332EB1F0BE2F00027E691 /* Japan_road_sign_308.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331FE1F0BE2F00027E691 /* Japan_road_sign_308.svg */; };
+		A49332EC1F0BE2F00027E691 /* Japan_road_sign_309.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331FF1F0BE2F00027E691 /* Japan_road_sign_309.svg */; };
+		A49332ED1F0BE2F00027E691 /* Japan_road_sign_310-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332001F0BE2F00027E691 /* Japan_road_sign_310-2.svg */; };
+		A49332EE1F0BE2F00027E691 /* Japan_road_sign_310.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332011F0BE2F00027E691 /* Japan_road_sign_310.svg */; };
+		A49332EF1F0BE2F00027E691 /* Japan_road_sign_311-A-L.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332021F0BE2F00027E691 /* Japan_road_sign_311-A-L.svg */; };
+		A49332F01F0BE2F00027E691 /* Japan_road_sign_311-B-L.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332031F0BE2F00027E691 /* Japan_road_sign_311-B-L.svg */; };
+		A49332F11F0BE2F00027E691 /* Japan_road_sign_311-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332041F0BE2F00027E691 /* Japan_road_sign_311-C.svg */; };
+		A49332F21F0BE2F00027E691 /* Japan_road_sign_311-D.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332051F0BE2F00027E691 /* Japan_road_sign_311-D.svg */; };
+		A49332F31F0BE2F00027E691 /* Japan_road_sign_311-E.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332061F0BE2F00027E691 /* Japan_road_sign_311-E.svg */; };
+		A49332F41F0BE2F00027E691 /* Japan_road_sign_311-F-L.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332071F0BE2F00027E691 /* Japan_road_sign_311-F-L.svg */; };
+		A49332F51F0BE2F00027E691 /* Japan_road_sign_312.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332081F0BE2F00027E691 /* Japan_road_sign_312.svg */; };
+		A49332F61F0BE2F00027E691 /* Japan_road_sign_313.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332091F0BE2F00027E691 /* Japan_road_sign_313.svg */; };
+		A49332F71F0BE2F00027E691 /* Japan_road_sign_314.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493320A1F0BE2F00027E691 /* Japan_road_sign_314.svg */; };
+		A49332F81F0BE2F00027E691 /* Japan_road_sign_315.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493320B1F0BE2F00027E691 /* Japan_road_sign_315.svg */; };
+		A49332F91F0BE2F00027E691 /* Japan_road_sign_316.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493320C1F0BE2F00027E691 /* Japan_road_sign_316.svg */; };
+		A49332FA1F0BE2F00027E691 /* Japan_road_sign_318.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493320D1F0BE2F00027E691 /* Japan_road_sign_318.svg */; };
+		A49332FB1F0BE2F00027E691 /* Japan_road_sign_319.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493320E1F0BE2F00027E691 /* Japan_road_sign_319.svg */; };
+		A49332FC1F0BE2F00027E691 /* Japan_road_sign_320.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493320F1F0BE2F00027E691 /* Japan_road_sign_320.svg */; };
+		A49332FD1F0BE2F00027E691 /* Japan_road_sign_321.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332101F0BE2F00027E691 /* Japan_road_sign_321.svg */; };
+		A49332FE1F0BE2F00027E691 /* Japan_road_sign_322.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332111F0BE2F00027E691 /* Japan_road_sign_322.svg */; };
+		A49332FF1F0BE2F00027E691 /* Japan_road_sign_323_(50).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332121F0BE2F00027E691 /* Japan_road_sign_323_(50).svg */; };
+		A49333001F0BE2F00027E691 /* Japan_road_sign_324_(30).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332131F0BE2F00027E691 /* Japan_road_sign_324_(30).svg */; };
+		A49333011F0BE2F00027E691 /* Japan_road_sign_325-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332141F0BE2F00027E691 /* Japan_road_sign_325-2.svg */; };
+		A49333021F0BE2F00027E691 /* Japan_road_sign_325-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332151F0BE2F00027E691 /* Japan_road_sign_325-3.svg */; };
+		A49333031F0BE2F00027E691 /* Japan_road_sign_325-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332161F0BE2F00027E691 /* Japan_road_sign_325-4.svg */; };
+		A49333041F0BE2F00027E691 /* Japan_road_sign_325.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332171F0BE2F00027E691 /* Japan_road_sign_325.svg */; };
+		A49333051F0BE2F00027E691 /* Japan_road_sign_326-2-A-L.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332181F0BE2F00027E691 /* Japan_road_sign_326-2-A-L.svg */; };
+		A49333061F0BE2F00027E691 /* Japan_road_sign_326-2-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332191F0BE2F00027E691 /* Japan_road_sign_326-2-B.svg */; };
+		A49333071F0BE2F00027E691 /* Japan_road_sign_326-A-L.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493321A1F0BE2F00027E691 /* Japan_road_sign_326-A-L.svg */; };
+		A49333081F0BE2F00027E691 /* Japan_road_sign_326-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493321B1F0BE2F00027E691 /* Japan_road_sign_326-B.svg */; };
+		A49333091F0BE2F00027E691 /* Japan_road_sign_327-8.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493321C1F0BE2F00027E691 /* Japan_road_sign_327-8.svg */; };
+		A493330A1F0BE2F00027E691 /* Japan_road_sign_327-9.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493321D1F0BE2F00027E691 /* Japan_road_sign_327-9.svg */; };
+		A493330B1F0BE2F00027E691 /* Japan_road_sign_328.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493321E1F0BE2F00027E691 /* Japan_road_sign_328.svg */; };
+		A493330C1F0BE2F00027E691 /* Japan_road_sign_329-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493321F1F0BE2F00027E691 /* Japan_road_sign_329-2.svg */; };
+		A493330D1F0BE2F00027E691 /* Japan_road_sign_329.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332201F0BE2F00027E691 /* Japan_road_sign_329.svg */; };
+		A493330E1F0BE2F00027E691 /* Japan_road_sign_330-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332211F0BE2F00027E691 /* Japan_road_sign_330-2.svg */; };
+		A493330F1F0BE2F00027E691 /* Japan_road_sign_330.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332221F0BE2F00027E691 /* Japan_road_sign_330.svg */; };
+		A49333101F0BE2F00027E691 /* Japan_road_sign_402.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332231F0BE2F00027E691 /* Japan_road_sign_402.svg */; };
+		A49333111F0BE2F00027E691 /* Japan_road_sign_403.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332241F0BE2F00027E691 /* Japan_road_sign_403.svg */; };
+		A49333121F0BE2F00027E691 /* Japan_road_sign_404.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332251F0BE2F00027E691 /* Japan_road_sign_404.svg */; };
+		A49333131F0BE2F00027E691 /* Japan_road_sign_405.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332261F0BE2F00027E691 /* Japan_road_sign_405.svg */; };
+		A49333141F0BE2F00027E691 /* Japan_road_sign_406.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332271F0BE2F00027E691 /* Japan_road_sign_406.svg */; };
+		A49333151F0BE2F00027E691 /* Japan_road_sign_407-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332281F0BE2F00027E691 /* Japan_road_sign_407-2.svg */; };
+		A49333161F0BE2F00027E691 /* Japan_road_sign_407-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332291F0BE2F00027E691 /* Japan_road_sign_407-3.svg */; };
+		A49333171F0BE2F00027E691 /* Japan_road_sign_407-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493322A1F0BE2F00027E691 /* Japan_road_sign_407-A.svg */; };
+		A49333181F0BE2F00027E691 /* Japan_road_sign_407-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493322B1F0BE2F00027E691 /* Japan_road_sign_407-B.svg */; };
+		A49333191F0BE2F00027E691 /* Japan_road_sign_408.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493322C1F0BE2F00027E691 /* Japan_road_sign_408.svg */; };
+		A493331A1F0BE2F00027E691 /* Japan_road_sign_501_50m.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493322D1F0BE2F00027E691 /* Japan_road_sign_501_50m.svg */; };
+		A493331B1F0BE2F00027E691 /* Japan_road_sign_502_exc_Sunday_and_Holiday.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493322E1F0BE2F00027E691 /* Japan_road_sign_502_exc_Sunday_and_Holiday.svg */; };
+		A493331C1F0BE2F00027E691 /* Japan_road_sign_503-A_Large_Tracks_2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493322F1F0BE2F00027E691 /* Japan_road_sign_503-A_Large_Tracks_2.svg */; };
+		A493331D1F0BE2F00027E691 /* Japan_road_sign_503-B_Tracks.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332301F0BE2F00027E691 /* Japan_road_sign_503-B_Tracks.svg */; };
+		A493331E1F0BE2F00027E691 /* Japan_road_sign_503-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332311F0BE2F00027E691 /* Japan_road_sign_503-C.svg */; };
+		A493331F1F0BE2F00027E691 /* Japan_road_sign_503-D.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332321F0BE2F00027E691 /* Japan_road_sign_503-D.svg */; };
+		A49333201F0BE2F00027E691 /* Japan_road_sign_504-2_Parking_Meter.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332331F0BE2F00027E691 /* Japan_road_sign_504-2_Parking_Meter.svg */; };
+		A49333211F0BE2F00027E691 /* Japan_road_sign_504.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332341F0BE2F00027E691 /* Japan_road_sign_504.svg */; };
+		A49333221F0BE2F00027E691 /* Japan_road_sign_505-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332351F0BE2F00027E691 /* Japan_road_sign_505-A.svg */; };
+		A49333231F0BE2F00027E691 /* Japan_road_sign_505-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332361F0BE2F00027E691 /* Japan_road_sign_505-B.svg */; };
+		A49333241F0BE2F00027E691 /* Japan_road_sign_505-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332371F0BE2F00027E691 /* Japan_road_sign_505-C.svg */; };
+		A49333251F0BE2F00027E691 /* Japan_road_sign_506-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332381F0BE2F00027E691 /* Japan_road_sign_506-2.svg */; };
+		A49333261F0BE2F00027E691 /* Japan_road_sign_506.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332391F0BE2F00027E691 /* Japan_road_sign_506.svg */; };
+		A49333271F0BE2F00027E691 /* Japan_road_sign_507-A.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493323A1F0BE2F00027E691 /* Japan_road_sign_507-A.svg */; };
+		A49333281F0BE2F00027E691 /* Japan_road_sign_507-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493323B1F0BE2F00027E691 /* Japan_road_sign_507-B.svg */; };
+		A49333291F0BE2F00027E691 /* Japan_road_sign_507-C.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493323C1F0BE2F00027E691 /* Japan_road_sign_507-C.svg */; };
+		A493332A1F0BE2F00027E691 /* Japan_road_sign_507-D.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493323D1F0BE2F00027E691 /* Japan_road_sign_507-D.svg */; };
+		A493332B1F0BE2F00027E691 /* Japan_road_sign_508-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493323E1F0BE2F00027E691 /* Japan_road_sign_508-2.svg */; };
+		A493332C1F0BE2F00027E691 /* Japan_road_sign_508.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493323F1F0BE2F00027E691 /* Japan_road_sign_508.svg */; };
+		A493332D1F0BE2F00027E691 /* Japan_road_sign_509-2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332401F0BE2F00027E691 /* Japan_road_sign_509-2.svg */; };
+		A493332E1F0BE2F00027E691 /* Japan_road_sign_509-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332411F0BE2F00027E691 /* Japan_road_sign_509-3.svg */; };
+		A493332F1F0BE2F00027E691 /* Japan_road_sign_509-4.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332421F0BE2F00027E691 /* Japan_road_sign_509-4.svg */; };
+		A49333301F0BE2F00027E691 /* Japan_road_sign_509-5.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332431F0BE2F00027E691 /* Japan_road_sign_509-5.svg */; };
+		A49333311F0BE2F00027E691 /* Japan_road_sign_509.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332441F0BE2F00027E691 /* Japan_road_sign_509.svg */; };
+		A49333321F0BE2F00027E691 /* Japan_road_sign_510_Safety_Speed.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332451F0BE2F00027E691 /* Japan_road_sign_510_Safety_Speed.svg */; };
+		A49333331F0BE2F00027E691 /* Japan_road_sign_510_Weekly_Shoulder.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332461F0BE2F00027E691 /* Japan_road_sign_510_Weekly_Shoulder.svg */; };
+		A49333341F0BE2F00027E691 /* Japan_road_sign_510-2_Noise_Control_Zone.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332471F0BE2F00027E691 /* Japan_road_sign_510-2_Noise_Control_Zone.svg */; };
+		A49333351F0BE2F00027E691 /* Japan_road_sign_511.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332481F0BE2F00027E691 /* Japan_road_sign_511.svg */; };
+		A49333361F0BE2F00027E691 /* Japan_road_sign_512.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332491F0BE2F00027E691 /* Japan_road_sign_512.svg */; };
+		A49333371F0BE2F00027E691 /* Japan_road_sign_513.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493324A1F0BE2F00027E691 /* Japan_road_sign_513.svg */; };
+		A49333381F0BE2F00027E691 /* Japan_road_sign_514.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493324B1F0BE2F00027E691 /* Japan_road_sign_514.svg */; };
+		A49333391F0BE2F00027E691 /* Japanese_National_Route_Sign_0142.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493324C1F0BE2F00027E691 /* Japanese_National_Route_Sign_0142.svg */; };
+		A493333A1F0BE2F00027E691 /* Japanese_Road_sign_(Area_and_Distance_B).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493324D1F0BE2F00027E691 /* Japanese_Road_sign_(Area_and_Distance_B).svg */; };
+		A493333B1F0BE2F00027E691 /* Japanese_Road_sign_(Bus_Priority_Lane).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493324E1F0BE2F00027E691 /* Japanese_Road_sign_(Bus_Priority_Lane).svg */; };
+		A493333C1F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Exit_A).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493324F1F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Exit_A).svg */; };
+		A493333D1F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Exit_B).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332501F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Exit_B).svg */; };
+		A493333E1F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Lane_A).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332511F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Lane_A).svg */; };
+		A493333F1F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Lane_B).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332521F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Lane_B).svg */; };
+		A49333401F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Notice_of_exit_B).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332531F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Notice_of_exit_B).svg */; };
+		A49333411F0BE2F00027E691 /* Japanese_Road_sign_(Direction_of_entrance).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332541F0BE2F00027E691 /* Japanese_Road_sign_(Direction_of_entrance).svg */; };
+		A49333421F0BE2F00027E691 /* Japanese_Road_sign_(Direction,_Lane_and_Notice_of_exit_A).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332551F0BE2F00027E691 /* Japanese_Road_sign_(Direction,_Lane_and_Notice_of_exit_A).svg */; };
+		A49333431F0BE2F00027E691 /* Japanese_Road_sign_(Emergency_parking_space).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332561F0BE2F00027E691 /* Japanese_Road_sign_(Emergency_parking_space).svg */; };
+		A49333441F0BE2F00027E691 /* Japanese_Road_sign_(Emergency_telephone).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332571F0BE2F00027E691 /* Japanese_Road_sign_(Emergency_telephone).svg */; };
+		A49333451F0BE2F00027E691 /* Japanese_Road_sign_(Exclusive_Bus_Lane).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332581F0BE2F00027E691 /* Japanese_Road_sign_(Exclusive_Bus_Lane).svg */; };
+		A49333461F0BE2F00027E691 /* Japanese_Road_sign_(Exit_A).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332591F0BE2F00027E691 /* Japanese_Road_sign_(Exit_A).svg */; };
+		A49333471F0BE2F00027E691 /* Japanese_Road_sign_(Exit_B).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493325A1F0BE2F00027E691 /* Japanese_Road_sign_(Exit_B).svg */; };
+		A49333481F0BE2F00027E691 /* Japanese_Road_sign_(Famous_place_C).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493325B1F0BE2F00027E691 /* Japanese_Road_sign_(Famous_place_C).svg */; };
+		A49333491F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_A).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493325C1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_A).svg */; };
+		A493334A1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_B).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493325D1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_B).svg */; };
+		A493334B1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_C).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493325E1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_C).svg */; };
+		A493334C1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_D).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493325F1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_D).svg */; };
+		A493334D1F0BE2F00027E691 /* Japanese_Road_sign_(No_Pedestrians_Crossing).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332601F0BE2F00027E691 /* Japanese_Road_sign_(No_Pedestrians_Crossing).svg */; };
+		A493334E1F0BE2F00027E691 /* Japanese_Road_sign_(No_pedestrians).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332611F0BE2F00027E691 /* Japanese_Road_sign_(No_pedestrians).svg */; };
+		A493334F1F0BE2F00027E691 /* Japanese_Road_sign_(Notice_of_entrance).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332621F0BE2F00027E691 /* Japanese_Road_sign_(Notice_of_entrance).svg */; };
+		A49333501F0BE2F00027E691 /* Japanese_Road_sign_(Parking_lot_A,_Parking_permitted).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332631F0BE2F00027E691 /* Japanese_Road_sign_(Parking_lot_A,_Parking_permitted).svg */; };
+		A49333511F0BE2F00027E691 /* Japanese_Road_sign_(Parking_lot_B).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332641F0BE2F00027E691 /* Japanese_Road_sign_(Parking_lot_B).svg */; };
+		A49333521F0BE2F00027E691 /* Japanese_Road_sign_(Particular_Vehicle_Lane).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332651F0BE2F00027E691 /* Japanese_Road_sign_(Particular_Vehicle_Lane).svg */; };
+		A49333531F0BE2F00027E691 /* Japanese_Road_sign_(Prefecture_B).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332661F0BE2F00027E691 /* Japanese_Road_sign_(Prefecture_B).svg */; };
+		A49333541F0BE2F00027E691 /* Japanese_Road_sign_(Service_area_A,_PA).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332671F0BE2F00027E691 /* Japanese_Road_sign_(Service_area_A,_PA).svg */; };
+		A49333551F0BE2F00027E691 /* Japanese_Road_sign_(Service_area_A,_SA).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332681F0BE2F00027E691 /* Japanese_Road_sign_(Service_area_A,_SA).svg */; };
+		A49333561F0BE2F00027E691 /* Japanese_Road_sign_(Slower_traffic_B).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332691F0BE2F00027E691 /* Japanese_Road_sign_(Slower_traffic_B).svg */; };
+		A49333571F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_A).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493326A1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_A).svg */; };
+		A49333581F0BE2F00027E691 /* Zeichen_215_-_Kreisverkehr,_StVO_2000.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493326B1F0BE2F00027E691 /* Zeichen_215_-_Kreisverkehr,_StVO_2000.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +296,21 @@
 			remoteInfo = "日本交通規則";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A49331711F0BDDAE0027E691 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A493317D1F0BE09D0027E691 /* CocoaLumberjack.framework in Embed Frameworks */,
+				A49331701F0BDDAE0027E691 /* SVGKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A420C3081EA0FF59007D72D5 /* TRFreewayInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRFreewayInfoViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +343,251 @@
 		A4832E701E4A173900C494B3 /* 日本交通規則UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "日本交通規則UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4832E741E4A173900C494B3 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
 		A4832E761E4A173900C494B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A493315C1F0BD3DB0027E691 /* SVGKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVGKit.framework; path = "日本交通規則/SVGKit.framework"; sourceTree = "<group>"; };
+		A49331651F0BDD260027E691 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A49331671F0BDD2D0027E691 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		A49331691F0BDD3F0027E691 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A493316B1F0BDD450027E691 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A493316D1F0BDD540027E691 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A49331721F0BDEC50027E691 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
+		A493317B1F0BE09D0027E691 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = "日本交通規則/3rd-party-frameworks/CocoaLumberjack-2.2.0/iOS/CocoaLumberjack.framework"; sourceTree = "<group>"; };
+		A493317F1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_B).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Tractor_Truck_Lane_B).svg"; path = "../../2/Japanese_Road_sign_(Tractor_Truck_Lane_B).svg"; sourceTree = "<group>"; };
+		A49331801F0BE2F00027E691 /* Japanese_Road_sign_(Vehicle_Passing_Division).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Vehicle_Passing_Division).svg"; path = "../../2/Japanese_Road_sign_(Vehicle_Passing_Division).svg"; sourceTree = "<group>"; };
+		A49331811F0BE2F00027E691 /* Japanese_Road_sign_103-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_103-B.svg"; path = "../../2/Japanese_Road_sign_103-B.svg"; sourceTree = "<group>"; };
+		A49331821F0BE2F00027E691 /* Japanese_Road_sign_105-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_105-A.svg"; path = "../../2/Japanese_Road_sign_105-A.svg"; sourceTree = "<group>"; };
+		A49331831F0BE2F00027E691 /* Japanese_Road_sign_105-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_105-B.svg"; path = "../../2/Japanese_Road_sign_105-B.svg"; sourceTree = "<group>"; };
+		A49331841F0BE2F00027E691 /* Japanese_Road_sign_105-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_105-C.svg"; path = "../../2/Japanese_Road_sign_105-C.svg"; sourceTree = "<group>"; };
+		A49331851F0BE2F00027E691 /* Japanese_Road_sign_106-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_106-A.svg"; path = "../../2/Japanese_Road_sign_106-A.svg"; sourceTree = "<group>"; };
+		A49331861F0BE2F00027E691 /* Japanese_Road_sign_106-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_106-C.svg"; path = "../../2/Japanese_Road_sign_106-C.svg"; sourceTree = "<group>"; };
+		A49331871F0BE2F00027E691 /* Japanese_Road_sign_108-2-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_108-2-A.svg"; path = "../../2/Japanese_Road_sign_108-2-A.svg"; sourceTree = "<group>"; };
+		A49331881F0BE2F00027E691 /* Japanese_Road_sign_108-2-B_lane.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_108-2-B_lane.svg"; path = "../../2/Japanese_Road_sign_108-2-B_lane.svg"; sourceTree = "<group>"; };
+		A49331891F0BE2F00027E691 /* Japanese_Road_sign_108-2-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_108-2-B.svg"; path = "../../2/Japanese_Road_sign_108-2-B.svg"; sourceTree = "<group>"; };
+		A493318A1F0BE2F00027E691 /* Japanese_Road_sign_108-2-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_108-2-C.svg"; path = "../../2/Japanese_Road_sign_108-2-C.svg"; sourceTree = "<group>"; };
+		A493318B1F0BE2F00027E691 /* Japanese_Road_sign_108-2-D.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_108-2-D.svg"; path = "../../2/Japanese_Road_sign_108-2-D.svg"; sourceTree = "<group>"; };
+		A493318C1F0BE2F00027E691 /* Japanese_Road_sign_108-2-E.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_108-2-E.svg"; path = "../../2/Japanese_Road_sign_108-2-E.svg"; sourceTree = "<group>"; };
+		A493318D1F0BE2F00027E691 /* Japanese_Road_sign_108-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_108-3.svg"; path = "../../2/Japanese_Road_sign_108-3.svg"; sourceTree = "<group>"; };
+		A493318E1F0BE2F00027E691 /* Japanese_Road_sign_108-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_108-4.svg"; path = "../../2/Japanese_Road_sign_108-4.svg"; sourceTree = "<group>"; };
+		A493318F1F0BE2F00027E691 /* Japanese_Road_sign_108-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_108-A.svg"; path = "../../2/Japanese_Road_sign_108-A.svg"; sourceTree = "<group>"; };
+		A49331901F0BE2F00027E691 /* Japanese_Road_sign_108-B_lane.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_108-B_lane.svg"; path = "../../2/Japanese_Road_sign_108-B_lane.svg"; sourceTree = "<group>"; };
+		A49331911F0BE2F00027E691 /* Japanese_Road_sign_108-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_108-B.svg"; path = "../../2/Japanese_Road_sign_108-B.svg"; sourceTree = "<group>"; };
+		A49331921F0BE2F00027E691 /* Japanese_Road_sign_109.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japanese_Road_sign_109.svg; path = ../../2/Japanese_Road_sign_109.svg; sourceTree = "<group>"; };
+		A49331931F0BE2F00027E691 /* Japanese_Road_sign_111-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_111-B.svg"; path = "../../2/Japanese_Road_sign_111-B.svg"; sourceTree = "<group>"; };
+		A49331941F0BE2F00027E691 /* Japanese_Road_sign_114-2-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_114-2-A.svg"; path = "../../2/Japanese_Road_sign_114-2-A.svg"; sourceTree = "<group>"; };
+		A49331951F0BE2F00027E691 /* Japanese_Road_sign_114-2-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_114-2-B.svg"; path = "../../2/Japanese_Road_sign_114-2-B.svg"; sourceTree = "<group>"; };
+		A49331961F0BE2F00027E691 /* Japanese_Road_sign_114-A1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_114-A1.svg"; path = "../../2/Japanese_Road_sign_114-A1.svg"; sourceTree = "<group>"; };
+		A49331971F0BE2F00027E691 /* Japanese_Road_sign_114-A2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_114-A2.svg"; path = "../../2/Japanese_Road_sign_114-A2.svg"; sourceTree = "<group>"; };
+		A49331981F0BE2F00027E691 /* Japanese_Road_sign_114-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_114-B.svg"; path = "../../2/Japanese_Road_sign_114-B.svg"; sourceTree = "<group>"; };
+		A49331991F0BE2F00027E691 /* Japanese_Road_sign_116-2-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_116-2-B.svg"; path = "../../2/Japanese_Road_sign_116-2-B.svg"; sourceTree = "<group>"; };
+		A493319A1F0BE2F00027E691 /* Japanese_Road_sign_116-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_116-3.svg"; path = "../../2/Japanese_Road_sign_116-3.svg"; sourceTree = "<group>"; };
+		A493319B1F0BE2F00027E691 /* Japanese_Road_sign_116-A_PA.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_116-A_PA.svg"; path = "../../2/Japanese_Road_sign_116-A_PA.svg"; sourceTree = "<group>"; };
+		A493319C1F0BE2F00027E691 /* Japanese_Road_sign_116-A_SA.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_116-A_SA.svg"; path = "../../2/Japanese_Road_sign_116-A_SA.svg"; sourceTree = "<group>"; };
+		A493319D1F0BE2F00027E691 /* Japanese_Road_sign_116-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_116-B.svg"; path = "../../2/Japanese_Road_sign_116-B.svg"; sourceTree = "<group>"; };
+		A493319E1F0BE2F00027E691 /* Japanese_Road_sign_117-2-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_117-2-A.svg"; path = "../../2/Japanese_Road_sign_117-2-A.svg"; sourceTree = "<group>"; };
+		A493319F1F0BE2F00027E691 /* Japanese_Road_sign_118-2-B_0142.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-2-B_0142.svg"; path = "../../2/Japanese_Road_sign_118-2-B_0142.svg"; sourceTree = "<group>"; };
+		A49331A01F0BE2F00027E691 /* Japanese_Road_sign_118-2-B_principal_0014.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-2-B_principal_0014.svg"; path = "../../2/Japanese_Road_sign_118-2-B_principal_0014.svg"; sourceTree = "<group>"; };
+		A49331A11F0BE2F00027E691 /* Japanese_Road_sign_118-2-C_0142.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-2-C_0142.svg"; path = "../../2/Japanese_Road_sign_118-2-C_0142.svg"; sourceTree = "<group>"; };
+		A49331A21F0BE2F00027E691 /* Japanese_Road_sign_118-2-C_principal_0014.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-2-C_principal_0014.svg"; path = "../../2/Japanese_Road_sign_118-2-C_principal_0014.svg"; sourceTree = "<group>"; };
+		A49331A31F0BE2F00027E691 /* Japanese_Road_sign_118-3_and_4-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-3_and_4-A.svg"; path = "../../2/Japanese_Road_sign_118-3_and_4-A.svg"; sourceTree = "<group>"; };
+		A49331A41F0BE2F00027E691 /* Japanese_Road_sign_118-3_and_4-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-3_and_4-B.svg"; path = "../../2/Japanese_Road_sign_118-3_and_4-B.svg"; sourceTree = "<group>"; };
+		A49331A51F0BE2F00027E691 /* Japanese_Road_sign_118-3-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-3-A.svg"; path = "../../2/Japanese_Road_sign_118-3-A.svg"; sourceTree = "<group>"; };
+		A49331A61F0BE2F00027E691 /* Japanese_Road_sign_118-3-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-3-B.svg"; path = "../../2/Japanese_Road_sign_118-3-B.svg"; sourceTree = "<group>"; };
+		A49331A71F0BE2F00027E691 /* Japanese_Road_sign_118-4-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-4-A.svg"; path = "../../2/Japanese_Road_sign_118-4-A.svg"; sourceTree = "<group>"; };
+		A49331A81F0BE2F00027E691 /* Japanese_Road_sign_118-4-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-4-B.svg"; path = "../../2/Japanese_Road_sign_118-4-B.svg"; sourceTree = "<group>"; };
+		A49331A91F0BE2F00027E691 /* Japanese_Road_sign_118-4-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-4-C.svg"; path = "../../2/Japanese_Road_sign_118-4-C.svg"; sourceTree = "<group>"; };
+		A49331AA1F0BE2F00027E691 /* Japanese_Road_sign_118-4-D.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-4-D.svg"; path = "../../2/Japanese_Road_sign_118-4-D.svg"; sourceTree = "<group>"; };
+		A49331AB1F0BE2F00027E691 /* Japanese_Road_sign_118-B_0142.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-B_0142.svg"; path = "../../2/Japanese_Road_sign_118-B_0142.svg"; sourceTree = "<group>"; };
+		A49331AC1F0BE2F00027E691 /* Japanese_Road_sign_118-C_0142.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_118-C_0142.svg"; path = "../../2/Japanese_Road_sign_118-C_0142.svg"; sourceTree = "<group>"; };
+		A49331AD1F0BE2F00027E691 /* Japanese_Road_sign_119-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_119-A.svg"; path = "../../2/Japanese_Road_sign_119-A.svg"; sourceTree = "<group>"; };
+		A49331AE1F0BE2F00027E691 /* Japanese_Road_sign_119-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_119-B.svg"; path = "../../2/Japanese_Road_sign_119-B.svg"; sourceTree = "<group>"; };
+		A49331AF1F0BE2F00027E691 /* Japanese_Road_sign_119-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_119-C.svg"; path = "../../2/Japanese_Road_sign_119-C.svg"; sourceTree = "<group>"; };
+		A49331B01F0BE2F00027E691 /* Japanese_Road_sign_120-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_120-A.svg"; path = "../../2/Japanese_Road_sign_120-A.svg"; sourceTree = "<group>"; };
+		A49331B11F0BE2F00027E691 /* Japanese_Road_sign_120-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_120-B.svg"; path = "../../2/Japanese_Road_sign_120-B.svg"; sourceTree = "<group>"; };
+		A49331B21F0BE2F00027E691 /* Japanese_Road_sign_121-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_121-A.svg"; path = "../../2/Japanese_Road_sign_121-A.svg"; sourceTree = "<group>"; };
+		A49331B31F0BE2F00027E691 /* Japanese_Road_sign_121-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_121-B.svg"; path = "../../2/Japanese_Road_sign_121-B.svg"; sourceTree = "<group>"; };
+		A49331B41F0BE2F00027E691 /* Japanese_Road_sign_121-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_121-C.svg"; path = "../../2/Japanese_Road_sign_121-C.svg"; sourceTree = "<group>"; };
+		A49331B51F0BE2F00027E691 /* Japanese_Road_sign_122-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_122-A.svg"; path = "../../2/Japanese_Road_sign_122-A.svg"; sourceTree = "<group>"; };
+		A49331B61F0BE2F00027E691 /* Japanese_Road_sign_122-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_122-B.svg"; path = "../../2/Japanese_Road_sign_122-B.svg"; sourceTree = "<group>"; };
+		A49331B71F0BE2F00027E691 /* Japanese_Road_sign_122-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_122-C.svg"; path = "../../2/Japanese_Road_sign_122-C.svg"; sourceTree = "<group>"; };
+		A49331B81F0BE2F00027E691 /* Japanese_Road_sign_123-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_123-A.svg"; path = "../../2/Japanese_Road_sign_123-A.svg"; sourceTree = "<group>"; };
+		A49331B91F0BE2F00027E691 /* Japanese_Road_sign_123-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_123-B.svg"; path = "../../2/Japanese_Road_sign_123-B.svg"; sourceTree = "<group>"; };
+		A49331BA1F0BE2F00027E691 /* Japanese_Road_sign_123-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_123-C.svg"; path = "../../2/Japanese_Road_sign_123-C.svg"; sourceTree = "<group>"; };
+		A49331BB1F0BE2F00027E691 /* Japanese_Road_sign_124-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_124-A.svg"; path = "../../2/Japanese_Road_sign_124-A.svg"; sourceTree = "<group>"; };
+		A49331BC1F0BE2F00027E691 /* Japanese_Road_sign_124-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_124-B.svg"; path = "../../2/Japanese_Road_sign_124-B.svg"; sourceTree = "<group>"; };
+		A49331BD1F0BE2F00027E691 /* Japanese_Road_sign_124-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_124-C.svg"; path = "../../2/Japanese_Road_sign_124-C.svg"; sourceTree = "<group>"; };
+		A49331BE1F0BE2F00027E691 /* Japanese_Road_sign_125-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_125-A.svg"; path = "../../2/Japanese_Road_sign_125-A.svg"; sourceTree = "<group>"; };
+		A49331BF1F0BE2F00027E691 /* Japanese_Road_sign_125-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_125-B.svg"; path = "../../2/Japanese_Road_sign_125-B.svg"; sourceTree = "<group>"; };
+		A49331C01F0BE2F00027E691 /* Japanese_Road_sign_125-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_125-C.svg"; path = "../../2/Japanese_Road_sign_125-C.svg"; sourceTree = "<group>"; };
+		A49331C11F0BE2F00027E691 /* Japanese_Road_sign_126-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_126-A.svg"; path = "../../2/Japanese_Road_sign_126-A.svg"; sourceTree = "<group>"; };
+		A49331C21F0BE2F00027E691 /* Japanese_Road_sign_126-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_126-B.svg"; path = "../../2/Japanese_Road_sign_126-B.svg"; sourceTree = "<group>"; };
+		A49331C31F0BE2F00027E691 /* Japanese_Road_sign_126-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_126-C.svg"; path = "../../2/Japanese_Road_sign_126-C.svg"; sourceTree = "<group>"; };
+		A49331C41F0BE2F00027E691 /* Japanese_Road_sign_327-10.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_327-10.svg"; path = "../../2/Japanese_Road_sign_327-10.svg"; sourceTree = "<group>"; };
+		A49331C51F0BE2F00027E691 /* Japanese_Road_sign_327-11.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_327-11.svg"; path = "../../2/Japanese_Road_sign_327-11.svg"; sourceTree = "<group>"; };
+		A49331C61F0BE2F00027E691 /* Japanese_Road_sign_327-12.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_327-12.svg"; path = "../../2/Japanese_Road_sign_327-12.svg"; sourceTree = "<group>"; };
+		A49331C71F0BE2F00027E691 /* Japanese_Road_sign_401.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japanese_Road_sign_401.svg; path = ../../2/Japanese_Road_sign_401.svg; sourceTree = "<group>"; };
+		A49331C81F0BE2F00027E691 /* Japanese_Road_sign_406-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_406-2.svg"; path = "../../2/Japanese_Road_sign_406-2.svg"; sourceTree = "<group>"; };
+		A49331C91F0BE2F00027E691 /* Japanese_Road_sign_409-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_409-A.svg"; path = "../../2/Japanese_Road_sign_409-A.svg"; sourceTree = "<group>"; };
+		A49331CA1F0BE2F00027E691 /* Japanese_Road_sign_409-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_409-B.svg"; path = "../../2/Japanese_Road_sign_409-B.svg"; sourceTree = "<group>"; };
+		A49331CB1F0BE2F00027E691 /* Shuto_Urban_Expwy_Sign_0003.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Shuto_Urban_Expwy_Sign_0003.svg; path = ../../2/Shuto_Urban_Expwy_Sign_0003.svg; sourceTree = "<group>"; };
+		A49331CC1F0BE2F00027E691 /* Fukuoka_Pref_Route_Sign_0076.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Fukuoka_Pref_Route_Sign_0076.svg; path = ../../2/Fukuoka_Pref_Route_Sign_0076.svg; sourceTree = "<group>"; };
+		A49331CD1F0BE2F00027E691 /* Japan_expway_sign_118-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_expway_sign_118-3.svg"; path = "../../2/Japan_expway_sign_118-3.svg"; sourceTree = "<group>"; };
+		A49331CE1F0BE2F00027E691 /* Japan_road_sign_101.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_101.svg; path = ../../2/Japan_road_sign_101.svg; sourceTree = "<group>"; };
+		A49331CF1F0BE2F00027E691 /* Japan_road_sign_102-A_13_Tokyo_W.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_102-A_13_Tokyo_W.svg"; path = "../../2/Japan_road_sign_102-A_13_Tokyo_W.svg"; sourceTree = "<group>"; };
+		A49331D01F0BE2F00027E691 /* Japan_road_sign_110-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_110-A.svg"; path = "../../2/Japan_road_sign_110-A.svg"; sourceTree = "<group>"; };
+		A49331D11F0BE2F00027E691 /* Japan_road_sign_115.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_115.svg; path = ../../2/Japan_road_sign_115.svg; sourceTree = "<group>"; };
+		A49331D21F0BE2F00027E691 /* Japan_road_sign_201-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_201-2.svg"; path = "../../2/Japan_road_sign_201-2.svg"; sourceTree = "<group>"; };
+		A49331D31F0BE2F00027E691 /* Japan_road_sign_201-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_201-A.svg"; path = "../../2/Japan_road_sign_201-A.svg"; sourceTree = "<group>"; };
+		A49331D41F0BE2F00027E691 /* Japan_road_sign_201-B-L.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_201-B-L.svg"; path = "../../2/Japan_road_sign_201-B-L.svg"; sourceTree = "<group>"; };
+		A49331D51F0BE2F00027E691 /* Japan_road_sign_201-B-R.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_201-B-R.svg"; path = "../../2/Japan_road_sign_201-B-R.svg"; sourceTree = "<group>"; };
+		A49331D61F0BE2F00027E691 /* Japan_road_sign_201-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_201-C.svg"; path = "../../2/Japan_road_sign_201-C.svg"; sourceTree = "<group>"; };
+		A49331D71F0BE2F00027E691 /* Japan_road_sign_201-D.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_201-D.svg"; path = "../../2/Japan_road_sign_201-D.svg"; sourceTree = "<group>"; };
+		A49331D81F0BE2F00027E691 /* Japan_road_sign_202-L.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_202-L.svg"; path = "../../2/Japan_road_sign_202-L.svg"; sourceTree = "<group>"; };
+		A49331D91F0BE2F00027E691 /* Japan_road_sign_202-R.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_202-R.svg"; path = "../../2/Japan_road_sign_202-R.svg"; sourceTree = "<group>"; };
+		A49331DA1F0BE2F00027E691 /* Japan_road_sign_203-L.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_203-L.svg"; path = "../../2/Japan_road_sign_203-L.svg"; sourceTree = "<group>"; };
+		A49331DB1F0BE2F00027E691 /* Japan_road_sign_203-R.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_203-R.svg"; path = "../../2/Japan_road_sign_203-R.svg"; sourceTree = "<group>"; };
+		A49331DC1F0BE2F00027E691 /* Japan_road_sign_204-L.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_204-L.svg"; path = "../../2/Japan_road_sign_204-L.svg"; sourceTree = "<group>"; };
+		A49331DD1F0BE2F00027E691 /* Japan_road_sign_204-R.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_204-R.svg"; path = "../../2/Japan_road_sign_204-R.svg"; sourceTree = "<group>"; };
+		A49331DE1F0BE2F00027E691 /* Japan_road_sign_205-L.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_205-L.svg"; path = "../../2/Japan_road_sign_205-L.svg"; sourceTree = "<group>"; };
+		A49331DF1F0BE2F00027E691 /* Japan_road_sign_205-R.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_205-R.svg"; path = "../../2/Japan_road_sign_205-R.svg"; sourceTree = "<group>"; };
+		A49331E01F0BE2F00027E691 /* Japan_road_sign_206-L.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_206-L.svg"; path = "../../2/Japan_road_sign_206-L.svg"; sourceTree = "<group>"; };
+		A49331E11F0BE2F00027E691 /* Japan_road_sign_206-R.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_206-R.svg"; path = "../../2/Japan_road_sign_206-R.svg"; sourceTree = "<group>"; };
+		A49331E21F0BE2F00027E691 /* Japan_road_sign_207-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_207-A.svg"; path = "../../2/Japan_road_sign_207-A.svg"; sourceTree = "<group>"; };
+		A49331E31F0BE2F00027E691 /* Japan_road_sign_207-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_207-B.svg"; path = "../../2/Japan_road_sign_207-B.svg"; sourceTree = "<group>"; };
+		A49331E41F0BE2F00027E691 /* Japan_road_sign_208-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_208-2.svg"; path = "../../2/Japan_road_sign_208-2.svg"; sourceTree = "<group>"; };
+		A49331E51F0BE2F00027E691 /* Japan_road_sign_208.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_208.svg; path = ../../2/Japan_road_sign_208.svg; sourceTree = "<group>"; };
+		A49331E61F0BE2F00027E691 /* Japan_road_sign_209-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_209-2.svg"; path = "../../2/Japan_road_sign_209-2.svg"; sourceTree = "<group>"; };
+		A49331E71F0BE2F00027E691 /* Japan_road_sign_209-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_209-3.svg"; path = "../../2/Japan_road_sign_209-3.svg"; sourceTree = "<group>"; };
+		A49331E81F0BE2F00027E691 /* Japan_road_sign_209.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_209.svg; path = ../../2/Japan_road_sign_209.svg; sourceTree = "<group>"; };
+		A49331E91F0BE2F00027E691 /* Japan_road_sign_210.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_210.svg; path = ../../2/Japan_road_sign_210.svg; sourceTree = "<group>"; };
+		A49331EA1F0BE2F00027E691 /* Japan_road_sign_211.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_211.svg; path = ../../2/Japan_road_sign_211.svg; sourceTree = "<group>"; };
+		A49331EB1F0BE2F00027E691 /* Japan_road_sign_212-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_212-2.svg"; path = "../../2/Japan_road_sign_212-2.svg"; sourceTree = "<group>"; };
+		A49331EC1F0BE2F00027E691 /* Japan_road_sign_212-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_212-3.svg"; path = "../../2/Japan_road_sign_212-3.svg"; sourceTree = "<group>"; };
+		A49331ED1F0BE2F00027E691 /* Japan_road_sign_212-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_212-4.svg"; path = "../../2/Japan_road_sign_212-4.svg"; sourceTree = "<group>"; };
+		A49331EE1F0BE2F00027E691 /* Japan_road_sign_212.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_212.svg; path = ../../2/Japan_road_sign_212.svg; sourceTree = "<group>"; };
+		A49331EF1F0BE2F00027E691 /* Japan_road_sign_213.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_213.svg; path = ../../2/Japan_road_sign_213.svg; sourceTree = "<group>"; };
+		A49331F01F0BE2F00027E691 /* Japan_road_sign_214-2_Hare.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_214-2_Hare.svg"; path = "../../2/Japan_road_sign_214-2_Hare.svg"; sourceTree = "<group>"; };
+		A49331F11F0BE2F00027E691 /* Japan_road_sign_214-2_Monkey.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_214-2_Monkey.svg"; path = "../../2/Japan_road_sign_214-2_Monkey.svg"; sourceTree = "<group>"; };
+		A49331F21F0BE2F00027E691 /* Japan_road_sign_214-2_Raccoon-dog.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_214-2_Raccoon-dog.svg"; path = "../../2/Japan_road_sign_214-2_Raccoon-dog.svg"; sourceTree = "<group>"; };
+		A49331F31F0BE2F00027E691 /* Japan_road_sign_214-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_214-2.svg"; path = "../../2/Japan_road_sign_214-2.svg"; sourceTree = "<group>"; };
+		A49331F41F0BE2F00027E691 /* Japan_road_sign_214.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_214.svg; path = ../../2/Japan_road_sign_214.svg; sourceTree = "<group>"; };
+		A49331F51F0BE2F00027E691 /* Japan_road_sign_215.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_215.svg; path = ../../2/Japan_road_sign_215.svg; sourceTree = "<group>"; };
+		A49331F61F0BE2F00027E691 /* Japan_road_sign_301.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_301.svg; path = ../../2/Japan_road_sign_301.svg; sourceTree = "<group>"; };
+		A49331F71F0BE2F00027E691 /* Japan_road_sign_302.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_302.svg; path = ../../2/Japan_road_sign_302.svg; sourceTree = "<group>"; };
+		A49331F81F0BE2F00027E691 /* Japan_road_sign_303.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_303.svg; path = ../../2/Japan_road_sign_303.svg; sourceTree = "<group>"; };
+		A49331F91F0BE2F00027E691 /* Japan_road_sign_304.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_304.svg; path = ../../2/Japan_road_sign_304.svg; sourceTree = "<group>"; };
+		A49331FA1F0BE2F00027E691 /* Japan_road_sign_305_and_503-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_305_and_503-C.svg"; path = "../../2/Japan_road_sign_305_and_503-C.svg"; sourceTree = "<group>"; };
+		A49331FB1F0BE2F00027E691 /* Japan_road_sign_305.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_305.svg; path = ../../2/Japan_road_sign_305.svg; sourceTree = "<group>"; };
+		A49331FC1F0BE2F00027E691 /* Japan_road_sign_306.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_306.svg; path = ../../2/Japan_road_sign_306.svg; sourceTree = "<group>"; };
+		A49331FD1F0BE2F00027E691 /* Japan_road_sign_307.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_307.svg; path = ../../2/Japan_road_sign_307.svg; sourceTree = "<group>"; };
+		A49331FE1F0BE2F00027E691 /* Japan_road_sign_308.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_308.svg; path = ../../2/Japan_road_sign_308.svg; sourceTree = "<group>"; };
+		A49331FF1F0BE2F00027E691 /* Japan_road_sign_309.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_309.svg; path = ../../2/Japan_road_sign_309.svg; sourceTree = "<group>"; };
+		A49332001F0BE2F00027E691 /* Japan_road_sign_310-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_310-2.svg"; path = "../../2/Japan_road_sign_310-2.svg"; sourceTree = "<group>"; };
+		A49332011F0BE2F00027E691 /* Japan_road_sign_310.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_310.svg; path = ../../2/Japan_road_sign_310.svg; sourceTree = "<group>"; };
+		A49332021F0BE2F00027E691 /* Japan_road_sign_311-A-L.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_311-A-L.svg"; path = "../../2/Japan_road_sign_311-A-L.svg"; sourceTree = "<group>"; };
+		A49332031F0BE2F00027E691 /* Japan_road_sign_311-B-L.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_311-B-L.svg"; path = "../../2/Japan_road_sign_311-B-L.svg"; sourceTree = "<group>"; };
+		A49332041F0BE2F00027E691 /* Japan_road_sign_311-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_311-C.svg"; path = "../../2/Japan_road_sign_311-C.svg"; sourceTree = "<group>"; };
+		A49332051F0BE2F00027E691 /* Japan_road_sign_311-D.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_311-D.svg"; path = "../../2/Japan_road_sign_311-D.svg"; sourceTree = "<group>"; };
+		A49332061F0BE2F00027E691 /* Japan_road_sign_311-E.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_311-E.svg"; path = "../../2/Japan_road_sign_311-E.svg"; sourceTree = "<group>"; };
+		A49332071F0BE2F00027E691 /* Japan_road_sign_311-F-L.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_311-F-L.svg"; path = "../../2/Japan_road_sign_311-F-L.svg"; sourceTree = "<group>"; };
+		A49332081F0BE2F00027E691 /* Japan_road_sign_312.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_312.svg; path = ../../2/Japan_road_sign_312.svg; sourceTree = "<group>"; };
+		A49332091F0BE2F00027E691 /* Japan_road_sign_313.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_313.svg; path = ../../2/Japan_road_sign_313.svg; sourceTree = "<group>"; };
+		A493320A1F0BE2F00027E691 /* Japan_road_sign_314.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_314.svg; path = ../../2/Japan_road_sign_314.svg; sourceTree = "<group>"; };
+		A493320B1F0BE2F00027E691 /* Japan_road_sign_315.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_315.svg; path = ../../2/Japan_road_sign_315.svg; sourceTree = "<group>"; };
+		A493320C1F0BE2F00027E691 /* Japan_road_sign_316.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_316.svg; path = ../../2/Japan_road_sign_316.svg; sourceTree = "<group>"; };
+		A493320D1F0BE2F00027E691 /* Japan_road_sign_318.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_318.svg; path = ../../2/Japan_road_sign_318.svg; sourceTree = "<group>"; };
+		A493320E1F0BE2F00027E691 /* Japan_road_sign_319.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_319.svg; path = ../../2/Japan_road_sign_319.svg; sourceTree = "<group>"; };
+		A493320F1F0BE2F00027E691 /* Japan_road_sign_320.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_320.svg; path = ../../2/Japan_road_sign_320.svg; sourceTree = "<group>"; };
+		A49332101F0BE2F00027E691 /* Japan_road_sign_321.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_321.svg; path = ../../2/Japan_road_sign_321.svg; sourceTree = "<group>"; };
+		A49332111F0BE2F00027E691 /* Japan_road_sign_322.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_322.svg; path = ../../2/Japan_road_sign_322.svg; sourceTree = "<group>"; };
+		A49332121F0BE2F00027E691 /* Japan_road_sign_323_(50).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_323_(50).svg"; path = "../../2/Japan_road_sign_323_(50).svg"; sourceTree = "<group>"; };
+		A49332131F0BE2F00027E691 /* Japan_road_sign_324_(30).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_324_(30).svg"; path = "../../2/Japan_road_sign_324_(30).svg"; sourceTree = "<group>"; };
+		A49332141F0BE2F00027E691 /* Japan_road_sign_325-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_325-2.svg"; path = "../../2/Japan_road_sign_325-2.svg"; sourceTree = "<group>"; };
+		A49332151F0BE2F00027E691 /* Japan_road_sign_325-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_325-3.svg"; path = "../../2/Japan_road_sign_325-3.svg"; sourceTree = "<group>"; };
+		A49332161F0BE2F00027E691 /* Japan_road_sign_325-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_325-4.svg"; path = "../../2/Japan_road_sign_325-4.svg"; sourceTree = "<group>"; };
+		A49332171F0BE2F00027E691 /* Japan_road_sign_325.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_325.svg; path = ../../2/Japan_road_sign_325.svg; sourceTree = "<group>"; };
+		A49332181F0BE2F00027E691 /* Japan_road_sign_326-2-A-L.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_326-2-A-L.svg"; path = "../../2/Japan_road_sign_326-2-A-L.svg"; sourceTree = "<group>"; };
+		A49332191F0BE2F00027E691 /* Japan_road_sign_326-2-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_326-2-B.svg"; path = "../../2/Japan_road_sign_326-2-B.svg"; sourceTree = "<group>"; };
+		A493321A1F0BE2F00027E691 /* Japan_road_sign_326-A-L.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_326-A-L.svg"; path = "../../2/Japan_road_sign_326-A-L.svg"; sourceTree = "<group>"; };
+		A493321B1F0BE2F00027E691 /* Japan_road_sign_326-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_326-B.svg"; path = "../../2/Japan_road_sign_326-B.svg"; sourceTree = "<group>"; };
+		A493321C1F0BE2F00027E691 /* Japan_road_sign_327-8.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_327-8.svg"; path = "../../2/Japan_road_sign_327-8.svg"; sourceTree = "<group>"; };
+		A493321D1F0BE2F00027E691 /* Japan_road_sign_327-9.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_327-9.svg"; path = "../../2/Japan_road_sign_327-9.svg"; sourceTree = "<group>"; };
+		A493321E1F0BE2F00027E691 /* Japan_road_sign_328.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_328.svg; path = ../../2/Japan_road_sign_328.svg; sourceTree = "<group>"; };
+		A493321F1F0BE2F00027E691 /* Japan_road_sign_329-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_329-2.svg"; path = "../../2/Japan_road_sign_329-2.svg"; sourceTree = "<group>"; };
+		A49332201F0BE2F00027E691 /* Japan_road_sign_329.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_329.svg; path = ../../2/Japan_road_sign_329.svg; sourceTree = "<group>"; };
+		A49332211F0BE2F00027E691 /* Japan_road_sign_330-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_330-2.svg"; path = "../../2/Japan_road_sign_330-2.svg"; sourceTree = "<group>"; };
+		A49332221F0BE2F00027E691 /* Japan_road_sign_330.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_330.svg; path = ../../2/Japan_road_sign_330.svg; sourceTree = "<group>"; };
+		A49332231F0BE2F00027E691 /* Japan_road_sign_402.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_402.svg; path = ../../2/Japan_road_sign_402.svg; sourceTree = "<group>"; };
+		A49332241F0BE2F00027E691 /* Japan_road_sign_403.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_403.svg; path = ../../2/Japan_road_sign_403.svg; sourceTree = "<group>"; };
+		A49332251F0BE2F00027E691 /* Japan_road_sign_404.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_404.svg; path = ../../2/Japan_road_sign_404.svg; sourceTree = "<group>"; };
+		A49332261F0BE2F00027E691 /* Japan_road_sign_405.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_405.svg; path = ../../2/Japan_road_sign_405.svg; sourceTree = "<group>"; };
+		A49332271F0BE2F00027E691 /* Japan_road_sign_406.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_406.svg; path = ../../2/Japan_road_sign_406.svg; sourceTree = "<group>"; };
+		A49332281F0BE2F00027E691 /* Japan_road_sign_407-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_407-2.svg"; path = "../../2/Japan_road_sign_407-2.svg"; sourceTree = "<group>"; };
+		A49332291F0BE2F00027E691 /* Japan_road_sign_407-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_407-3.svg"; path = "../../2/Japan_road_sign_407-3.svg"; sourceTree = "<group>"; };
+		A493322A1F0BE2F00027E691 /* Japan_road_sign_407-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_407-A.svg"; path = "../../2/Japan_road_sign_407-A.svg"; sourceTree = "<group>"; };
+		A493322B1F0BE2F00027E691 /* Japan_road_sign_407-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_407-B.svg"; path = "../../2/Japan_road_sign_407-B.svg"; sourceTree = "<group>"; };
+		A493322C1F0BE2F00027E691 /* Japan_road_sign_408.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_408.svg; path = ../../2/Japan_road_sign_408.svg; sourceTree = "<group>"; };
+		A493322D1F0BE2F00027E691 /* Japan_road_sign_501_50m.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_501_50m.svg; path = ../../2/Japan_road_sign_501_50m.svg; sourceTree = "<group>"; };
+		A493322E1F0BE2F00027E691 /* Japan_road_sign_502_exc_Sunday_and_Holiday.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_502_exc_Sunday_and_Holiday.svg; path = ../../2/Japan_road_sign_502_exc_Sunday_and_Holiday.svg; sourceTree = "<group>"; };
+		A493322F1F0BE2F00027E691 /* Japan_road_sign_503-A_Large_Tracks_2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_503-A_Large_Tracks_2.svg"; path = "../../2/Japan_road_sign_503-A_Large_Tracks_2.svg"; sourceTree = "<group>"; };
+		A49332301F0BE2F00027E691 /* Japan_road_sign_503-B_Tracks.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_503-B_Tracks.svg"; path = "../../2/Japan_road_sign_503-B_Tracks.svg"; sourceTree = "<group>"; };
+		A49332311F0BE2F00027E691 /* Japan_road_sign_503-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_503-C.svg"; path = "../../2/Japan_road_sign_503-C.svg"; sourceTree = "<group>"; };
+		A49332321F0BE2F00027E691 /* Japan_road_sign_503-D.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_503-D.svg"; path = "../../2/Japan_road_sign_503-D.svg"; sourceTree = "<group>"; };
+		A49332331F0BE2F00027E691 /* Japan_road_sign_504-2_Parking_Meter.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_504-2_Parking_Meter.svg"; path = "../../2/Japan_road_sign_504-2_Parking_Meter.svg"; sourceTree = "<group>"; };
+		A49332341F0BE2F00027E691 /* Japan_road_sign_504.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_504.svg; path = ../../2/Japan_road_sign_504.svg; sourceTree = "<group>"; };
+		A49332351F0BE2F00027E691 /* Japan_road_sign_505-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_505-A.svg"; path = "../../2/Japan_road_sign_505-A.svg"; sourceTree = "<group>"; };
+		A49332361F0BE2F00027E691 /* Japan_road_sign_505-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_505-B.svg"; path = "../../2/Japan_road_sign_505-B.svg"; sourceTree = "<group>"; };
+		A49332371F0BE2F00027E691 /* Japan_road_sign_505-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_505-C.svg"; path = "../../2/Japan_road_sign_505-C.svg"; sourceTree = "<group>"; };
+		A49332381F0BE2F00027E691 /* Japan_road_sign_506-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_506-2.svg"; path = "../../2/Japan_road_sign_506-2.svg"; sourceTree = "<group>"; };
+		A49332391F0BE2F00027E691 /* Japan_road_sign_506.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_506.svg; path = ../../2/Japan_road_sign_506.svg; sourceTree = "<group>"; };
+		A493323A1F0BE2F00027E691 /* Japan_road_sign_507-A.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_507-A.svg"; path = "../../2/Japan_road_sign_507-A.svg"; sourceTree = "<group>"; };
+		A493323B1F0BE2F00027E691 /* Japan_road_sign_507-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_507-B.svg"; path = "../../2/Japan_road_sign_507-B.svg"; sourceTree = "<group>"; };
+		A493323C1F0BE2F00027E691 /* Japan_road_sign_507-C.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_507-C.svg"; path = "../../2/Japan_road_sign_507-C.svg"; sourceTree = "<group>"; };
+		A493323D1F0BE2F00027E691 /* Japan_road_sign_507-D.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_507-D.svg"; path = "../../2/Japan_road_sign_507-D.svg"; sourceTree = "<group>"; };
+		A493323E1F0BE2F00027E691 /* Japan_road_sign_508-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_508-2.svg"; path = "../../2/Japan_road_sign_508-2.svg"; sourceTree = "<group>"; };
+		A493323F1F0BE2F00027E691 /* Japan_road_sign_508.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_508.svg; path = ../../2/Japan_road_sign_508.svg; sourceTree = "<group>"; };
+		A49332401F0BE2F00027E691 /* Japan_road_sign_509-2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_509-2.svg"; path = "../../2/Japan_road_sign_509-2.svg"; sourceTree = "<group>"; };
+		A49332411F0BE2F00027E691 /* Japan_road_sign_509-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_509-3.svg"; path = "../../2/Japan_road_sign_509-3.svg"; sourceTree = "<group>"; };
+		A49332421F0BE2F00027E691 /* Japan_road_sign_509-4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_509-4.svg"; path = "../../2/Japan_road_sign_509-4.svg"; sourceTree = "<group>"; };
+		A49332431F0BE2F00027E691 /* Japan_road_sign_509-5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_509-5.svg"; path = "../../2/Japan_road_sign_509-5.svg"; sourceTree = "<group>"; };
+		A49332441F0BE2F00027E691 /* Japan_road_sign_509.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_509.svg; path = ../../2/Japan_road_sign_509.svg; sourceTree = "<group>"; };
+		A49332451F0BE2F00027E691 /* Japan_road_sign_510_Safety_Speed.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_510_Safety_Speed.svg; path = ../../2/Japan_road_sign_510_Safety_Speed.svg; sourceTree = "<group>"; };
+		A49332461F0BE2F00027E691 /* Japan_road_sign_510_Weekly_Shoulder.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_510_Weekly_Shoulder.svg; path = ../../2/Japan_road_sign_510_Weekly_Shoulder.svg; sourceTree = "<group>"; };
+		A49332471F0BE2F00027E691 /* Japan_road_sign_510-2_Noise_Control_Zone.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japan_road_sign_510-2_Noise_Control_Zone.svg"; path = "../../2/Japan_road_sign_510-2_Noise_Control_Zone.svg"; sourceTree = "<group>"; };
+		A49332481F0BE2F00027E691 /* Japan_road_sign_511.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_511.svg; path = ../../2/Japan_road_sign_511.svg; sourceTree = "<group>"; };
+		A49332491F0BE2F00027E691 /* Japan_road_sign_512.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_512.svg; path = ../../2/Japan_road_sign_512.svg; sourceTree = "<group>"; };
+		A493324A1F0BE2F00027E691 /* Japan_road_sign_513.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_513.svg; path = ../../2/Japan_road_sign_513.svg; sourceTree = "<group>"; };
+		A493324B1F0BE2F00027E691 /* Japan_road_sign_514.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan_road_sign_514.svg; path = ../../2/Japan_road_sign_514.svg; sourceTree = "<group>"; };
+		A493324C1F0BE2F00027E691 /* Japanese_National_Route_Sign_0142.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japanese_National_Route_Sign_0142.svg; path = ../../2/Japanese_National_Route_Sign_0142.svg; sourceTree = "<group>"; };
+		A493324D1F0BE2F00027E691 /* Japanese_Road_sign_(Area_and_Distance_B).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Area_and_Distance_B).svg"; path = "../../2/Japanese_Road_sign_(Area_and_Distance_B).svg"; sourceTree = "<group>"; };
+		A493324E1F0BE2F00027E691 /* Japanese_Road_sign_(Bus_Priority_Lane).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Bus_Priority_Lane).svg"; path = "../../2/Japanese_Road_sign_(Bus_Priority_Lane).svg"; sourceTree = "<group>"; };
+		A493324F1F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Exit_A).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Direction_and_Exit_A).svg"; path = "../../2/Japanese_Road_sign_(Direction_and_Exit_A).svg"; sourceTree = "<group>"; };
+		A49332501F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Exit_B).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Direction_and_Exit_B).svg"; path = "../../2/Japanese_Road_sign_(Direction_and_Exit_B).svg"; sourceTree = "<group>"; };
+		A49332511F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Lane_A).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Direction_and_Lane_A).svg"; path = "../../2/Japanese_Road_sign_(Direction_and_Lane_A).svg"; sourceTree = "<group>"; };
+		A49332521F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Lane_B).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Direction_and_Lane_B).svg"; path = "../../2/Japanese_Road_sign_(Direction_and_Lane_B).svg"; sourceTree = "<group>"; };
+		A49332531F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Notice_of_exit_B).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Direction_and_Notice_of_exit_B).svg"; path = "../../2/Japanese_Road_sign_(Direction_and_Notice_of_exit_B).svg"; sourceTree = "<group>"; };
+		A49332541F0BE2F00027E691 /* Japanese_Road_sign_(Direction_of_entrance).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Direction_of_entrance).svg"; path = "../../2/Japanese_Road_sign_(Direction_of_entrance).svg"; sourceTree = "<group>"; };
+		A49332551F0BE2F00027E691 /* Japanese_Road_sign_(Direction,_Lane_and_Notice_of_exit_A).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Direction,_Lane_and_Notice_of_exit_A).svg"; path = "../../2/Japanese_Road_sign_(Direction,_Lane_and_Notice_of_exit_A).svg"; sourceTree = "<group>"; };
+		A49332561F0BE2F00027E691 /* Japanese_Road_sign_(Emergency_parking_space).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Emergency_parking_space).svg"; path = "../../2/Japanese_Road_sign_(Emergency_parking_space).svg"; sourceTree = "<group>"; };
+		A49332571F0BE2F00027E691 /* Japanese_Road_sign_(Emergency_telephone).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Emergency_telephone).svg"; path = "../../2/Japanese_Road_sign_(Emergency_telephone).svg"; sourceTree = "<group>"; };
+		A49332581F0BE2F00027E691 /* Japanese_Road_sign_(Exclusive_Bus_Lane).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Exclusive_Bus_Lane).svg"; path = "../../2/Japanese_Road_sign_(Exclusive_Bus_Lane).svg"; sourceTree = "<group>"; };
+		A49332591F0BE2F00027E691 /* Japanese_Road_sign_(Exit_A).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Exit_A).svg"; path = "../../2/Japanese_Road_sign_(Exit_A).svg"; sourceTree = "<group>"; };
+		A493325A1F0BE2F00027E691 /* Japanese_Road_sign_(Exit_B).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Exit_B).svg"; path = "../../2/Japanese_Road_sign_(Exit_B).svg"; sourceTree = "<group>"; };
+		A493325B1F0BE2F00027E691 /* Japanese_Road_sign_(Famous_place_C).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Famous_place_C).svg"; path = "../../2/Japanese_Road_sign_(Famous_place_C).svg"; sourceTree = "<group>"; };
+		A493325C1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_A).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Follow_Directions_A).svg"; path = "../../2/Japanese_Road_sign_(Follow_Directions_A).svg"; sourceTree = "<group>"; };
+		A493325D1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_B).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Follow_Directions_B).svg"; path = "../../2/Japanese_Road_sign_(Follow_Directions_B).svg"; sourceTree = "<group>"; };
+		A493325E1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_C).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Follow_Directions_C).svg"; path = "../../2/Japanese_Road_sign_(Follow_Directions_C).svg"; sourceTree = "<group>"; };
+		A493325F1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_D).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Follow_Directions_D).svg"; path = "../../2/Japanese_Road_sign_(Follow_Directions_D).svg"; sourceTree = "<group>"; };
+		A49332601F0BE2F00027E691 /* Japanese_Road_sign_(No_Pedestrians_Crossing).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(No_Pedestrians_Crossing).svg"; path = "../../2/Japanese_Road_sign_(No_Pedestrians_Crossing).svg"; sourceTree = "<group>"; };
+		A49332611F0BE2F00027E691 /* Japanese_Road_sign_(No_pedestrians).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(No_pedestrians).svg"; path = "../../2/Japanese_Road_sign_(No_pedestrians).svg"; sourceTree = "<group>"; };
+		A49332621F0BE2F00027E691 /* Japanese_Road_sign_(Notice_of_entrance).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Notice_of_entrance).svg"; path = "../../2/Japanese_Road_sign_(Notice_of_entrance).svg"; sourceTree = "<group>"; };
+		A49332631F0BE2F00027E691 /* Japanese_Road_sign_(Parking_lot_A,_Parking_permitted).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Parking_lot_A,_Parking_permitted).svg"; path = "../../2/Japanese_Road_sign_(Parking_lot_A,_Parking_permitted).svg"; sourceTree = "<group>"; };
+		A49332641F0BE2F00027E691 /* Japanese_Road_sign_(Parking_lot_B).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Parking_lot_B).svg"; path = "../../2/Japanese_Road_sign_(Parking_lot_B).svg"; sourceTree = "<group>"; };
+		A49332651F0BE2F00027E691 /* Japanese_Road_sign_(Particular_Vehicle_Lane).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Particular_Vehicle_Lane).svg"; path = "../../2/Japanese_Road_sign_(Particular_Vehicle_Lane).svg"; sourceTree = "<group>"; };
+		A49332661F0BE2F00027E691 /* Japanese_Road_sign_(Prefecture_B).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Prefecture_B).svg"; path = "../../2/Japanese_Road_sign_(Prefecture_B).svg"; sourceTree = "<group>"; };
+		A49332671F0BE2F00027E691 /* Japanese_Road_sign_(Service_area_A,_PA).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Service_area_A,_PA).svg"; path = "../../2/Japanese_Road_sign_(Service_area_A,_PA).svg"; sourceTree = "<group>"; };
+		A49332681F0BE2F00027E691 /* Japanese_Road_sign_(Service_area_A,_SA).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Service_area_A,_SA).svg"; path = "../../2/Japanese_Road_sign_(Service_area_A,_SA).svg"; sourceTree = "<group>"; };
+		A49332691F0BE2F00027E691 /* Japanese_Road_sign_(Slower_traffic_B).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Slower_traffic_B).svg"; path = "../../2/Japanese_Road_sign_(Slower_traffic_B).svg"; sourceTree = "<group>"; };
+		A493326A1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_A).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Tractor_Truck_Lane_A).svg"; path = "../../2/Japanese_Road_sign_(Tractor_Truck_Lane_A).svg"; sourceTree = "<group>"; };
+		A493326B1F0BE2F00027E691 /* Zeichen_215_-_Kreisverkehr,_StVO_2000.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Zeichen_215_-_Kreisverkehr,_StVO_2000.svg"; path = "../../2/Zeichen_215_-_Kreisverkehr,_StVO_2000.svg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +595,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49331731F0BDEC50027E691 /* libxml2.2.dylib in Frameworks */,
+				A493316E1F0BDD540027E691 /* UIKit.framework in Frameworks */,
+				A493317C1F0BE09D0027E691 /* CocoaLumberjack.framework in Frameworks */,
+				A493316C1F0BDD450027E691 /* CoreGraphics.framework in Frameworks */,
+				A493316A1F0BDD3F0027E691 /* QuartzCore.framework in Frameworks */,
+				A49331681F0BDD2D0027E691 /* CoreImage.framework in Frameworks */,
+				A49331661F0BDD260027E691 /* CoreText.framework in Frameworks */,
+				A49331641F0BDCB20027E691 /* SVGKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +664,7 @@
 		A426BC151E5734990037AC16 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				A493317E1F0BE2DD0027E691 /* svg */,
 				A4832E581E4A173900C494B3 /* Main.storyboard */,
 				A4832E5B1E4A173900C494B3 /* Assets.xcassets */,
 				A4832E5D1E4A173900C494B3 /* LaunchScreen.storyboard */,
@@ -241,9 +757,261 @@
 			path = "日本交通規則UITests";
 			sourceTree = "<group>";
 		};
+		A493317E1F0BE2DD0027E691 /* svg */ = {
+			isa = PBXGroup;
+			children = (
+				A493317F1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_B).svg */,
+				A49331801F0BE2F00027E691 /* Japanese_Road_sign_(Vehicle_Passing_Division).svg */,
+				A49331811F0BE2F00027E691 /* Japanese_Road_sign_103-B.svg */,
+				A49331821F0BE2F00027E691 /* Japanese_Road_sign_105-A.svg */,
+				A49331831F0BE2F00027E691 /* Japanese_Road_sign_105-B.svg */,
+				A49331841F0BE2F00027E691 /* Japanese_Road_sign_105-C.svg */,
+				A49331851F0BE2F00027E691 /* Japanese_Road_sign_106-A.svg */,
+				A49331861F0BE2F00027E691 /* Japanese_Road_sign_106-C.svg */,
+				A49331871F0BE2F00027E691 /* Japanese_Road_sign_108-2-A.svg */,
+				A49331881F0BE2F00027E691 /* Japanese_Road_sign_108-2-B_lane.svg */,
+				A49331891F0BE2F00027E691 /* Japanese_Road_sign_108-2-B.svg */,
+				A493318A1F0BE2F00027E691 /* Japanese_Road_sign_108-2-C.svg */,
+				A493318B1F0BE2F00027E691 /* Japanese_Road_sign_108-2-D.svg */,
+				A493318C1F0BE2F00027E691 /* Japanese_Road_sign_108-2-E.svg */,
+				A493318D1F0BE2F00027E691 /* Japanese_Road_sign_108-3.svg */,
+				A493318E1F0BE2F00027E691 /* Japanese_Road_sign_108-4.svg */,
+				A493318F1F0BE2F00027E691 /* Japanese_Road_sign_108-A.svg */,
+				A49331901F0BE2F00027E691 /* Japanese_Road_sign_108-B_lane.svg */,
+				A49331911F0BE2F00027E691 /* Japanese_Road_sign_108-B.svg */,
+				A49331921F0BE2F00027E691 /* Japanese_Road_sign_109.svg */,
+				A49331931F0BE2F00027E691 /* Japanese_Road_sign_111-B.svg */,
+				A49331941F0BE2F00027E691 /* Japanese_Road_sign_114-2-A.svg */,
+				A49331951F0BE2F00027E691 /* Japanese_Road_sign_114-2-B.svg */,
+				A49331961F0BE2F00027E691 /* Japanese_Road_sign_114-A1.svg */,
+				A49331971F0BE2F00027E691 /* Japanese_Road_sign_114-A2.svg */,
+				A49331981F0BE2F00027E691 /* Japanese_Road_sign_114-B.svg */,
+				A49331991F0BE2F00027E691 /* Japanese_Road_sign_116-2-B.svg */,
+				A493319A1F0BE2F00027E691 /* Japanese_Road_sign_116-3.svg */,
+				A493319B1F0BE2F00027E691 /* Japanese_Road_sign_116-A_PA.svg */,
+				A493319C1F0BE2F00027E691 /* Japanese_Road_sign_116-A_SA.svg */,
+				A493319D1F0BE2F00027E691 /* Japanese_Road_sign_116-B.svg */,
+				A493319E1F0BE2F00027E691 /* Japanese_Road_sign_117-2-A.svg */,
+				A493319F1F0BE2F00027E691 /* Japanese_Road_sign_118-2-B_0142.svg */,
+				A49331A01F0BE2F00027E691 /* Japanese_Road_sign_118-2-B_principal_0014.svg */,
+				A49331A11F0BE2F00027E691 /* Japanese_Road_sign_118-2-C_0142.svg */,
+				A49331A21F0BE2F00027E691 /* Japanese_Road_sign_118-2-C_principal_0014.svg */,
+				A49331A31F0BE2F00027E691 /* Japanese_Road_sign_118-3_and_4-A.svg */,
+				A49331A41F0BE2F00027E691 /* Japanese_Road_sign_118-3_and_4-B.svg */,
+				A49331A51F0BE2F00027E691 /* Japanese_Road_sign_118-3-A.svg */,
+				A49331A61F0BE2F00027E691 /* Japanese_Road_sign_118-3-B.svg */,
+				A49331A71F0BE2F00027E691 /* Japanese_Road_sign_118-4-A.svg */,
+				A49331A81F0BE2F00027E691 /* Japanese_Road_sign_118-4-B.svg */,
+				A49331A91F0BE2F00027E691 /* Japanese_Road_sign_118-4-C.svg */,
+				A49331AA1F0BE2F00027E691 /* Japanese_Road_sign_118-4-D.svg */,
+				A49331AB1F0BE2F00027E691 /* Japanese_Road_sign_118-B_0142.svg */,
+				A49331AC1F0BE2F00027E691 /* Japanese_Road_sign_118-C_0142.svg */,
+				A49331AD1F0BE2F00027E691 /* Japanese_Road_sign_119-A.svg */,
+				A49331AE1F0BE2F00027E691 /* Japanese_Road_sign_119-B.svg */,
+				A49331AF1F0BE2F00027E691 /* Japanese_Road_sign_119-C.svg */,
+				A49331B01F0BE2F00027E691 /* Japanese_Road_sign_120-A.svg */,
+				A49331B11F0BE2F00027E691 /* Japanese_Road_sign_120-B.svg */,
+				A49331B21F0BE2F00027E691 /* Japanese_Road_sign_121-A.svg */,
+				A49331B31F0BE2F00027E691 /* Japanese_Road_sign_121-B.svg */,
+				A49331B41F0BE2F00027E691 /* Japanese_Road_sign_121-C.svg */,
+				A49331B51F0BE2F00027E691 /* Japanese_Road_sign_122-A.svg */,
+				A49331B61F0BE2F00027E691 /* Japanese_Road_sign_122-B.svg */,
+				A49331B71F0BE2F00027E691 /* Japanese_Road_sign_122-C.svg */,
+				A49331B81F0BE2F00027E691 /* Japanese_Road_sign_123-A.svg */,
+				A49331B91F0BE2F00027E691 /* Japanese_Road_sign_123-B.svg */,
+				A49331BA1F0BE2F00027E691 /* Japanese_Road_sign_123-C.svg */,
+				A49331BB1F0BE2F00027E691 /* Japanese_Road_sign_124-A.svg */,
+				A49331BC1F0BE2F00027E691 /* Japanese_Road_sign_124-B.svg */,
+				A49331BD1F0BE2F00027E691 /* Japanese_Road_sign_124-C.svg */,
+				A49331BE1F0BE2F00027E691 /* Japanese_Road_sign_125-A.svg */,
+				A49331BF1F0BE2F00027E691 /* Japanese_Road_sign_125-B.svg */,
+				A49331C01F0BE2F00027E691 /* Japanese_Road_sign_125-C.svg */,
+				A49331C11F0BE2F00027E691 /* Japanese_Road_sign_126-A.svg */,
+				A49331C21F0BE2F00027E691 /* Japanese_Road_sign_126-B.svg */,
+				A49331C31F0BE2F00027E691 /* Japanese_Road_sign_126-C.svg */,
+				A49331C41F0BE2F00027E691 /* Japanese_Road_sign_327-10.svg */,
+				A49331C51F0BE2F00027E691 /* Japanese_Road_sign_327-11.svg */,
+				A49331C61F0BE2F00027E691 /* Japanese_Road_sign_327-12.svg */,
+				A49331C71F0BE2F00027E691 /* Japanese_Road_sign_401.svg */,
+				A49331C81F0BE2F00027E691 /* Japanese_Road_sign_406-2.svg */,
+				A49331C91F0BE2F00027E691 /* Japanese_Road_sign_409-A.svg */,
+				A49331CA1F0BE2F00027E691 /* Japanese_Road_sign_409-B.svg */,
+				A49331CB1F0BE2F00027E691 /* Shuto_Urban_Expwy_Sign_0003.svg */,
+				A49331CC1F0BE2F00027E691 /* Fukuoka_Pref_Route_Sign_0076.svg */,
+				A49331CD1F0BE2F00027E691 /* Japan_expway_sign_118-3.svg */,
+				A49331CE1F0BE2F00027E691 /* Japan_road_sign_101.svg */,
+				A49331CF1F0BE2F00027E691 /* Japan_road_sign_102-A_13_Tokyo_W.svg */,
+				A49331D01F0BE2F00027E691 /* Japan_road_sign_110-A.svg */,
+				A49331D11F0BE2F00027E691 /* Japan_road_sign_115.svg */,
+				A49331D21F0BE2F00027E691 /* Japan_road_sign_201-2.svg */,
+				A49331D31F0BE2F00027E691 /* Japan_road_sign_201-A.svg */,
+				A49331D41F0BE2F00027E691 /* Japan_road_sign_201-B-L.svg */,
+				A49331D51F0BE2F00027E691 /* Japan_road_sign_201-B-R.svg */,
+				A49331D61F0BE2F00027E691 /* Japan_road_sign_201-C.svg */,
+				A49331D71F0BE2F00027E691 /* Japan_road_sign_201-D.svg */,
+				A49331D81F0BE2F00027E691 /* Japan_road_sign_202-L.svg */,
+				A49331D91F0BE2F00027E691 /* Japan_road_sign_202-R.svg */,
+				A49331DA1F0BE2F00027E691 /* Japan_road_sign_203-L.svg */,
+				A49331DB1F0BE2F00027E691 /* Japan_road_sign_203-R.svg */,
+				A49331DC1F0BE2F00027E691 /* Japan_road_sign_204-L.svg */,
+				A49331DD1F0BE2F00027E691 /* Japan_road_sign_204-R.svg */,
+				A49331DE1F0BE2F00027E691 /* Japan_road_sign_205-L.svg */,
+				A49331DF1F0BE2F00027E691 /* Japan_road_sign_205-R.svg */,
+				A49331E01F0BE2F00027E691 /* Japan_road_sign_206-L.svg */,
+				A49331E11F0BE2F00027E691 /* Japan_road_sign_206-R.svg */,
+				A49331E21F0BE2F00027E691 /* Japan_road_sign_207-A.svg */,
+				A49331E31F0BE2F00027E691 /* Japan_road_sign_207-B.svg */,
+				A49331E41F0BE2F00027E691 /* Japan_road_sign_208-2.svg */,
+				A49331E51F0BE2F00027E691 /* Japan_road_sign_208.svg */,
+				A49331E61F0BE2F00027E691 /* Japan_road_sign_209-2.svg */,
+				A49331E71F0BE2F00027E691 /* Japan_road_sign_209-3.svg */,
+				A49331E81F0BE2F00027E691 /* Japan_road_sign_209.svg */,
+				A49331E91F0BE2F00027E691 /* Japan_road_sign_210.svg */,
+				A49331EA1F0BE2F00027E691 /* Japan_road_sign_211.svg */,
+				A49331EB1F0BE2F00027E691 /* Japan_road_sign_212-2.svg */,
+				A49331EC1F0BE2F00027E691 /* Japan_road_sign_212-3.svg */,
+				A49331ED1F0BE2F00027E691 /* Japan_road_sign_212-4.svg */,
+				A49331EE1F0BE2F00027E691 /* Japan_road_sign_212.svg */,
+				A49331EF1F0BE2F00027E691 /* Japan_road_sign_213.svg */,
+				A49331F01F0BE2F00027E691 /* Japan_road_sign_214-2_Hare.svg */,
+				A49331F11F0BE2F00027E691 /* Japan_road_sign_214-2_Monkey.svg */,
+				A49331F21F0BE2F00027E691 /* Japan_road_sign_214-2_Raccoon-dog.svg */,
+				A49331F31F0BE2F00027E691 /* Japan_road_sign_214-2.svg */,
+				A49331F41F0BE2F00027E691 /* Japan_road_sign_214.svg */,
+				A49331F51F0BE2F00027E691 /* Japan_road_sign_215.svg */,
+				A49331F61F0BE2F00027E691 /* Japan_road_sign_301.svg */,
+				A49331F71F0BE2F00027E691 /* Japan_road_sign_302.svg */,
+				A49331F81F0BE2F00027E691 /* Japan_road_sign_303.svg */,
+				A49331F91F0BE2F00027E691 /* Japan_road_sign_304.svg */,
+				A49331FA1F0BE2F00027E691 /* Japan_road_sign_305_and_503-C.svg */,
+				A49331FB1F0BE2F00027E691 /* Japan_road_sign_305.svg */,
+				A49331FC1F0BE2F00027E691 /* Japan_road_sign_306.svg */,
+				A49331FD1F0BE2F00027E691 /* Japan_road_sign_307.svg */,
+				A49331FE1F0BE2F00027E691 /* Japan_road_sign_308.svg */,
+				A49331FF1F0BE2F00027E691 /* Japan_road_sign_309.svg */,
+				A49332001F0BE2F00027E691 /* Japan_road_sign_310-2.svg */,
+				A49332011F0BE2F00027E691 /* Japan_road_sign_310.svg */,
+				A49332021F0BE2F00027E691 /* Japan_road_sign_311-A-L.svg */,
+				A49332031F0BE2F00027E691 /* Japan_road_sign_311-B-L.svg */,
+				A49332041F0BE2F00027E691 /* Japan_road_sign_311-C.svg */,
+				A49332051F0BE2F00027E691 /* Japan_road_sign_311-D.svg */,
+				A49332061F0BE2F00027E691 /* Japan_road_sign_311-E.svg */,
+				A49332071F0BE2F00027E691 /* Japan_road_sign_311-F-L.svg */,
+				A49332081F0BE2F00027E691 /* Japan_road_sign_312.svg */,
+				A49332091F0BE2F00027E691 /* Japan_road_sign_313.svg */,
+				A493320A1F0BE2F00027E691 /* Japan_road_sign_314.svg */,
+				A493320B1F0BE2F00027E691 /* Japan_road_sign_315.svg */,
+				A493320C1F0BE2F00027E691 /* Japan_road_sign_316.svg */,
+				A493320D1F0BE2F00027E691 /* Japan_road_sign_318.svg */,
+				A493320E1F0BE2F00027E691 /* Japan_road_sign_319.svg */,
+				A493320F1F0BE2F00027E691 /* Japan_road_sign_320.svg */,
+				A49332101F0BE2F00027E691 /* Japan_road_sign_321.svg */,
+				A49332111F0BE2F00027E691 /* Japan_road_sign_322.svg */,
+				A49332121F0BE2F00027E691 /* Japan_road_sign_323_(50).svg */,
+				A49332131F0BE2F00027E691 /* Japan_road_sign_324_(30).svg */,
+				A49332141F0BE2F00027E691 /* Japan_road_sign_325-2.svg */,
+				A49332151F0BE2F00027E691 /* Japan_road_sign_325-3.svg */,
+				A49332161F0BE2F00027E691 /* Japan_road_sign_325-4.svg */,
+				A49332171F0BE2F00027E691 /* Japan_road_sign_325.svg */,
+				A49332181F0BE2F00027E691 /* Japan_road_sign_326-2-A-L.svg */,
+				A49332191F0BE2F00027E691 /* Japan_road_sign_326-2-B.svg */,
+				A493321A1F0BE2F00027E691 /* Japan_road_sign_326-A-L.svg */,
+				A493321B1F0BE2F00027E691 /* Japan_road_sign_326-B.svg */,
+				A493321C1F0BE2F00027E691 /* Japan_road_sign_327-8.svg */,
+				A493321D1F0BE2F00027E691 /* Japan_road_sign_327-9.svg */,
+				A493321E1F0BE2F00027E691 /* Japan_road_sign_328.svg */,
+				A493321F1F0BE2F00027E691 /* Japan_road_sign_329-2.svg */,
+				A49332201F0BE2F00027E691 /* Japan_road_sign_329.svg */,
+				A49332211F0BE2F00027E691 /* Japan_road_sign_330-2.svg */,
+				A49332221F0BE2F00027E691 /* Japan_road_sign_330.svg */,
+				A49332231F0BE2F00027E691 /* Japan_road_sign_402.svg */,
+				A49332241F0BE2F00027E691 /* Japan_road_sign_403.svg */,
+				A49332251F0BE2F00027E691 /* Japan_road_sign_404.svg */,
+				A49332261F0BE2F00027E691 /* Japan_road_sign_405.svg */,
+				A49332271F0BE2F00027E691 /* Japan_road_sign_406.svg */,
+				A49332281F0BE2F00027E691 /* Japan_road_sign_407-2.svg */,
+				A49332291F0BE2F00027E691 /* Japan_road_sign_407-3.svg */,
+				A493322A1F0BE2F00027E691 /* Japan_road_sign_407-A.svg */,
+				A493322B1F0BE2F00027E691 /* Japan_road_sign_407-B.svg */,
+				A493322C1F0BE2F00027E691 /* Japan_road_sign_408.svg */,
+				A493322D1F0BE2F00027E691 /* Japan_road_sign_501_50m.svg */,
+				A493322E1F0BE2F00027E691 /* Japan_road_sign_502_exc_Sunday_and_Holiday.svg */,
+				A493322F1F0BE2F00027E691 /* Japan_road_sign_503-A_Large_Tracks_2.svg */,
+				A49332301F0BE2F00027E691 /* Japan_road_sign_503-B_Tracks.svg */,
+				A49332311F0BE2F00027E691 /* Japan_road_sign_503-C.svg */,
+				A49332321F0BE2F00027E691 /* Japan_road_sign_503-D.svg */,
+				A49332331F0BE2F00027E691 /* Japan_road_sign_504-2_Parking_Meter.svg */,
+				A49332341F0BE2F00027E691 /* Japan_road_sign_504.svg */,
+				A49332351F0BE2F00027E691 /* Japan_road_sign_505-A.svg */,
+				A49332361F0BE2F00027E691 /* Japan_road_sign_505-B.svg */,
+				A49332371F0BE2F00027E691 /* Japan_road_sign_505-C.svg */,
+				A49332381F0BE2F00027E691 /* Japan_road_sign_506-2.svg */,
+				A49332391F0BE2F00027E691 /* Japan_road_sign_506.svg */,
+				A493323A1F0BE2F00027E691 /* Japan_road_sign_507-A.svg */,
+				A493323B1F0BE2F00027E691 /* Japan_road_sign_507-B.svg */,
+				A493323C1F0BE2F00027E691 /* Japan_road_sign_507-C.svg */,
+				A493323D1F0BE2F00027E691 /* Japan_road_sign_507-D.svg */,
+				A493323E1F0BE2F00027E691 /* Japan_road_sign_508-2.svg */,
+				A493323F1F0BE2F00027E691 /* Japan_road_sign_508.svg */,
+				A49332401F0BE2F00027E691 /* Japan_road_sign_509-2.svg */,
+				A49332411F0BE2F00027E691 /* Japan_road_sign_509-3.svg */,
+				A49332421F0BE2F00027E691 /* Japan_road_sign_509-4.svg */,
+				A49332431F0BE2F00027E691 /* Japan_road_sign_509-5.svg */,
+				A49332441F0BE2F00027E691 /* Japan_road_sign_509.svg */,
+				A49332451F0BE2F00027E691 /* Japan_road_sign_510_Safety_Speed.svg */,
+				A49332461F0BE2F00027E691 /* Japan_road_sign_510_Weekly_Shoulder.svg */,
+				A49332471F0BE2F00027E691 /* Japan_road_sign_510-2_Noise_Control_Zone.svg */,
+				A49332481F0BE2F00027E691 /* Japan_road_sign_511.svg */,
+				A49332491F0BE2F00027E691 /* Japan_road_sign_512.svg */,
+				A493324A1F0BE2F00027E691 /* Japan_road_sign_513.svg */,
+				A493324B1F0BE2F00027E691 /* Japan_road_sign_514.svg */,
+				A493324C1F0BE2F00027E691 /* Japanese_National_Route_Sign_0142.svg */,
+				A493324D1F0BE2F00027E691 /* Japanese_Road_sign_(Area_and_Distance_B).svg */,
+				A493324E1F0BE2F00027E691 /* Japanese_Road_sign_(Bus_Priority_Lane).svg */,
+				A493324F1F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Exit_A).svg */,
+				A49332501F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Exit_B).svg */,
+				A49332511F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Lane_A).svg */,
+				A49332521F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Lane_B).svg */,
+				A49332531F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Notice_of_exit_B).svg */,
+				A49332541F0BE2F00027E691 /* Japanese_Road_sign_(Direction_of_entrance).svg */,
+				A49332551F0BE2F00027E691 /* Japanese_Road_sign_(Direction,_Lane_and_Notice_of_exit_A).svg */,
+				A49332561F0BE2F00027E691 /* Japanese_Road_sign_(Emergency_parking_space).svg */,
+				A49332571F0BE2F00027E691 /* Japanese_Road_sign_(Emergency_telephone).svg */,
+				A49332581F0BE2F00027E691 /* Japanese_Road_sign_(Exclusive_Bus_Lane).svg */,
+				A49332591F0BE2F00027E691 /* Japanese_Road_sign_(Exit_A).svg */,
+				A493325A1F0BE2F00027E691 /* Japanese_Road_sign_(Exit_B).svg */,
+				A493325B1F0BE2F00027E691 /* Japanese_Road_sign_(Famous_place_C).svg */,
+				A493325C1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_A).svg */,
+				A493325D1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_B).svg */,
+				A493325E1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_C).svg */,
+				A493325F1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_D).svg */,
+				A49332601F0BE2F00027E691 /* Japanese_Road_sign_(No_Pedestrians_Crossing).svg */,
+				A49332611F0BE2F00027E691 /* Japanese_Road_sign_(No_pedestrians).svg */,
+				A49332621F0BE2F00027E691 /* Japanese_Road_sign_(Notice_of_entrance).svg */,
+				A49332631F0BE2F00027E691 /* Japanese_Road_sign_(Parking_lot_A,_Parking_permitted).svg */,
+				A49332641F0BE2F00027E691 /* Japanese_Road_sign_(Parking_lot_B).svg */,
+				A49332651F0BE2F00027E691 /* Japanese_Road_sign_(Particular_Vehicle_Lane).svg */,
+				A49332661F0BE2F00027E691 /* Japanese_Road_sign_(Prefecture_B).svg */,
+				A49332671F0BE2F00027E691 /* Japanese_Road_sign_(Service_area_A,_PA).svg */,
+				A49332681F0BE2F00027E691 /* Japanese_Road_sign_(Service_area_A,_SA).svg */,
+				A49332691F0BE2F00027E691 /* Japanese_Road_sign_(Slower_traffic_B).svg */,
+				A493326A1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_A).svg */,
+				A493326B1F0BE2F00027E691 /* Zeichen_215_-_Kreisverkehr,_StVO_2000.svg */,
+			);
+			name = svg;
+			sourceTree = "<group>";
+		};
 		E83803DA36BFB2C3C8878F36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A49331721F0BDEC50027E691 /* libxml2.2.dylib */,
+				A493317B1F0BE09D0027E691 /* CocoaLumberjack.framework */,
+				A493316D1F0BDD540027E691 /* UIKit.framework */,
+				A493316B1F0BDD450027E691 /* CoreGraphics.framework */,
+				A49331691F0BDD3F0027E691 /* QuartzCore.framework */,
+				A49331671F0BDD2D0027E691 /* CoreImage.framework */,
+				A49331651F0BDD260027E691 /* CoreText.framework */,
+				A493315C1F0BD3DB0027E691 /* SVGKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -258,6 +1026,7 @@
 				A4832E4D1E4A173900C494B3 /* Sources */,
 				A4832E4E1E4A173900C494B3 /* Frameworks */,
 				A4832E4F1E4A173900C494B3 /* Resources */,
+				A49331711F0BDDAE0027E691 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -364,11 +1133,248 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49332B61F0BE2F00027E691 /* Japanese_Road_sign_409-A.svg in Resources */,
+				A49332C91F0BE2F00027E691 /* Japan_road_sign_204-L.svg in Resources */,
+				A49332C11F0BE2F00027E691 /* Japan_road_sign_201-B-L.svg in Resources */,
+				A49332E51F0BE2F00027E691 /* Japan_road_sign_303.svg in Resources */,
+				A49332CB1F0BE2F00027E691 /* Japan_road_sign_205-L.svg in Resources */,
+				A49333341F0BE2F00027E691 /* Japan_road_sign_510-2_Noise_Control_Zone.svg in Resources */,
+				A49333141F0BE2F00027E691 /* Japan_road_sign_406.svg in Resources */,
+				A49333401F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Notice_of_exit_B).svg in Resources */,
+				A49333111F0BE2F00027E691 /* Japan_road_sign_403.svg in Resources */,
+				A493326E1F0BE2F00027E691 /* Japanese_Road_sign_103-B.svg in Resources */,
+				A493327B1F0BE2F00027E691 /* Japanese_Road_sign_108-4.svg in Resources */,
+				A49332FA1F0BE2F00027E691 /* Japan_road_sign_318.svg in Resources */,
+				A493334F1F0BE2F00027E691 /* Japanese_Road_sign_(Notice_of_entrance).svg in Resources */,
+				A49332D61F0BE2F00027E691 /* Japan_road_sign_210.svg in Resources */,
+				A49332DD1F0BE2F00027E691 /* Japan_road_sign_214-2_Hare.svg in Resources */,
+				A493334B1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_C).svg in Resources */,
+				A49332F11F0BE2F00027E691 /* Japan_road_sign_311-C.svg in Resources */,
+				A49332831F0BE2F00027E691 /* Japanese_Road_sign_114-A1.svg in Resources */,
+				A493330C1F0BE2F00027E691 /* Japan_road_sign_329-2.svg in Resources */,
+				A49332E61F0BE2F00027E691 /* Japan_road_sign_304.svg in Resources */,
+				A493326D1F0BE2F00027E691 /* Japanese_Road_sign_(Vehicle_Passing_Division).svg in Resources */,
+				A49333421F0BE2F00027E691 /* Japanese_Road_sign_(Direction,_Lane_and_Notice_of_exit_A).svg in Resources */,
+				A49333101F0BE2F00027E691 /* Japan_road_sign_402.svg in Resources */,
+				A493333F1F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Lane_B).svg in Resources */,
+				A49332B01F0BE2F00027E691 /* Japanese_Road_sign_126-C.svg in Resources */,
+				A49332AE1F0BE2F00027E691 /* Japanese_Road_sign_126-A.svg in Resources */,
+				A49333121F0BE2F00027E691 /* Japan_road_sign_404.svg in Resources */,
+				A49332C61F0BE2F00027E691 /* Japan_road_sign_202-R.svg in Resources */,
+				A49333351F0BE2F00027E691 /* Japan_road_sign_511.svg in Resources */,
+				A49332EE1F0BE2F00027E691 /* Japan_road_sign_310.svg in Resources */,
+				A49333131F0BE2F00027E691 /* Japan_road_sign_405.svg in Resources */,
+				A49332BC1F0BE2F00027E691 /* Japan_road_sign_102-A_13_Tokyo_W.svg in Resources */,
+				A49332C41F0BE2F00027E691 /* Japan_road_sign_201-D.svg in Resources */,
+				A49332821F0BE2F00027E691 /* Japanese_Road_sign_114-2-B.svg in Resources */,
+				A49332891F0BE2F00027E691 /* Japanese_Road_sign_116-A_SA.svg in Resources */,
+				A49332D51F0BE2F00027E691 /* Japan_road_sign_209.svg in Resources */,
+				A493333C1F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Exit_A).svg in Resources */,
+				A49332B51F0BE2F00027E691 /* Japanese_Road_sign_406-2.svg in Resources */,
+				A493333E1F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Lane_A).svg in Resources */,
+				A49333281F0BE2F00027E691 /* Japan_road_sign_507-B.svg in Resources */,
+				A49333581F0BE2F00027E691 /* Zeichen_215_-_Kreisverkehr,_StVO_2000.svg in Resources */,
+				A49332E01F0BE2F00027E691 /* Japan_road_sign_214-2.svg in Resources */,
+				A493333D1F0BE2F00027E691 /* Japanese_Road_sign_(Direction_and_Exit_B).svg in Resources */,
+				A49333291F0BE2F00027E691 /* Japan_road_sign_507-C.svg in Resources */,
+				A493329A1F0BE2F00027E691 /* Japanese_Road_sign_119-A.svg in Resources */,
+				A49332BB1F0BE2F00027E691 /* Japan_road_sign_101.svg in Resources */,
+				A49332781F0BE2F00027E691 /* Japanese_Road_sign_108-2-D.svg in Resources */,
+				A49332B41F0BE2F00027E691 /* Japanese_Road_sign_401.svg in Resources */,
+				A49332711F0BE2F00027E691 /* Japanese_Road_sign_105-C.svg in Resources */,
+				A49332F31F0BE2F00027E691 /* Japan_road_sign_311-E.svg in Resources */,
+				A49332D21F0BE2F00027E691 /* Japan_road_sign_208.svg in Resources */,
+				A49332D31F0BE2F00027E691 /* Japan_road_sign_209-2.svg in Resources */,
+				A49332E21F0BE2F00027E691 /* Japan_road_sign_215.svg in Resources */,
+				A493333A1F0BE2F00027E691 /* Japanese_Road_sign_(Area_and_Distance_B).svg in Resources */,
+				A493328F1F0BE2F00027E691 /* Japanese_Road_sign_118-2-C_principal_0014.svg in Resources */,
+				A49332CD1F0BE2F00027E691 /* Japan_road_sign_206-L.svg in Resources */,
+				A49332BD1F0BE2F00027E691 /* Japan_road_sign_110-A.svg in Resources */,
+				A49332EF1F0BE2F00027E691 /* Japan_road_sign_311-A-L.svg in Resources */,
+				A49332A51F0BE2F00027E691 /* Japanese_Road_sign_123-A.svg in Resources */,
+				A49333211F0BE2F00027E691 /* Japan_road_sign_504.svg in Resources */,
+				A49332B11F0BE2F00027E691 /* Japanese_Road_sign_327-10.svg in Resources */,
 				A44F321C1E65C02500D6E90C /* DriveInfoStoryboard.storyboard in Resources */,
+				A493329B1F0BE2F00027E691 /* Japanese_Road_sign_119-B.svg in Resources */,
+				A493326F1F0BE2F00027E691 /* Japanese_Road_sign_105-A.svg in Resources */,
+				A49333571F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_A).svg in Resources */,
+				A49333491F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_A).svg in Resources */,
+				A49332731F0BE2F00027E691 /* Japanese_Road_sign_106-C.svg in Resources */,
+				A493331A1F0BE2F00027E691 /* Japan_road_sign_501_50m.svg in Resources */,
+				A49332841F0BE2F00027E691 /* Japanese_Road_sign_114-A2.svg in Resources */,
+				A49332A71F0BE2F00027E691 /* Japanese_Road_sign_123-C.svg in Resources */,
+				A493331F1F0BE2F00027E691 /* Japan_road_sign_503-D.svg in Resources */,
+				A49333451F0BE2F00027E691 /* Japanese_Road_sign_(Exclusive_Bus_Lane).svg in Resources */,
+				A49332F91F0BE2F00027E691 /* Japan_road_sign_316.svg in Resources */,
+				A493331C1F0BE2F00027E691 /* Japan_road_sign_503-A_Large_Tracks_2.svg in Resources */,
+				A49333441F0BE2F00027E691 /* Japanese_Road_sign_(Emergency_telephone).svg in Resources */,
+				A49333481F0BE2F00027E691 /* Japanese_Road_sign_(Famous_place_C).svg in Resources */,
+				A49332991F0BE2F00027E691 /* Japanese_Road_sign_118-C_0142.svg in Resources */,
+				A49332851F0BE2F00027E691 /* Japanese_Road_sign_114-B.svg in Resources */,
+				A49332951F0BE2F00027E691 /* Japanese_Road_sign_118-4-B.svg in Resources */,
+				A49332D81F0BE2F00027E691 /* Japan_road_sign_212-2.svg in Resources */,
+				A49332701F0BE2F00027E691 /* Japanese_Road_sign_105-B.svg in Resources */,
+				A49333371F0BE2F00027E691 /* Japan_road_sign_513.svg in Resources */,
 				A4832E5F1E4A173900C494B3 /* LaunchScreen.storyboard in Resources */,
+				A49333501F0BE2F00027E691 /* Japanese_Road_sign_(Parking_lot_A,_Parking_permitted).svg in Resources */,
+				A49332C21F0BE2F00027E691 /* Japan_road_sign_201-B-R.svg in Resources */,
+				A49332981F0BE2F00027E691 /* Japanese_Road_sign_118-B_0142.svg in Resources */,
+				A49332931F0BE2F00027E691 /* Japanese_Road_sign_118-3-B.svg in Resources */,
+				A49332911F0BE2F00027E691 /* Japanese_Road_sign_118-3_and_4-B.svg in Resources */,
+				A49333321F0BE2F00027E691 /* Japan_road_sign_510_Safety_Speed.svg in Resources */,
+				A493329E1F0BE2F00027E691 /* Japanese_Road_sign_120-B.svg in Resources */,
+				A49332E91F0BE2F00027E691 /* Japan_road_sign_306.svg in Resources */,
+				A49332771F0BE2F00027E691 /* Japanese_Road_sign_108-2-C.svg in Resources */,
+				A49332A61F0BE2F00027E691 /* Japanese_Road_sign_123-B.svg in Resources */,
+				A493327A1F0BE2F00027E691 /* Japanese_Road_sign_108-3.svg in Resources */,
+				A49332C71F0BE2F00027E691 /* Japan_road_sign_203-L.svg in Resources */,
+				A49332901F0BE2F00027E691 /* Japanese_Road_sign_118-3_and_4-A.svg in Resources */,
+				A49333061F0BE2F00027E691 /* Japan_road_sign_326-2-B.svg in Resources */,
+				A49332B21F0BE2F00027E691 /* Japanese_Road_sign_327-11.svg in Resources */,
+				A49332751F0BE2F00027E691 /* Japanese_Road_sign_108-2-B_lane.svg in Resources */,
+				A49332FE1F0BE2F00027E691 /* Japan_road_sign_322.svg in Resources */,
+				A49333511F0BE2F00027E691 /* Japanese_Road_sign_(Parking_lot_B).svg in Resources */,
+				A49333261F0BE2F00027E691 /* Japan_road_sign_506.svg in Resources */,
+				A49332A31F0BE2F00027E691 /* Japanese_Road_sign_122-B.svg in Resources */,
+				A49333181F0BE2F00027E691 /* Japan_road_sign_407-B.svg in Resources */,
+				A49332AA1F0BE2F00027E691 /* Japanese_Road_sign_124-C.svg in Resources */,
+				A493332D1F0BE2F00027E691 /* Japan_road_sign_509-2.svg in Resources */,
+				A49332AF1F0BE2F00027E691 /* Japanese_Road_sign_126-B.svg in Resources */,
+				A49332F51F0BE2F00027E691 /* Japan_road_sign_312.svg in Resources */,
+				A493328C1F0BE2F00027E691 /* Japanese_Road_sign_118-2-B_0142.svg in Resources */,
+				A49332A41F0BE2F00027E691 /* Japanese_Road_sign_122-C.svg in Resources */,
+				A49332AD1F0BE2F00027E691 /* Japanese_Road_sign_125-C.svg in Resources */,
+				A49332EB1F0BE2F00027E691 /* Japan_road_sign_308.svg in Resources */,
+				A49333041F0BE2F00027E691 /* Japan_road_sign_325.svg in Resources */,
+				A49332811F0BE2F00027E691 /* Japanese_Road_sign_114-2-A.svg in Resources */,
+				A493327E1F0BE2F00027E691 /* Japanese_Road_sign_108-B.svg in Resources */,
+				A493330F1F0BE2F00027E691 /* Japan_road_sign_330.svg in Resources */,
+				A49333201F0BE2F00027E691 /* Japan_road_sign_504-2_Parking_Meter.svg in Resources */,
+				A49332DB1F0BE2F00027E691 /* Japan_road_sign_212.svg in Resources */,
+				A49333221F0BE2F00027E691 /* Japan_road_sign_505-A.svg in Resources */,
 				A4832E5C1E4A173900C494B3 /* Assets.xcassets in Resources */,
+				A493327D1F0BE2F00027E691 /* Japanese_Road_sign_108-B_lane.svg in Resources */,
+				A49333331F0BE2F00027E691 /* Japan_road_sign_510_Weekly_Shoulder.svg in Resources */,
+				A49332F01F0BE2F00027E691 /* Japan_road_sign_311-B-L.svg in Resources */,
+				A49333231F0BE2F00027E691 /* Japan_road_sign_505-B.svg in Resources */,
+				A49332C51F0BE2F00027E691 /* Japan_road_sign_202-L.svg in Resources */,
+				A493330B1F0BE2F00027E691 /* Japan_road_sign_328.svg in Resources */,
+				A49332C81F0BE2F00027E691 /* Japan_road_sign_203-R.svg in Resources */,
+				A49332CF1F0BE2F00027E691 /* Japan_road_sign_207-A.svg in Resources */,
+				A493327C1F0BE2F00027E691 /* Japanese_Road_sign_108-A.svg in Resources */,
+				A49332E11F0BE2F00027E691 /* Japan_road_sign_214.svg in Resources */,
+				A493333B1F0BE2F00027E691 /* Japanese_Road_sign_(Bus_Priority_Lane).svg in Resources */,
+				A49333311F0BE2F00027E691 /* Japan_road_sign_509.svg in Resources */,
+				A49333161F0BE2F00027E691 /* Japan_road_sign_407-3.svg in Resources */,
+				A493330E1F0BE2F00027E691 /* Japan_road_sign_330-2.svg in Resources */,
+				A49333001F0BE2F00027E691 /* Japan_road_sign_324_(30).svg in Resources */,
+				A49333151F0BE2F00027E691 /* Japan_road_sign_407-2.svg in Resources */,
+				A49332D71F0BE2F00027E691 /* Japan_road_sign_211.svg in Resources */,
+				A49332BA1F0BE2F00027E691 /* Japan_expway_sign_118-3.svg in Resources */,
+				A49332F41F0BE2F00027E691 /* Japan_road_sign_311-F-L.svg in Resources */,
+				A49333461F0BE2F00027E691 /* Japanese_Road_sign_(Exit_A).svg in Resources */,
+				A49332B91F0BE2F00027E691 /* Fukuoka_Pref_Route_Sign_0076.svg in Resources */,
+				A49332801F0BE2F00027E691 /* Japanese_Road_sign_111-B.svg in Resources */,
+				A493330D1F0BE2F00027E691 /* Japan_road_sign_329.svg in Resources */,
+				A493331E1F0BE2F00027E691 /* Japan_road_sign_503-C.svg in Resources */,
+				A493332A1F0BE2F00027E691 /* Japan_road_sign_507-D.svg in Resources */,
+				A49333191F0BE2F00027E691 /* Japan_road_sign_408.svg in Resources */,
+				A49332741F0BE2F00027E691 /* Japanese_Road_sign_108-2-A.svg in Resources */,
+				A49332D01F0BE2F00027E691 /* Japan_road_sign_207-B.svg in Resources */,
+				A493332E1F0BE2F00027E691 /* Japan_road_sign_509-3.svg in Resources */,
+				A49332A21F0BE2F00027E691 /* Japanese_Road_sign_122-A.svg in Resources */,
 				A457EB1F1F049AB100D6D700 /* MarkDic.strings in Resources */,
+				A49333051F0BE2F00027E691 /* Japan_road_sign_326-2-A-L.svg in Resources */,
+				A49332DC1F0BE2F00027E691 /* Japan_road_sign_213.svg in Resources */,
+				A493329F1F0BE2F00027E691 /* Japanese_Road_sign_121-A.svg in Resources */,
+				A493328E1F0BE2F00027E691 /* Japanese_Road_sign_118-2-C_0142.svg in Resources */,
+				A49332AC1F0BE2F00027E691 /* Japanese_Road_sign_125-B.svg in Resources */,
+				A49333271F0BE2F00027E691 /* Japan_road_sign_507-A.svg in Resources */,
+				A49333521F0BE2F00027E691 /* Japanese_Road_sign_(Particular_Vehicle_Lane).svg in Resources */,
+				A49332941F0BE2F00027E691 /* Japanese_Road_sign_118-4-A.svg in Resources */,
+				A493329C1F0BE2F00027E691 /* Japanese_Road_sign_119-C.svg in Resources */,
+				A49333561F0BE2F00027E691 /* Japanese_Road_sign_(Slower_traffic_B).svg in Resources */,
+				A49332A91F0BE2F00027E691 /* Japanese_Road_sign_124-B.svg in Resources */,
+				A493334D1F0BE2F00027E691 /* Japanese_Road_sign_(No_Pedestrians_Crossing).svg in Resources */,
+				A49332961F0BE2F00027E691 /* Japanese_Road_sign_118-4-C.svg in Resources */,
+				A49333431F0BE2F00027E691 /* Japanese_Road_sign_(Emergency_parking_space).svg in Resources */,
+				A493328D1F0BE2F00027E691 /* Japanese_Road_sign_118-2-B_principal_0014.svg in Resources */,
+				A49332CE1F0BE2F00027E691 /* Japan_road_sign_206-R.svg in Resources */,
+				A49333471F0BE2F00027E691 /* Japanese_Road_sign_(Exit_B).svg in Resources */,
+				A49332DE1F0BE2F00027E691 /* Japan_road_sign_214-2_Monkey.svg in Resources */,
+				A49333091F0BE2F00027E691 /* Japan_road_sign_327-8.svg in Resources */,
+				A49332E71F0BE2F00027E691 /* Japan_road_sign_305_and_503-C.svg in Resources */,
+				A49332871F0BE2F00027E691 /* Japanese_Road_sign_116-3.svg in Resources */,
+				A49333391F0BE2F00027E691 /* Japanese_National_Route_Sign_0142.svg in Resources */,
+				A49332A81F0BE2F00027E691 /* Japanese_Road_sign_124-A.svg in Resources */,
+				A49332F21F0BE2F00027E691 /* Japan_road_sign_311-D.svg in Resources */,
+				A49332E81F0BE2F00027E691 /* Japan_road_sign_305.svg in Resources */,
+				A493328B1F0BE2F00027E691 /* Japanese_Road_sign_117-2-A.svg in Resources */,
+				A49332AB1F0BE2F00027E691 /* Japanese_Road_sign_125-A.svg in Resources */,
+				A49332791F0BE2F00027E691 /* Japanese_Road_sign_108-2-E.svg in Resources */,
+				A49332EC1F0BE2F00027E691 /* Japan_road_sign_309.svg in Resources */,
+				A49333381F0BE2F00027E691 /* Japan_road_sign_514.svg in Resources */,
+				A49332921F0BE2F00027E691 /* Japanese_Road_sign_118-3-A.svg in Resources */,
+				A49333361F0BE2F00027E691 /* Japan_road_sign_512.svg in Resources */,
+				A49332B71F0BE2F00027E691 /* Japanese_Road_sign_409-B.svg in Resources */,
+				A49333081F0BE2F00027E691 /* Japan_road_sign_326-B.svg in Resources */,
+				A49333071F0BE2F00027E691 /* Japan_road_sign_326-A-L.svg in Resources */,
+				A493328A1F0BE2F00027E691 /* Japanese_Road_sign_116-B.svg in Resources */,
+				A49332A01F0BE2F00027E691 /* Japanese_Road_sign_121-B.svg in Resources */,
+				A493326C1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_B).svg in Resources */,
+				A49332FD1F0BE2F00027E691 /* Japan_road_sign_321.svg in Resources */,
+				A493332F1F0BE2F00027E691 /* Japan_road_sign_509-4.svg in Resources */,
+				A493334C1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_D).svg in Resources */,
+				A49332DA1F0BE2F00027E691 /* Japan_road_sign_212-4.svg in Resources */,
+				A49332971F0BE2F00027E691 /* Japanese_Road_sign_118-4-D.svg in Resources */,
+				A49332721F0BE2F00027E691 /* Japanese_Road_sign_106-A.svg in Resources */,
+				A49332CA1F0BE2F00027E691 /* Japan_road_sign_204-R.svg in Resources */,
+				A49332E31F0BE2F00027E691 /* Japan_road_sign_301.svg in Resources */,
+				A49333411F0BE2F00027E691 /* Japanese_Road_sign_(Direction_of_entrance).svg in Resources */,
+				A493327F1F0BE2F00027E691 /* Japanese_Road_sign_109.svg in Resources */,
+				A49332B31F0BE2F00027E691 /* Japanese_Road_sign_327-12.svg in Resources */,
+				A49332D91F0BE2F00027E691 /* Japan_road_sign_212-3.svg in Resources */,
+				A49332C01F0BE2F00027E691 /* Japan_road_sign_201-A.svg in Resources */,
+				A49333241F0BE2F00027E691 /* Japan_road_sign_505-C.svg in Resources */,
+				A493332B1F0BE2F00027E691 /* Japan_road_sign_508-2.svg in Resources */,
+				A49333551F0BE2F00027E691 /* Japanese_Road_sign_(Service_area_A,_SA).svg in Resources */,
+				A49332B81F0BE2F00027E691 /* Shuto_Urban_Expwy_Sign_0003.svg in Resources */,
+				A49332DF1F0BE2F00027E691 /* Japan_road_sign_214-2_Raccoon-dog.svg in Resources */,
+				A493330A1F0BE2F00027E691 /* Japan_road_sign_327-9.svg in Resources */,
+				A49333251F0BE2F00027E691 /* Japan_road_sign_506-2.svg in Resources */,
+				A49332D41F0BE2F00027E691 /* Japan_road_sign_209-3.svg in Resources */,
+				A49332BF1F0BE2F00027E691 /* Japan_road_sign_201-2.svg in Resources */,
+				A49332FC1F0BE2F00027E691 /* Japan_road_sign_320.svg in Resources */,
+				A493334A1F0BE2F00027E691 /* Japanese_Road_sign_(Follow_Directions_B).svg in Resources */,
+				A49332F71F0BE2F00027E691 /* Japan_road_sign_314.svg in Resources */,
+				A493329D1F0BE2F00027E691 /* Japanese_Road_sign_120-A.svg in Resources */,
+				A49333031F0BE2F00027E691 /* Japan_road_sign_325-4.svg in Resources */,
+				A49332FB1F0BE2F00027E691 /* Japan_road_sign_319.svg in Resources */,
+				A49332EA1F0BE2F00027E691 /* Japan_road_sign_307.svg in Resources */,
+				A49332C31F0BE2F00027E691 /* Japan_road_sign_201-C.svg in Resources */,
+				A49332BE1F0BE2F00027E691 /* Japan_road_sign_115.svg in Resources */,
+				A49333011F0BE2F00027E691 /* Japan_road_sign_325-2.svg in Resources */,
+				A49332E41F0BE2F00027E691 /* Japan_road_sign_302.svg in Resources */,
+				A49332ED1F0BE2F00027E691 /* Japan_road_sign_310-2.svg in Resources */,
+				A493334E1F0BE2F00027E691 /* Japanese_Road_sign_(No_pedestrians).svg in Resources */,
+				A49332FF1F0BE2F00027E691 /* Japan_road_sign_323_(50).svg in Resources */,
+				A493331D1F0BE2F00027E691 /* Japan_road_sign_503-B_Tracks.svg in Resources */,
+				A49332D11F0BE2F00027E691 /* Japan_road_sign_208-2.svg in Resources */,
+				A49333301F0BE2F00027E691 /* Japan_road_sign_509-5.svg in Resources */,
+				A493332C1F0BE2F00027E691 /* Japan_road_sign_508.svg in Resources */,
+				A49333021F0BE2F00027E691 /* Japan_road_sign_325-3.svg in Resources */,
+				A493331B1F0BE2F00027E691 /* Japan_road_sign_502_exc_Sunday_and_Holiday.svg in Resources */,
+				A49332F81F0BE2F00027E691 /* Japan_road_sign_315.svg in Resources */,
+				A49333541F0BE2F00027E691 /* Japanese_Road_sign_(Service_area_A,_PA).svg in Resources */,
+				A49332A11F0BE2F00027E691 /* Japanese_Road_sign_121-C.svg in Resources */,
+				A49333531F0BE2F00027E691 /* Japanese_Road_sign_(Prefecture_B).svg in Resources */,
+				A49332F61F0BE2F00027E691 /* Japan_road_sign_313.svg in Resources */,
+				A49333171F0BE2F00027E691 /* Japan_road_sign_407-A.svg in Resources */,
+				A49332881F0BE2F00027E691 /* Japanese_Road_sign_116-A_PA.svg in Resources */,
+				A49332861F0BE2F00027E691 /* Japanese_Road_sign_116-2-B.svg in Resources */,
+				A49332761F0BE2F00027E691 /* Japanese_Road_sign_108-2-B.svg in Resources */,
 				A4832E5A1E4A173900C494B3 /* Main.storyboard in Resources */,
+				A49332CC1F0BE2F00027E691 /* Japan_road_sign_205-R.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,9 +1661,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KN2BUJJP3T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/日本交通規則",
+					"$(PROJECT_DIR)/日本交通規則/3rd-party-frameworks/CocoaLumberjack-2.2.0/iOS",
+				);
 				INFOPLIST_FILE = "日本交通規則/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = YanQi.Japan.TrafficRegulation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -669,9 +1681,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KN2BUJJP3T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/日本交通規則",
+					"$(PROJECT_DIR)/日本交通規則/3rd-party-frameworks/CocoaLumberjack-2.2.0/iOS",
+				);
 				INFOPLIST_FILE = "日本交通規則/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = YanQi.Japan.TrafficRegulation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

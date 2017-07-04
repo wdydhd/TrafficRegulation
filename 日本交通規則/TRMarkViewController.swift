@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVGKit
 
 class TRMarkViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout{
     
@@ -154,8 +155,13 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
         let cell = (self.collectionView?.dequeueReusableCell(
             withReuseIdentifier: identify, for: indexPath))! as! TRTrafficSignsCell
         
+//        cell.trafficSignIcon.image =
+//            UIImage(named: courses[indexPath.section][indexPath.item]["pic"]!)
+
+        let url = SVGKSourceLocalFile.internalSourceAnywhereInBundle(usingName: "Japanese_Road_sign_106-C.svg")
+        let document = SVGKImage(source: url)
         cell.trafficSignIcon.image =
-            UIImage(named: courses[indexPath.section][indexPath.item]["pic"]!)
+            document?.uiImage
         cell.signTitleLabel.text =
             courses[indexPath.section][indexPath.item]["name"]
         return cell
