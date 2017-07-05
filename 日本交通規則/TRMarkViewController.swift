@@ -11,11 +11,23 @@ import SVGKit
 
 class TRMarkViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout{
     
+    let roadSignsDic = NSDictionary(contentsOfFile: Bundle.main.path(forResource: "MarkDic", ofType: "strings")!)!
+    let rowNumbers: CGFloat = 3
+    let rowItemSpace: CGFloat = 1.5
+    static let headerViewHeight: CGFloat = 30
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        let a = Bundle.main.path(forResource: "MarkDic", ofType: "strings")
-        print(a)
+        let aaa = roadSignsDic.allKeys.sorted { (s1, s2) -> Bool in
+            let str1: String = s1 as! String
+            let str2: String = s2 as! String
+//str1.range(of: "(")!.lowerBound...str1.range(of: ")")!.upperBound
+            let subStr1 = str1.substring(with: Range<String.Index>(uncheckedBounds: (lower: str1.range(of: "(")!.lowerBound, upper: str1.range(of: ")")!.upperBound)))
+            
+            let subStr2 = str2.substring(with: Range<String.Index>(uncheckedBounds: (lower: str2.range(of: "(")!.lowerBound, upper: str2.range(of: ")")!.upperBound)))
+            return subStr1.caseInsensitiveCompare(subStr2) == ComparisonResult.orderedAscending
+        }
+        print(aaa)
     }
     
     override func didReceiveMemoryWarning() {
@@ -23,147 +35,34 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
         // Dispose of any resources that can be recreated.
     }
     
-    let courses = [[
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"],
-        ["name":"Swift","pic":"1.png"],
-        ["name":"OC","pic":"2.png"],
-        ["name":"java","pic":"3.png"]
-        ],
-                   [
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"],
-                    ["name":"Swift","pic":"1.png"],
-                    ["name":"OC","pic":"2.png"],
-                    ["name":"java","pic":"3.png"]
-        ]
-    ]
-    let rowNumbers: CGFloat = 3
-    let rowItemSpace: CGFloat = 1.5
-    static let headerViewHeight: CGFloat = 30
-    
     override func collectionView(_ collectionView: UICollectionView,
                                  numberOfItemsInSection section: Int) -> Int {
-        return courses[section].count;
+        if let sectionDic: NSDictionary = roadSignsDic.object(forKey: roadSignsDic.allKeys[section]) as? NSDictionary {
+            return sectionDic.count
+        }
+        
+        return 0;
     }
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return courses.count;
+        return roadSignsDic.count;
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+
         
         let identify: String = "TRTrafficSignsCell"
         let cell = (self.collectionView?.dequeueReusableCell(
             withReuseIdentifier: identify, for: indexPath))! as! TRTrafficSignsCell
         
-//        cell.trafficSignIcon.image =
-//            UIImage(named: courses[indexPath.section][indexPath.item]["pic"]!)
-
-        let url = SVGKSourceLocalFile.internalSourceAnywhereInBundle(usingName: "Japanese_Road_sign_106-C.svg")
-        let document = SVGKImage(source: url)
-        cell.trafficSignIcon.image =
-            document?.uiImage
-        cell.signTitleLabel.text =
-            courses[indexPath.section][indexPath.item]["name"]
+        guard let sectionDic: NSDictionary = roadSignsDic.object(forKey: roadSignsDic.allKeys[indexPath.section]) as? NSDictionary , let signInfo = sectionDic.object(forKey: sectionDic.allKeys[indexPath.row]) else {
+            return cell
+        }
+        let signImage = SVGKImage(named: sectionDic.allKeys[indexPath.row] as! String)
+        print("\(signImage?.size) ----- \(signImage?.scale)")
+        cell.setSvgImage(image: signImage)
+        cell.signTitleLabel.text = signInfo as? String
         return cell
     }
     
@@ -174,7 +73,7 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         if kind == UICollectionElementKindSectionHeader {
             let headerView: TRTrafficSignsHeaderView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "TrafficSignsHeaderView", for: indexPath) as! TRTrafficSignsHeaderView
-            headerView.sectionTitleLabel.text = "section : \(indexPath.section)"
+            headerView.sectionTitleLabel.text = roadSignsDic.allKeys[indexPath.section] as? String
             return headerView
         }
         return UICollectionReusableView()
