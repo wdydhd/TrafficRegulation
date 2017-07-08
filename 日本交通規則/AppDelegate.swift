@@ -8,6 +8,7 @@
 
 import UIKit
 //import LeanCloud
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // applicationId 即 App Id，applicationKey 是 App Key
 //        LeanCloud.setServiceRegion(.us)
 //        LeanCloud.initialize(applicationID: "6iQHGLT6je2aOwwPn3nzaiys-gzGzoHsz", applicationKey: "Ezs1T8FgD0v6znjpHNPDQ9c6")
+        FIRApp.configure()
+        
+        
+
         return true
     }
 

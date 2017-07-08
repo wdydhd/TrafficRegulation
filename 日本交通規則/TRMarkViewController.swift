@@ -8,6 +8,7 @@
 
 import UIKit
 import SVGKit
+import Firebase
 
 class TRMarkViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout{
     
@@ -182,6 +183,8 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         collectionView.deselectItem(at: indexPath, animated: true)
+        FIRCrashMessage("Cause Crash button clicked_YQ")
+        fatalError()
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {

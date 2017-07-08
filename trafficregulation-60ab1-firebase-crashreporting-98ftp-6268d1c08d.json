@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "trafficregulation-60ab1",
+  "private_key_id": "6268d1c08d6f8246fc93ff538ac6bd38043bcb13",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDvUkt14ae7b/FR\nLPv8hOJvQa/BFHcPSI3RyHRq7fsbNkQwO+mVao2QUcp1agnUs/WaTgb8rd4Cvs+Y\nklbkE4gWl1O9ByU13rMQkYt+9gqNB+zy+8kp4KkSmO2AQ+jGhpPk08LB3DlT0yQc\nHGHPYpI7PhK5QK/l/mF3fSsoOFPz+LTC84/l2gRNbgF9q7QdC+Puf1WsPITQc+7x\nmbJmaXJHMH+TnPboXrKLwDoZ/uRGojU5SR8qvC+m+SkVQODtbKxrIQaxyQDbQf0p\n5Gi67sH1LyOgE88fl5Ldi+P7YFIjE9kCWX0y/ietJ2rPi8VkQw2ZrUyV2d1GHfOC\nmjo9ctMvAgMBAAECggEAI3iFkbO/6hKV6EusD4nci9PnCk2PtfaxemnlA2JBaQ+a\nfLGslcZEtCLDSLLOQTXpDZVKCNJ2SN7iIwFxmn1gmsSUFzzDYaAf1zFTRR6Pgsat\ncngqIShYttZuwSePjTkuG2jdgWE0J/3v6LC2OIgqF1jEaquxRnv1E0I8jsoGe27U\naPuRgSU0Oc9rpTOtceoOvzW5DQRI+G0IAYxLaEpT0UBVzLvJM51uNEH1+gx7OccF\n3VYySgleLj/5JraDv/oolJtOt7/m9iLd7IOcAW0FxgywVekuAI0WMYiwkPfTPv4/\nYvWbQiOExwyJ2kYfLDFzX1RoaHaHxxH1h7ZnhPWD1QKBgQD+jxOIUjT3ckfiWozA\nC4Dx1bAG/Gj80HNg9o7MU6RzJ40fLiOsTjk22rsfxo6jRziAL+SV3zI9DzKrdo5u\nBsELH2CxqTieyO5TooWv8Z73P7wLk4v0yMzUXNvlooTkoN11pFMtVTYwT0FmNEfI\nW+8p2+zt1ouhDzURABtZoUsIiwKBgQDwrSKn0rhYdIgVqMkLj8iSob0F9CSZjANx\nOaQg18fab2yVP+ph+1BoPIoSOLPO0hocccv2pjj3R+25C7KApTuy1AXtZ1+KpOsS\nDl98UFCXJKfi3J3jVUzx57MI8Au+gKhdJFwlC8ouq88Xd+/xiI4X0xrXPv9f3skI\nNMa3F1aQbQKBgQDjUKq1kgtgaDnO5ONJXzxvOE3vfxjVoeNWU/YiehKhDlGT5WTP\nqi6nUF3HO00Ge0P2HE54kw5OvjKWMNFxaTCbmRKEs8Mu7+j64GeXPSGiUtS+Vaym\nE2XtwVpQTndznj8EnY/1LGGudCfHd6oePhJtA8oofOzFD0po+vpxaHoTjwKBgQDa\niCqmfbQ7RRxnpklegSDa25cZt9Qfw71Aatk3pRZnpbLPVijI7PvWmdm4r9m8WpOw\n7jcH72hcR+h3lEJxgxbQyqnTJYDgD90OGRTkeLykcHksiaunRsXGBN9Qpz3SrVmy\nsRgl3y2m8QPqSFILWzXCNkHx3dbdwxmApQMmLj/AhQKBgQDbeEKAUPOCJeKZrB7C\nUTgGkuXBuxwSPnRjSi4Ht7WOd01RG+thI3V51eCTMYlz5IuUvYMsewRBjjTJPFNm\nkis4hzlJh2DrFD+GS8Yw9Obrf0l2e4hY0OIB4TOHsFNNHlzqA54wTVTb+0J9JM1W\nXUF7SUNElpccSuWHD/EQBkOeVw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-crashreporting-98ftp@trafficregulation-60ab1.iam.gserviceaccount.com",
+  "client_id": "106814476056866163450",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-crashreporting-98ftp%40trafficregulation-60ab1.iam.gserviceaccount.com"
+}

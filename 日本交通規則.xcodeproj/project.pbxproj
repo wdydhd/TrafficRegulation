@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BE8E2B11E157D9EBC5F2FB8 /* Pods_______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1BF772A9ED191CCD9A1BEC /* Pods_______.framework */; };
+		7802686D5E75B5299A17DAFD /* Pods_______Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A3F60C7EFA71F460CA2FB6 /* Pods_______Tests.framework */; };
+		96C8A3B913D13C76FC1167BD /* Pods_______UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AC5A9A4A8AB409CF9B4AEA /* Pods_______UITests.framework */; };
 		A420C3091EA0FF59007D72D5 /* TRFreewayInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420C3081EA0FF59007D72D5 /* TRFreewayInfoViewController.swift */; };
 		A420C30B1EA4F537007D72D5 /* TRGasStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420C30A1EA4F537007D72D5 /* TRGasStationViewController.swift */; };
 		A426BC111E5733AA0037AC16 /* UINavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A426BC101E5733AA0037AC16 /* UINavigationBarExtension.swift */; };
 		A43048C11E9E351C00E1439D /* TRParkingFeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43048C01E9E351C00E1439D /* TRParkingFeesViewController.swift */; };
 		A4357A501F022E7C0060F01F /* TRTrafficSignsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4357A4E1F022E7C0060F01F /* TRTrafficSignsCell.swift */; };
 		A4357A511F022E7C0060F01F /* TRTrafficSignsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4357A4F1F022E7C0060F01F /* TRTrafficSignsHeaderView.swift */; };
+		A449814B1F0D0CDE000F69AA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A449814A1F0D0CDE000F69AA /* MapKit.framework */; };
 		A44F32101E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F320F1E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift */; };
 		A44F32121E5BB08700D6E90C /* TRConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F32111E5BB08700D6E90C /* TRConst.swift */; };
 		A44F32141E5DBDFD00D6E90C /* TRBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F32131E5DBDFD00D6E90C /* TRBaseTabBarController.swift */; };
@@ -39,8 +43,6 @@
 		A493316E1F0BDD540027E691 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A493316D1F0BDD540027E691 /* UIKit.framework */; };
 		A49331701F0BDDAE0027E691 /* SVGKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A493315C1F0BD3DB0027E691 /* SVGKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A49331731F0BDEC50027E691 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A49331721F0BDEC50027E691 /* libxml2.2.dylib */; };
-		A493317C1F0BE09D0027E691 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A493317B1F0BE09D0027E691 /* CocoaLumberjack.framework */; };
-		A493317D1F0BE09D0027E691 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A493317B1F0BE09D0027E691 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A493326C1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_B).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493317F1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_B).svg */; };
 		A493326D1F0BE2F00027E691 /* Japanese_Road_sign_(Vehicle_Passing_Division).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331801F0BE2F00027E691 /* Japanese_Road_sign_(Vehicle_Passing_Division).svg */; };
 		A493326E1F0BE2F00027E691 /* Japanese_Road_sign_103-B.svg in Resources */ = {isa = PBXBuildFile; fileRef = A49331811F0BE2F00027E691 /* Japanese_Road_sign_103-B.svg */; };
@@ -278,6 +280,8 @@
 		A49333561F0BE2F00027E691 /* Japanese_Road_sign_(Slower_traffic_B).svg in Resources */ = {isa = PBXBuildFile; fileRef = A49332691F0BE2F00027E691 /* Japanese_Road_sign_(Slower_traffic_B).svg */; };
 		A49333571F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_A).svg in Resources */ = {isa = PBXBuildFile; fileRef = A493326A1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_A).svg */; };
 		A49333581F0BE2F00027E691 /* Zeichen_215_-_Kreisverkehr,_StVO_2000.svg in Resources */ = {isa = PBXBuildFile; fileRef = A493326B1F0BE2F00027E691 /* Zeichen_215_-_Kreisverkehr,_StVO_2000.svg */; };
+		A493335A1F0D035E0027E691 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A49333591F0D035E0027E691 /* GoogleService-Info.plist */; };
+		A4F4B8611F0D0F3500C315DC /* trafficregulation-60ab1-firebase-crashreporting-98ftp-6268d1c08d.json in Resources */ = {isa = PBXBuildFile; fileRef = A4F4B8601F0D0F3500C315DC /* trafficregulation-60ab1-firebase-crashreporting-98ftp-6268d1c08d.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -304,7 +308,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A493317D1F0BE09D0027E691 /* CocoaLumberjack.framework in Embed Frameworks */,
 				A49331701F0BDDAE0027E691 /* SVGKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -313,12 +316,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B1BF772A9ED191CCD9A1BEC /* Pods_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA8D47D70CBC22FF53262D4 /* Pods-日本交通規則UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則UITests/Pods-日本交通規則UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C851A1B6B11EA1DB5DC5D60 /* Pods-日本交通規則.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則/Pods-日本交通規則.debug.xcconfig"; sourceTree = "<group>"; };
+		33A3F60C7EFA71F460CA2FB6 /* Pods_______Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AC5A9A4A8AB409CF9B4AEA /* Pods_______UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B56E3B96D22B9A890ED5977 /* Pods-日本交通規則UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則UITests/Pods-日本交通規則UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9797F478319724DBFA8F20B7 /* Pods-日本交通規則.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則.release.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則/Pods-日本交通規則.release.xcconfig"; sourceTree = "<group>"; };
 		A420C3081EA0FF59007D72D5 /* TRFreewayInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRFreewayInfoViewController.swift; sourceTree = "<group>"; };
 		A420C30A1EA4F537007D72D5 /* TRGasStationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRGasStationViewController.swift; sourceTree = "<group>"; };
 		A426BC101E5733AA0037AC16 /* UINavigationBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBarExtension.swift; sourceTree = "<group>"; };
 		A43048C01E9E351C00E1439D /* TRParkingFeesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRParkingFeesViewController.swift; sourceTree = "<group>"; };
 		A4357A4E1F022E7C0060F01F /* TRTrafficSignsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRTrafficSignsCell.swift; sourceTree = "<group>"; };
 		A4357A4F1F022E7C0060F01F /* TRTrafficSignsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRTrafficSignsHeaderView.swift; sourceTree = "<group>"; };
+		A449814A1F0D0CDE000F69AA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A44F320F1E5BB02D00D6E90C /* TRBaseRuleIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRBaseRuleIntroViewController.swift; sourceTree = "<group>"; };
 		A44F32111E5BB08700D6E90C /* TRConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRConst.swift; sourceTree = "<group>"; };
 		A44F32131E5DBDFD00D6E90C /* TRBaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRBaseTabBarController.swift; sourceTree = "<group>"; };
@@ -350,7 +361,6 @@
 		A493316B1F0BDD450027E691 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A493316D1F0BDD540027E691 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A49331721F0BDEC50027E691 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
-		A493317B1F0BE09D0027E691 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = "日本交通規則/3rd-party-frameworks/CocoaLumberjack-2.2.0/iOS/CocoaLumberjack.framework"; sourceTree = "<group>"; };
 		A493317F1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_B).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Tractor_Truck_Lane_B).svg"; path = "../../2/Japanese_Road_sign_(Tractor_Truck_Lane_B).svg"; sourceTree = "<group>"; };
 		A49331801F0BE2F00027E691 /* Japanese_Road_sign_(Vehicle_Passing_Division).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Vehicle_Passing_Division).svg"; path = "../../2/Japanese_Road_sign_(Vehicle_Passing_Division).svg"; sourceTree = "<group>"; };
 		A49331811F0BE2F00027E691 /* Japanese_Road_sign_103-B.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_103-B.svg"; path = "../../2/Japanese_Road_sign_103-B.svg"; sourceTree = "<group>"; };
@@ -588,6 +598,10 @@
 		A49332691F0BE2F00027E691 /* Japanese_Road_sign_(Slower_traffic_B).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Slower_traffic_B).svg"; path = "../../2/Japanese_Road_sign_(Slower_traffic_B).svg"; sourceTree = "<group>"; };
 		A493326A1F0BE2F00027E691 /* Japanese_Road_sign_(Tractor_Truck_Lane_A).svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Japanese_Road_sign_(Tractor_Truck_Lane_A).svg"; path = "../../2/Japanese_Road_sign_(Tractor_Truck_Lane_A).svg"; sourceTree = "<group>"; };
 		A493326B1F0BE2F00027E691 /* Zeichen_215_-_Kreisverkehr,_StVO_2000.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Zeichen_215_-_Kreisverkehr,_StVO_2000.svg"; path = "../../2/Zeichen_215_-_Kreisverkehr,_StVO_2000.svg"; sourceTree = "<group>"; };
+		A49333591F0D035E0027E691 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "日本交通規則/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A4F4B8601F0D0F3500C315DC /* trafficregulation-60ab1-firebase-crashreporting-98ftp-6268d1c08d.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "trafficregulation-60ab1-firebase-crashreporting-98ftp-6268d1c08d.json"; sourceTree = "<group>"; };
+		AB83ECB46AA79845A09555B2 /* Pods-日本交通規則Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則Tests/Pods-日本交通規則Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AC6C7422731A4251CCD4BB6E /* Pods-日本交通規則Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則Tests/Pods-日本交通規則Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -597,12 +611,13 @@
 			files = (
 				A49331731F0BDEC50027E691 /* libxml2.2.dylib in Frameworks */,
 				A493316E1F0BDD540027E691 /* UIKit.framework in Frameworks */,
-				A493317C1F0BE09D0027E691 /* CocoaLumberjack.framework in Frameworks */,
+				A449814B1F0D0CDE000F69AA /* MapKit.framework in Frameworks */,
 				A493316C1F0BDD450027E691 /* CoreGraphics.framework in Frameworks */,
 				A493316A1F0BDD3F0027E691 /* QuartzCore.framework in Frameworks */,
 				A49331681F0BDD2D0027E691 /* CoreImage.framework in Frameworks */,
 				A49331661F0BDD260027E691 /* CoreText.framework in Frameworks */,
 				A49331641F0BDCB20027E691 /* SVGKit.framework in Frameworks */,
+				2BE8E2B11E157D9EBC5F2FB8 /* Pods_______.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +625,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7802686D5E75B5299A17DAFD /* Pods_______Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +633,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C8A3B913D13C76FC1167BD /* Pods_______UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,11 +724,14 @@
 		A4832E481E4A173900C494B3 = {
 			isa = PBXGroup;
 			children = (
+				A4F4B8601F0D0F3500C315DC /* trafficregulation-60ab1-firebase-crashreporting-98ftp-6268d1c08d.json */,
+				A49333591F0D035E0027E691 /* GoogleService-Info.plist */,
 				A4832E531E4A173900C494B3 /* 日本交通規則 */,
 				A4832E681E4A173900C494B3 /* 日本交通規則Tests */,
 				A4832E731E4A173900C494B3 /* 日本交通規則UITests */,
 				A4832E521E4A173900C494B3 /* Products */,
 				E83803DA36BFB2C3C8878F36 /* Frameworks */,
+				E56877F939A42979EC218A3F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1001,17 +1021,33 @@
 			name = svg;
 			sourceTree = "<group>";
 		};
+		E56877F939A42979EC218A3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C851A1B6B11EA1DB5DC5D60 /* Pods-日本交通規則.debug.xcconfig */,
+				9797F478319724DBFA8F20B7 /* Pods-日本交通規則.release.xcconfig */,
+				AC6C7422731A4251CCD4BB6E /* Pods-日本交通規則Tests.debug.xcconfig */,
+				AB83ECB46AA79845A09555B2 /* Pods-日本交通規則Tests.release.xcconfig */,
+				8B56E3B96D22B9A890ED5977 /* Pods-日本交通規則UITests.debug.xcconfig */,
+				1EA8D47D70CBC22FF53262D4 /* Pods-日本交通規則UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E83803DA36BFB2C3C8878F36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A449814A1F0D0CDE000F69AA /* MapKit.framework */,
 				A49331721F0BDEC50027E691 /* libxml2.2.dylib */,
-				A493317B1F0BE09D0027E691 /* CocoaLumberjack.framework */,
 				A493316D1F0BDD540027E691 /* UIKit.framework */,
 				A493316B1F0BDD450027E691 /* CoreGraphics.framework */,
 				A49331691F0BDD3F0027E691 /* QuartzCore.framework */,
 				A49331671F0BDD2D0027E691 /* CoreImage.framework */,
 				A49331651F0BDD260027E691 /* CoreText.framework */,
 				A493315C1F0BD3DB0027E691 /* SVGKit.framework */,
+				1B1BF772A9ED191CCD9A1BEC /* Pods_______.framework */,
+				33A3F60C7EFA71F460CA2FB6 /* Pods_______Tests.framework */,
+				88AC5A9A4A8AB409CF9B4AEA /* Pods_______UITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1023,10 +1059,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4832E791E4A173900C494B3 /* Build configuration list for PBXNativeTarget "日本交通規則" */;
 			buildPhases = (
+				3E6BA2256EBD6FE587173DCF /* [CP] Check Pods Manifest.lock */,
 				A4832E4D1E4A173900C494B3 /* Sources */,
 				A4832E4E1E4A173900C494B3 /* Frameworks */,
 				A4832E4F1E4A173900C494B3 /* Resources */,
 				A49331711F0BDDAE0027E691 /* Embed Frameworks */,
+				D93DD77093011A7CC244EE13 /* [CP] Embed Pods Frameworks */,
+				D01253C63E30C651F941F64B /* [CP] Copy Pods Resources */,
+				A44981491F0D0C4E000F69AA /* Google */,
 			);
 			buildRules = (
 			);
@@ -1091,8 +1131,13 @@
 				TargetAttributes = {
 					A4832E501E4A173900C494B3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = KN2BUJJP3T;
+						DevelopmentTeam = G3CEBBU37L;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					A4832E641E4A173900C494B3 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1223,6 +1268,7 @@
 				A49332911F0BE2F00027E691 /* Japanese_Road_sign_118-3_and_4-B.svg in Resources */,
 				A49333321F0BE2F00027E691 /* Japan_road_sign_510_Safety_Speed.svg in Resources */,
 				A493329E1F0BE2F00027E691 /* Japanese_Road_sign_120-B.svg in Resources */,
+				A4F4B8611F0D0F3500C315DC /* trafficregulation-60ab1-firebase-crashreporting-98ftp-6268d1c08d.json in Resources */,
 				A49332E91F0BE2F00027E691 /* Japan_road_sign_306.svg in Resources */,
 				A49332771F0BE2F00027E691 /* Japanese_Road_sign_108-2-C.svg in Resources */,
 				A49332A61F0BE2F00027E691 /* Japanese_Road_sign_123-B.svg in Resources */,
@@ -1279,6 +1325,7 @@
 				A493331E1F0BE2F00027E691 /* Japan_road_sign_503-C.svg in Resources */,
 				A493332A1F0BE2F00027E691 /* Japan_road_sign_507-D.svg in Resources */,
 				A49333191F0BE2F00027E691 /* Japan_road_sign_408.svg in Resources */,
+				A493335A1F0D035E0027E691 /* GoogleService-Info.plist in Resources */,
 				A49332741F0BE2F00027E691 /* Japanese_Road_sign_108-2-A.svg in Resources */,
 				A49332D01F0BE2F00027E691 /* Japan_road_sign_207-B.svg in Resources */,
 				A493332E1F0BE2F00027E691 /* Japan_road_sign_509-3.svg in Resources */,
@@ -1425,6 +1472,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-日本交通規則UITests/Pods-日本交通規則UITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3E6BA2256EBD6FE587173DCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		4E19DE13540FB01850ECEA0D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1437,7 +1499,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9DB978FECA25AB4F8BD28034 /* [CP] Copy Pods Resources */ = {
@@ -1455,6 +1517,50 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-日本交通規則Tests/Pods-日本交通規則Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A44981491F0D0C4E000F69AA /* Google */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Google;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Replace this with the GOOGLE_APP_ID from your GoogleService-Info.plist file\nGOOGLE_APP_ID=1:966269789659:ios:17272fc4d56918af\n\n# Replace the /Path/To/ServiceAccount.json with the path to the key you just downloaded\n\"${PODS_ROOT}\"/FirebaseCrash/upload-sym \"${PROJECT_DIR}\"/trafficregulation-60ab1-firebase-crashreporting-98ftp-6268d1c08d.json";
+		};
+		D01253C63E30C651F941F64B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-日本交通規則/Pods-日本交通規則-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93DD77093011A7CC244EE13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-日本交通規則/Pods-日本交通規則-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E120ADC3C8CB479077318166 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1467,7 +1573,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E2653A90DABA9127A2B9E58C /* [CP] Embed Pods Frameworks */ = {
@@ -1658,9 +1764,10 @@
 		};
 		A4832E7A1E4A173900C494B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C851A1B6B11EA1DB5DC5D60 /* Pods-日本交通規則.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KN2BUJJP3T;
+				DEVELOPMENT_TEAM = G3CEBBU37L;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/日本交通規則",
@@ -1669,7 +1776,10 @@
 				INFOPLIST_FILE = "日本交通規則/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-lxml2";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = YanQi.Japan.TrafficRegulation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -1678,9 +1788,10 @@
 		};
 		A4832E7B1E4A173900C494B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9797F478319724DBFA8F20B7 /* Pods-日本交通規則.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KN2BUJJP3T;
+				DEVELOPMENT_TEAM = G3CEBBU37L;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/日本交通規則",
@@ -1689,7 +1800,10 @@
 				INFOPLIST_FILE = "日本交通規則/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-lxml2";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = YanQi.Japan.TrafficRegulation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -1698,6 +1812,7 @@
 		};
 		A4832E7D1E4A173900C494B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC6C7422731A4251CCD4BB6E /* Pods-日本交通規則Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1713,6 +1828,7 @@
 		};
 		A4832E7E1E4A173900C494B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB83ECB46AA79845A09555B2 /* Pods-日本交通規則Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1728,6 +1844,7 @@
 		};
 		A4832E801E4A173900C494B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B56E3B96D22B9A890ED5977 /* Pods-日本交通規則UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G3CEBBU37L;
@@ -1742,6 +1859,7 @@
 		};
 		A4832E811E4A173900C494B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA8D47D70CBC22FF53262D4 /* Pods-日本交通規則UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = G3CEBBU37L;

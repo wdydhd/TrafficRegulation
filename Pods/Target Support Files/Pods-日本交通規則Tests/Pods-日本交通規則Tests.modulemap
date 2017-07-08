@@ -1,0 +1,6 @@
+framework module Pods_______Tests {
+  umbrella header "Pods-日本交通規則Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
