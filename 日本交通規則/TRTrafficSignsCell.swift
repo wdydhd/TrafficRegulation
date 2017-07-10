@@ -7,8 +7,24 @@
 //
 
 import UIKit
+import SVGKit
 
 class TRTrafficSignsCell: UICollectionViewCell {
     @IBOutlet weak var trafficSignIcon: UIImageView!
+    
     @IBOutlet weak var signTitleLabel: UILabel!
+    
+    override func awakeFromNib() {
+        
+ 
+    }
+    
+    func setSvgImage(image: SVGKImage?) {
+        guard let image = image else {
+            return
+        }
+//        trafficSignIcon.tileRatio = CGSize(width: image.size.width, height: image.size.height)
+//        trafficSignIcon.image = image
+        trafficSignIcon.image = image.uiImage
+    }
 }
