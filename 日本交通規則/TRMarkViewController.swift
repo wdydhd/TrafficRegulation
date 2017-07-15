@@ -13,22 +13,21 @@ import Firebase
 class TRMarkViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout{
     
     let roadSignsDic = NSDictionary(contentsOfFile: Bundle.main.path(forResource: "MarkDic", ofType: "strings")!)!
+    var sectionTitleDic:[String] = []
     let rowNumbers: CGFloat = 3
     let rowItemSpace: CGFloat = 1.5
     static let headerViewHeight: CGFloat = 30
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let aaa = roadSignsDic.allKeys.sorted { (s1, s2) -> Bool in
+        sectionTitleDic = roadSignsDic.allKeys.sorted { (s1, s2) -> Bool in
             let str1: String = s1 as! String
             let str2: String = s2 as! String
-//str1.range(of: "(")!.lowerBound...str1.range(of: ")")!.upperBound
             let subStr1 = str1.substring(with: Range<String.Index>(uncheckedBounds: (lower: str1.range(of: "(")!.lowerBound, upper: str1.range(of: ")")!.upperBound)))
             
             let subStr2 = str2.substring(with: Range<String.Index>(uncheckedBounds: (lower: str2.range(of: "(")!.lowerBound, upper: str2.range(of: ")")!.upperBound)))
             return subStr1.caseInsensitiveCompare(subStr2) == ComparisonResult.orderedAscending
-        }
-        print(aaa)
+        } as! [String]
     }
     
     override func didReceiveMemoryWarning() {
@@ -38,7 +37,7 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
     
     override func collectionView(_ collectionView: UICollectionView,
                                  numberOfItemsInSection section: Int) -> Int {
-        if let sectionDic: NSDictionary = roadSignsDic.object(forKey: roadSignsDic.allKeys[section]) as? NSDictionary {
+        if let sectionDic: NSDictionary = roadSignsDic.object(forKey: sectionTitleDic[section]) as? NSDictionary {
             return sectionDic.count
         }
         
@@ -57,12 +56,13 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
         let cell = (self.collectionView?.dequeueReusableCell(
             withReuseIdentifier: identify, for: indexPath))! as! TRTrafficSignsCell
         
-        guard let sectionDic: NSDictionary = roadSignsDic.object(forKey: roadSignsDic.allKeys[indexPath.section]) as? NSDictionary , let signInfo = sectionDic.object(forKey: sectionDic.allKeys[indexPath.row]) else {
+        guard let sectionDic: NSDictionary = roadSignsDic.object(forKey: sectionTitleDic[indexPath.section]) as? NSDictionary , let signInfo = sectionDic.object(forKey: sectionDic.allKeys[indexPath.row]) else {
             return cell
         }
-        let signImage = SVGKImage(named: sectionDic.allKeys[indexPath.row] as! String)
-        print("\(signImage?.size) ----- \(signImage?.scale)")
-        cell.setSvgImage(image: signImage)
+//        let signImage = SVGKImage(named: sectionDic.allKeys[indexPath.row] as! String)
+//        cell.setSvgImage(image: signImage)
+        let imageName: String = sectionDic.allKeys[indexPath.row] as! String
+        cell.trafficSignIcon.image = UIImage(named: imageName)
         cell.signTitleLabel.text = signInfo as? String
         return cell
     }
@@ -74,7 +74,7 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         if kind == UICollectionElementKindSectionHeader {
             let headerView: TRTrafficSignsHeaderView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "TrafficSignsHeaderView", for: indexPath) as! TRTrafficSignsHeaderView
-            headerView.sectionTitleLabel.text = roadSignsDic.allKeys[indexPath.section] as? String
+            headerView.sectionTitleLabel.text = sectionTitleDic[indexPath.section] as? String
             return headerView
         }
         return UICollectionReusableView()
