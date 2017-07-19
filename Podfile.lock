@@ -9,6 +9,9 @@ PODS:
     - CocoaLumberjack/Default
   - Firebase (3.13.0):
     - Firebase/Core (= 3.13.0)
+  - Firebase/AdMob (3.13.0):
+    - Firebase/Core
+    - Google-Mobile-Ads-SDK (= 7.17.0)
   - Firebase/Core (3.13.0):
     - FirebaseAnalytics (= 3.7.0)
     - FirebaseCore (= 3.5.0)
@@ -28,6 +31,7 @@ PODS:
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
     - Protobuf (~> 3.1)
   - FirebaseInstanceID (1.0.9)
+  - Google-Mobile-Ads-SDK (7.17.0)
   - GoogleToolboxForMac/Defines (2.1.1)
   - GoogleToolboxForMac/Logger (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
@@ -38,6 +42,7 @@ PODS:
 DEPENDENCIES:
   - CocoaLumberjack (~> 2.2.0)
   - Firebase
+  - Firebase/AdMob
   - Firebase/Crash
 
 SPEC CHECKSUMS:
@@ -47,9 +52,10 @@ SPEC CHECKSUMS:
   FirebaseCore: 1c0a13bf59bb95cdd19577252499f0ec6a03e999
   FirebaseCrash: db4c05d9c75baa050744d31b36357c8f1efba481
   FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
+  Google-Mobile-Ads-SDK: a8bf4211624999b73e4184be516f94770b139525
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
 
-PODFILE CHECKSUM: 369a14044cd091c2040aba0ff5a699cad9a5e54b
+PODFILE CHECKSUM: c5a18db19d4f2445239f3fc0f4a66da3c84037d9
 
 COCOAPODS: 1.2.0

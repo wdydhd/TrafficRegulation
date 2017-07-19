@@ -9,6 +9,7 @@
 import UIKit
 //import LeanCloud
 import Firebase
+import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        LeanCloud.setServiceRegion(.us)
 //        LeanCloud.initialize(applicationID: "6iQHGLT6je2aOwwPn3nzaiys-gzGzoHsz", applicationKey: "Ezs1T8FgD0v6znjpHNPDQ9c6")
         FIRApp.configure()
-        
+        GADMobileAds.configure(withApplicationID: "pub-2960563678064187")
         
 
         return true

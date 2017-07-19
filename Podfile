@@ -8,6 +8,7 @@ target '日本交通規則' do
   # Pods for 日本交通規則
 pod 'Firebase'
 pod 'Firebase/Crash'
+pod 'Firebase/AdMob'
 pod 'CocoaLumberjack','~> 2.2.0'
   target '日本交通規則Tests' do
     inherit! :search_paths
