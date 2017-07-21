@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KyU-Tj-yGO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KyU-Tj-yGO">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -123,10 +123,58 @@
                     </collectionView>
                     <tabBarItem key="tabBarItem" title="标志一览" id="PCQ-bn-JGZ"/>
                     <navigationItem key="navigationItem" title="标志一览" id="idM-N0-6NH"/>
+                    <connections>
+                        <segue destination="04t-IC-1ks" kind="show" identifier="ShowRoadSignDetaileSegue" id="Zck-Zy-KPL"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9KG-3f-nT1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1423" y="501"/>
+        </scene>
+        <!--标志详细-->
+        <scene sceneID="aYg-QN-9hu">
+            <objects>
+                <viewController id="04t-IC-1ks" customClass="TRRoadSignDetaileViewController" customModule="日本交通規則" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cg0-BU-d26"/>
+                        <viewControllerLayoutGuide type="bottom" id="Isl-OV-QIR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Onl-3f-RwR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WcS-nr-meX">
+                                <rect key="frame" x="8" y="72" width="304" height="304"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="WcS-nr-meX" secondAttribute="height" multiplier="1:1" id="MoF-aa-l6e"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9n-3k-fyv">
+                                <rect key="frame" x="0.0" y="391" width="320" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="h9n-3k-fyv" firstAttribute="top" secondItem="WcS-nr-meX" secondAttribute="bottom" constant="15" id="2td-0m-hyP"/>
+                            <constraint firstItem="WcS-nr-meX" firstAttribute="leading" secondItem="Onl-3f-RwR" secondAttribute="leading" constant="8" id="3Ng-TG-iRO"/>
+                            <constraint firstItem="WcS-nr-meX" firstAttribute="top" secondItem="cg0-BU-d26" secondAttribute="bottom" constant="8" id="cob-lk-zHn"/>
+                            <constraint firstAttribute="trailing" secondItem="h9n-3k-fyv" secondAttribute="trailing" id="egU-Ku-7f0"/>
+                            <constraint firstAttribute="trailing" secondItem="WcS-nr-meX" secondAttribute="trailing" constant="8" id="jox-Ic-aK0"/>
+                            <constraint firstItem="h9n-3k-fyv" firstAttribute="leading" secondItem="Onl-3f-RwR" secondAttribute="leading" id="kAI-19-tyK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="标志详细" id="Q6q-Pa-uq7"/>
+                    <connections>
+                        <outlet property="roadSignImageView" destination="WcS-nr-meX" id="c0O-E2-Rlb"/>
+                        <outlet property="roadSignLabel" destination="h9n-3k-fyv" id="00Q-71-86J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tFa-by-Ndc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2542.5" y="504.92957746478874"/>
         </scene>
         <!--概览-->
         <scene sceneID="rYM-ct-U8T">
@@ -148,7 +196,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sQw-db-s1Q" id="XLg-Ja-Q4M">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LlI-ad-NTw">
@@ -218,7 +266,7 @@
                     <navigationItem key="navigationItem" title="概览" id="e5Y-hk-OTC"/>
                     <connections>
                         <outlet property="tableView" destination="QMp-0j-Fl8" id="uGu-EZ-qaP"/>
-                        <segue destination="9AR-VX-OQZ" kind="show" identifier="ShowBaseRuleIntroSegue" id="RKV-Lf-rxh"/>
+                        <segue destination="9AR-VX-OQZ" kind="show" identifier="ShowBaseRuleInfoSegue" id="RKV-Lf-rxh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gIP-gf-EpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -943,7 +991,7 @@ Cg
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5XV-KA-6ut" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="289" y="-1089"/>
+            <point key="canvasLocation" x="309" y="-1089"/>
         </scene>
         <!--自驾攻略-->
         <scene sceneID="YmG-e5-8xw">

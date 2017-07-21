@@ -48,7 +48,7 @@ extension TRBaseRuleIntroViewController : UITableViewDataSource,UITableViewDeleg
         var image1 : UIImage?
         var image2 : UIImage?
         var subText : String?
-        if self.sourceSegue == .ShowBaseRuleIntroSegue {
+        if self.sourceSegue == .ShowBaseRuleInfoSegue {
             switch selectedIndex {
             case 0:
                 initIdentifier = "TRImageAndTextCell1"
@@ -147,7 +147,7 @@ extension TRBaseRuleIntroViewController : UITableViewDataSource,UITableViewDeleg
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        self.performSegue(withIdentifier: TRSegueIdentifier.ShowBaseRuleIntroSegue.rawValue, sender: self)
+        self.performSegue(withIdentifier: TRSegueIdentifier.ShowBaseRuleInfoSegue.rawValue, sender: self)
         
     }
 }

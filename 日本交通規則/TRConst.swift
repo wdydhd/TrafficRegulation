@@ -10,13 +10,13 @@ import Foundation
 
 
 enum TRSegueIdentifier: String {
-    case ShowBaseRuleIntroSegue = "ShowBaseRuleIntroSegue"
+    case ShowBaseRuleInfoSegue = "ShowBaseRuleInfoSegue"
     case ShowDriveInfoCrossSegue = "ShowDriveInfoCrossSegue"
     case ShowDriveInfoParkSegue = "ShowDriveInfoParkSegue"
     case ShowDriveInfoParkingFeesSegue = "ShowDriveInfoParkingFeesSegue"
     case ShowFreewayInfoSegue = "ShowFreewayInfoSegue"
     case ShowGasStationSegue = "ShowGasStationSegue"
-    
+    case ShowRoadSignDetaileSegue = "ShowRoadSignDetaileSegue"
 }
 
 

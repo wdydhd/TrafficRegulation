@@ -15,8 +15,10 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
     
     let roadSignsDic = NSDictionary(contentsOfFile: Bundle.main.path(forResource: "MarkDic", ofType: "strings")!)!
     var sectionTitleDic:[String] = []
+    var titleDic: [String : [String]] = [:]
     let rowNumbers: CGFloat = 3
     let rowItemSpace: CGFloat = 1.5
+    var selectedSignInfo:(signName: String , signImageName: String)?
     static let headerViewHeight: CGFloat = 30
     static let footerViewHeight: CGFloat = 50
     
@@ -30,6 +32,18 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
             let subStr2 = str2.substring(with: Range<String.Index>(uncheckedBounds: (lower: str2.range(of: "(")!.lowerBound, upper: str2.range(of: ")")!.upperBound)))
             return subStr1.caseInsensitiveCompare(subStr2) == ComparisonResult.orderedAscending
         } as! [String]
+        
+        for key in sectionTitleDic {
+            let sectionDic: [String:String] = roadSignsDic.object(forKey: key) as! [String:String]
+            let keysortedArr = sectionDic.keys.sorted { (str1, str2) -> Bool in
+                let subStr1 = sectionDic[str1]?.substring(with: Range<String.Index>(uncheckedBounds: (lower: (sectionDic[str1]?.range(of: "(")!.lowerBound)!, upper: (sectionDic[str1]?.range(of: ")")!.upperBound)!)))
+                
+                let subStr2 = sectionDic[str2]?.substring(with: Range<String.Index>(uncheckedBounds: (lower: (sectionDic[str2]?.range(of: "(")!.lowerBound)!, upper: (sectionDic[str2]?.range(of: ")")!.upperBound)!)))
+                return subStr1!.caseInsensitiveCompare(subStr2!) == ComparisonResult.orderedAscending
+                }
+            titleDic[key] = keysortedArr
+        }
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -52,18 +66,16 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-
-        
         let identify: String = "TRTrafficSignsCell"
         let cell = (self.collectionView?.dequeueReusableCell(
             withReuseIdentifier: identify, for: indexPath))! as! TRTrafficSignsCell
         
-        guard let sectionDic: NSDictionary = roadSignsDic.object(forKey: sectionTitleDic[indexPath.section]) as? NSDictionary , let signInfo = sectionDic.object(forKey: sectionDic.allKeys[indexPath.row]) else {
+        guard let sectionDic: NSDictionary = roadSignsDic.object(forKey: sectionTitleDic[indexPath.section]) as? NSDictionary , let sectionTitleArr = titleDic[sectionTitleDic[indexPath.section]], let signInfo = sectionDic.object(forKey: sectionTitleArr[indexPath.row]) else {
             return cell
         }
 //        let signImage = SVGKImage(named: sectionDic.allKeys[indexPath.row] as! String)
 //        cell.setSvgImage(image: signImage)
-        let imageName: String = sectionDic.allKeys[indexPath.row] as! String
+        let imageName: String = sectionTitleArr[indexPath.row]
         cell.trafficSignIcon.image = UIImage(named: imageName)
         cell.signTitleLabel.text = signInfo as? String
         return cell
@@ -98,8 +110,13 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         collectionView.deselectItem(at: indexPath, animated: true)
-        FIRCrashMessage("Cause Crash button clicked_YQ")
-        fatalError()
+        
+        guard let sectionDic: NSDictionary = roadSignsDic.object(forKey: sectionTitleDic[indexPath.section]) as? NSDictionary , let sectionTitleArr = titleDic[sectionTitleDic[indexPath.section]], let signInfo = sectionDic.object(forKey: sectionTitleArr[indexPath.row]) else {
+            return
+        }
+        let imageName: String = sectionTitleArr[indexPath.row]
+        selectedSignInfo = (signInfo, imageName) as? (signName: String, signImageName: String)
+        self.performSegue(withIdentifier: TRSegueIdentifier.ShowRoadSignDetaileSegue.rawValue, sender: self)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
@@ -114,4 +131,14 @@ class TRMarkViewController: UICollectionViewController, UICollectionViewDelegate
         return CGSize(width: (UIScreen.main.bounds.size.width - (rowNumbers * rowItemSpace)) / rowNumbers, height: (UIScreen.main.bounds.size.width - (rowNumbers * rowItemSpace)) / rowNumbers)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        if let iden: String = segue.identifier , iden == TRSegueIdentifier.ShowRoadSignDetaileSegue.rawValue {
+            let destVC : TRRoadSignDetaileViewController = segue.destination as! TRRoadSignDetaileViewController
+            destVC.selectedSignInfo = selectedSignInfo!
+        }else{
+            
+        }
+        
+    }
 }

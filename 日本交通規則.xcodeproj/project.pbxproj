@@ -10,6 +10,7 @@
 		2BE8E2B11E157D9EBC5F2FB8 /* Pods_______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1BF772A9ED191CCD9A1BEC /* Pods_______.framework */; };
 		7802686D5E75B5299A17DAFD /* Pods_______Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A3F60C7EFA71F460CA2FB6 /* Pods_______Tests.framework */; };
 		96C8A3B913D13C76FC1167BD /* Pods_______UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AC5A9A4A8AB409CF9B4AEA /* Pods_______UITests.framework */; };
+		A40E45231F208DBB00E20AAE /* TRRoadSignDetaileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40E45221F208DBB00E20AAE /* TRRoadSignDetaileViewController.swift */; };
 		A413D9271F139257007FD651 /* Fukuoka_Pref_Route_Sign_0076.svg in Resources */ = {isa = PBXBuildFile; fileRef = A413D83A1F139256007FD651 /* Fukuoka_Pref_Route_Sign_0076.svg */; };
 		A413D9281F139257007FD651 /* Japan_expway_sign_118-3.svg in Resources */ = {isa = PBXBuildFile; fileRef = A413D83B1F139256007FD651 /* Japan_expway_sign_118-3.svg */; };
 		A413D9291F139257007FD651 /* Japan_road_sign_101.svg in Resources */ = {isa = PBXBuildFile; fileRef = A413D83C1F139256007FD651 /* Japan_road_sign_101.svg */; };
@@ -262,7 +263,7 @@
 		A44F321A1E64ED4700D6E90C /* TRDriveInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F32191E64ED4700D6E90C /* TRDriveInfoViewController.swift */; };
 		A44F321C1E65C02500D6E90C /* DriveInfoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44F321B1E65C02500D6E90C /* DriveInfoStoryboard.storyboard */; };
 		A44F321E1E6703CE00D6E90C /* TRParkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F321D1E6703CE00D6E90C /* TRParkViewController.swift */; };
-		A457EB1F1F049AB100D6D700 /* MarkDic.strings in Resources */ = {isa = PBXBuildFile; fileRef = A457EB1E1F049AB100D6D700 /* MarkDic.strings */; };
+		A458DEC11F20599C00E7220C /* MarkDic.strings in Resources */ = {isa = PBXBuildFile; fileRef = A458DEC31F20599C00E7220C /* MarkDic.strings */; };
 		A46363E01E54925200055018 /* TRMarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363DF1E54925200055018 /* TRMarkViewController.swift */; };
 		A46363E21E5492D300055018 /* TROverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363E11E5492D300055018 /* TROverViewViewController.swift */; };
 		A46363E61E55E6F100055018 /* TRCommonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46363E51E55E6F100055018 /* TRCommonExtension.swift */; };
@@ -323,6 +324,7 @@
 		88AC5A9A4A8AB409CF9B4AEA /* Pods_______UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_______UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B56E3B96D22B9A890ED5977 /* Pods-日本交通規則UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則UITests/Pods-日本交通規則UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9797F478319724DBFA8F20B7 /* Pods-日本交通規則.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-日本交通規則.release.xcconfig"; path = "Pods/Target Support Files/Pods-日本交通規則/Pods-日本交通規則.release.xcconfig"; sourceTree = "<group>"; };
+		A40E45221F208DBB00E20AAE /* TRRoadSignDetaileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRRoadSignDetaileViewController.swift; sourceTree = "<group>"; };
 		A413D83A1F139256007FD651 /* Fukuoka_Pref_Route_Sign_0076.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Fukuoka_Pref_Route_Sign_0076.svg; sourceTree = "<group>"; };
 		A413D83B1F139256007FD651 /* Japan_expway_sign_118-3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Japan_expway_sign_118-3.svg"; sourceTree = "<group>"; };
 		A413D83C1F139256007FD651 /* Japan_road_sign_101.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Japan_road_sign_101.svg; sourceTree = "<group>"; };
@@ -575,7 +577,16 @@
 		A44F32191E64ED4700D6E90C /* TRDriveInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRDriveInfoViewController.swift; sourceTree = "<group>"; };
 		A44F321B1E65C02500D6E90C /* DriveInfoStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DriveInfoStoryboard.storyboard; sourceTree = "<group>"; };
 		A44F321D1E6703CE00D6E90C /* TRParkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRParkViewController.swift; sourceTree = "<group>"; };
-		A457EB1E1F049AB100D6D700 /* MarkDic.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = MarkDic.strings; sourceTree = "<group>"; };
+		A458DEBD1F20592900E7220C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A458DEBE1F20597200E7220C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A458DEBF1F20598500E7220C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A458DEC01F20599300E7220C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A458DEC21F20599C00E7220C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MarkDic.strings; sourceTree = "<group>"; };
+		A458DEC41F2059A300E7220C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MarkDic.strings; sourceTree = "<group>"; };
+		A458DEC51F2059A300E7220C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MarkDic.strings"; sourceTree = "<group>"; };
+		A458DEC61F2059A500E7220C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/MarkDic.strings; sourceTree = "<group>"; };
+		A458DEC71F2059A600E7220C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/MarkDic.strings"; sourceTree = "<group>"; };
+		A458DEC81F2059A700E7220C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/MarkDic.strings; sourceTree = "<group>"; };
 		A46363DF1E54925200055018 /* TRMarkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRMarkViewController.swift; sourceTree = "<group>"; };
 		A46363E11E5492D300055018 /* TROverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TROverViewViewController.swift; sourceTree = "<group>"; };
 		A46363E51E55E6F100055018 /* TRCommonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRCommonExtension.swift; sourceTree = "<group>"; };
@@ -931,7 +942,7 @@
 				A4832E5D1E4A173900C494B3 /* LaunchScreen.storyboard */,
 				A44F32111E5BB08700D6E90C /* TRConst.swift */,
 				A44F321B1E65C02500D6E90C /* DriveInfoStoryboard.storyboard */,
-				A457EB1E1F049AB100D6D700 /* MarkDic.strings */,
+				A458DEC31F20599C00E7220C /* MarkDic.strings */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -961,6 +972,7 @@
 			isa = PBXGroup;
 			children = (
 				A46363DF1E54925200055018 /* TRMarkViewController.swift */,
+				A40E45221F208DBB00E20AAE /* TRRoadSignDetaileViewController.swift */,
 			);
 			name = Mark;
 			sourceTree = "<group>";
@@ -1131,7 +1143,7 @@
 				TargetAttributes = {
 					A4832E501E4A173900C494B3 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = G3CEBBU37L;
+						DevelopmentTeam = KN2BUJJP3T;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -1160,6 +1172,9 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
+				ko,
 			);
 			mainGroup = A4832E481E4A173900C494B3;
 			productRefGroup = A4832E521E4A173900C494B3 /* Products */;
@@ -1344,7 +1359,7 @@
 				A413D9311F139257007FD651 /* Japan_road_sign_201-C.svg in Resources */,
 				A413D95D1F139257007FD651 /* Japan_road_sign_311-A-L.svg in Resources */,
 				A413D9BA1F139257007FD651 /* Japanese_Road_sign_(Follow_Directions_C).svg in Resources */,
-				A457EB1F1F049AB100D6D700 /* MarkDic.strings in Resources */,
+				A458DEC11F20599C00E7220C /* MarkDic.strings in Resources */,
 				A413D99E1F139257007FD651 /* Japan_road_sign_509-4.svg in Resources */,
 				A413D9CD1F139257007FD651 /* Japanese_Road_sign_106-A.svg in Resources */,
 				A413D9BE1F139257007FD651 /* Japanese_Road_sign_(Notice_of_entrance).svg in Resources */,
@@ -1612,6 +1627,7 @@
 				A4832E551E4A173900C494B3 /* AppDelegate.swift in Sources */,
 				A4357A501F022E7C0060F01F /* TRTrafficSignsCell.swift in Sources */,
 				A4357A511F022E7C0060F01F /* TRTrafficSignsHeaderView.swift in Sources */,
+				A40E45231F208DBB00E20AAE /* TRRoadSignDetaileViewController.swift in Sources */,
 				A46363E01E54925200055018 /* TRMarkViewController.swift in Sources */,
 				A420C30B1EA4F537007D72D5 /* TRGasStationViewController.swift in Sources */,
 				A44F32161E5F0A1300D6E90C /* TROverViewTableViewCell.swift in Sources */,
@@ -1650,6 +1666,19 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A458DEC31F20599C00E7220C /* MarkDic.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A458DEC21F20599C00E7220C /* ja */,
+				A458DEC41F2059A300E7220C /* en */,
+				A458DEC51F2059A300E7220C /* zh-Hans */,
+				A458DEC61F2059A500E7220C /* Base */,
+				A458DEC71F2059A600E7220C /* zh-Hant */,
+				A458DEC81F2059A700E7220C /* ko */,
+			);
+			name = MarkDic.strings;
+			sourceTree = "<group>";
+		};
 		A4832E581E4A173900C494B3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1662,6 +1691,10 @@
 			isa = PBXVariantGroup;
 			children = (
 				A4832E5E1E4A173900C494B3 /* Base */,
+				A458DEBD1F20592900E7220C /* zh-Hans */,
+				A458DEBE1F20597200E7220C /* ja */,
+				A458DEBF1F20598500E7220C /* zh-Hant */,
+				A458DEC01F20599300E7220C /* ko */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1673,6 +1706,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1723,6 +1757,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1767,7 +1802,7 @@
 			baseConfigurationReference = 2C851A1B6B11EA1DB5DC5D60 /* Pods-日本交通規則.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G3CEBBU37L;
+				DEVELOPMENT_TEAM = KN2BUJJP3T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/日本交通規則",
@@ -1780,7 +1815,7 @@
 					"-lxml2",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = YanQi.Japan.TrafficRegulation;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.fsi.sm.SmartHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1791,7 +1826,7 @@
 			baseConfigurationReference = 9797F478319724DBFA8F20B7 /* Pods-日本交通規則.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G3CEBBU37L;
+				DEVELOPMENT_TEAM = KN2BUJJP3T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/日本交通規則",
@@ -1804,7 +1839,7 @@
 					"-lxml2",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = YanQi.Japan.TrafficRegulation;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.fsi.sm.SmartHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

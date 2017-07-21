@@ -32,11 +32,11 @@ class TROverViewViewController: UIViewController{
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
-        if let iden:String = segue.identifier , iden == TRSegueIdentifier.ShowBaseRuleIntroSegue.rawValue {
+        if let iden:String = segue.identifier , iden == TRSegueIdentifier.ShowBaseRuleInfoSegue.rawValue {
             segue.destination.title = dataDic[selectedIndex].title
             let destVC : TRBaseRuleIntroViewController = segue.destination as! TRBaseRuleIntroViewController
             destVC.selectedIndex = selectedIndex
-            destVC.sourceSegue = TRSegueIdentifier.ShowBaseRuleIntroSegue
+            destVC.sourceSegue = TRSegueIdentifier.ShowBaseRuleInfoSegue
         }else{
             
         }
@@ -71,7 +71,7 @@ extension TROverViewViewController : UITableViewDataSource,UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         selectedIndex = indexPath.row
-        self.performSegue(withIdentifier: TRSegueIdentifier.ShowBaseRuleIntroSegue.rawValue, sender: self)
+        self.performSegue(withIdentifier: TRSegueIdentifier.ShowBaseRuleInfoSegue.rawValue, sender: self)
         
     }
 }
